@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+    <production>
+        <appnamespace>Application</appnamespace>
+        <competition>
+            <currentYear>2015</currentYear>
+            <active>true</active>
+        </competition>
+        <bootstrap>
+            <path><zf:const zf:name="APPLICATION_PATH" />/Bootstrap.php</path>
+            <class>Bootstrap</class>
+        </bootstrap>
+        <database>
+            <adapter>Mysqli</adapter>
+            <params>
+                <username>dbo163702141</username>
+                <password>Y9sPESky</password>
+                <dbname>db163702141</dbname>
+                <host>db610.oneandone.co.uk</host>
+                <port>3306</port>
+            </params>
+        </database>
+        <includePaths>
+            <library><zf:const zf:name="APPLICATION_PATH" />/../library</library>
+        </includePaths>
+        <resources>
+            <cachemanager>
+                <schools>
+                    <frontend>
+                        <name>Core</name>
+                        <options>
+                            <lifetime>86400</lifetime>
+                            <automatic_serialization>true</automatic_serialization>
+                        </options>
+                    </frontend>
+                    <backend>
+                        <name>File</name>
+                        <options>
+                            <cache_dir><zf:const zf:name="APPLICATION_PATH" />/../tmp/</cache_dir>
+                        </options>
+                    </backend>
+                </schools>
+            </cachemanager>
+            <frontController>
+                <controllerDirectory><zf:const zf:name="APPLICATION_PATH" />/controllers</controllerDirectory>
+                <params>
+                    <display_exceptions>1</display_exceptions>
+                </params>
+            </frontController>
+            <layout>
+                <layoutPath><zf:const zf:name="APPLICATION_PATH" />/layouts/scripts/</layoutPath>
+            </layout>
+            <log>
+                <stream>
+                    <writerName>Stream</writerName>
+                    <writerParams>
+                        <stream><zf:const zf:name="APPLICATION_PATH" />/../log/production-schools.log</stream>
+                        <mode>a</mode>
+                    </writerParams>
+                    <filterName>Priority</filterName>
+                    <filterParams>
+                        <priority>4</priority>
+                    </filterParams>
+                    <formatterName>Simple</formatterName>
+                    <formatterParams>
+                        <format>%timestamp% %priorityName%: %message%</format>
+                    </formatterParams>
+                </stream>
+            </log>
+            <view>
+                <doctype>HTML5</doctype>
+            </view>
+        </resources>
+        <smtp>  
+            <server>auth.smtp.1and1.co.uk</server>
+            <user>schools@dot-art.com</user>
+            <pass>72kenmare</pass>
+        </smtp>
+    </production>
+    <development zf:extends="production">
+        <database>
+            <adapter>Mysqli</adapter>
+            <params>
+                <username>dotart</username>
+                <password>d0t4rt</password>
+                <dbname>dotart</dbname>
+                <host>localhost</host>
+                <port>3306</port>
+            </params>
+        </database>
+        <resources>
+            <cachemanager>
+                <ppm>
+                    <frontend>
+                        <name>Core</name>
+                        <options>
+                            <lifetime>1</lifetime>
+                            <automatic_serialization>true</automatic_serialization>
+                        </options>
+                    </frontend>
+                </ppm>
+            </cachemanager>
+            <log>
+                <stream>
+                    <writerParams>
+                        <stream>/Users/andrewspeakman/Sites/trunk/schools/log/development-schools.log</stream>
+                    </writerParams>
+                    <formatterName>Simple</formatterName>
+                    <formatterParams>
+                        <format>%timestamp% %priorityName%: -- - - - - %message%</format>
+                    </formatterParams>
+                    <filterName>Priority</filterName>
+                    <filterParams>
+                        <priority>7</priority>
+                    </filterParams>
+                </stream>
+            </log>
+        </resources>
+    </development>
+</configdata>

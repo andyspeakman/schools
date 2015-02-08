@@ -1,0 +1,61 @@
+<?
+   $this->headTitle('Schools List');
+   $this->headMeta()->appendName('description', 'List of schools taking part in the dot-art Schools program, an interactive, inter school, online art competition, culminating in an exhibition of the winning students works.');
+?>
+
+<div class="container lowered">
+
+<div class="jumbotron who">
+<h1 class="what">Who?</h1>
+</div>
+<ul class="breadcrumb">
+  <li><a href="/">Home</a> <span class="divider">/</span></li>
+  <li class="active">Who?</li>
+</ul>
+
+<div class="row">
+
+<div class="span12">
+<p>The following schools are currently taking part in the dot-art Schools programme 2013:</p>
+
+<h3>Secondary</h3>
+
+<table class="table table-condensed">
+<?php foreach ($this->entries as $entry):?>
+    <?php if ($entry['type'] == 2): ?>
+    <tr>
+        <td><?php echo $this->escape($entry['name']) ?></td>
+        <td>
+        <?php if (!is_null($entry['website'])): ?>
+        <a href="<?php echo $this->escape($entry['website']) ?>"
+            target="_blank"><?php echo $this->escape($entry['website']) ?></a>
+        <?php endif; ?>
+        </td>
+    </tr>
+    <?php endif; ?>
+<?php endforeach;?>
+</table>
+
+<h3>Primary</h3>
+
+<table class="table table-condensed">
+<?php foreach ($this->entries as $entry):?>
+    <?php if ($entry['type'] == 1): ?>
+    <tr>
+        <td><?php echo $this->escape($entry['name']) ?></td>
+        <td>
+        <?php if (!is_null($entry['website'])): ?>
+        <a href="<?php echo $this->escape($entry['website']) ?>"
+            target="_blank"><?php echo $this->escape($entry['website']) ?></a>
+        <?php endif; ?>
+        </td>
+    </tr>
+    <?php endif; ?>
+<?php endforeach;?>
+</table>
+
+</div>
+
+</div>
+
+</div>

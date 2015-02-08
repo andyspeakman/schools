@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<project name="localutils" default="upload" basedir=".">
+
+    <import file="../../common.xml"/>
+    <property file="schools.properties"/>
+
+    <target name="get.logs" description="FTPs logs from the live server.">
+        <ftp server="${remote.server}"
+            userid="${remote.user}"
+            password="${remote.pass}"
+            remotedir="${remote.dir}/log"
+            depends="no"
+            action="get"
+            verbose="yes">
+            <fileset dir="${local.dir}/log">
+                <include name="production-schools.log" />
+                <include name="error_log" />
+            </fileset>
+        </ftp>
+    </target>
+
+</project>

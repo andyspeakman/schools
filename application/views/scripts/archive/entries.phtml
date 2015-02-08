@@ -1,0 +1,79 @@
+<?
+   $this->headTitle($this->escape($this->school['name']));
+   $this->headMeta()->appendName('description', 'List of competition entries from ' . $this->escape($this->school['name']));
+   $this->headScript()->appendFile('/scripts/bootstrap-modal.js', 'text/javascript');
+   $entryCount = 0;
+?>
+
+<div class="container lowered">
+
+<div class="jumbotron who">
+<h1 class="what"><?php echo $this->escape($this->school['name']) ?></h1>
+</div>
+
+<ul class="breadcrumb">
+  <li><a href="/">Home</a> <span class="divider">/</span></li>
+  <li><a href="/archive">Archive</a> <span class="divider">/</span></li>
+  <li><a href="/archive/entries/year/<?php echo $this->year ?>"><?php echo $this->year ?></a> <span class="divider">/</span></li>
+  <li class="active"><?php echo $this->escape($this->school['name']) ?></li>
+</ul>
+
+<div class="row">
+<div class="span9">
+    <?php echo $this->escape($this->school['statement']) ?>
+    <br />
+    <br />
+    <?php if (!is_null($this->school['website'])): ?>
+        <p><a href="<?php echo $this->escape($this->school['website']) ?>"
+            target="_blank"><?php echo $this->escape($this->school['website']) ?></a>
+        </p>
+    <?php endif; ?>
+</div>
+<div class="span3"><img src="/images/<?php echo $this->escape($this->school['image_folder']) ?>/<?php echo $this->escape($this->school['image']) ?>" /></div>
+</div>
+
+<h4>School Competition Entries</h4>
+
+<!-- Entries here: -->
+
+<?php foreach ($this->entries as $entry):?>
+<?php if ($entryCount == 0): ?>
+    <div class="row row-entry">
+<?php endif; ?>
+
+<?php
+$rankClass = '';
+switch ($entry['rank']) {
+    case 1:
+        $rankClass = 'third';
+        break;
+    case 2:
+        $rankClass = 'second';
+        break;
+    case 3:
+        $rankClass = 'first';
+        break;
+    default:
+        $rankClass = '';
+}
+?>
+
+<div class="span4 entry-panel">
+    <img src="/images/<?php echo $this->escape($entry['image_folder']) ?>/<?php echo $this->escape($entry['image']) ?>" />
+    <div class="entry-details <?php echo $rankClass ?>">
+        <p class="title"><?php echo $this->escape($entry['title']) ?></p>
+        <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
+        <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
+    </div>
+</div>
+
+<?php $entryCount++; ?>
+<?php if ($entryCount == 3): ?>
+    <?php $entryCount = 0; ?>
+    </div>
+<?php endif; ?>
+
+<?php endforeach;?>
+</div>
+
+</div>

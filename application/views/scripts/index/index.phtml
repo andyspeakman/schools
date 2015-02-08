@@ -1,0 +1,152 @@
+<?
+   $this->headTitle('Home');
+   $this->headScript()->appendFile('/scripts/bootstrap-transition.js', 'text/javascript');
+   $this->headScript()->appendFile('/scripts/bootstrap-carousel.js', 'text/javascript');
+   $this->headScript()->appendFile('/scripts/bootstrap-dropdown.js', 'text/javascript');
+   $this->headMeta()->appendName('description', 'dot-art Schools is an interactive, inter school, online art competition, culminating in an exhibition of the winning students works.');
+?>
+
+<!-- Zend Version: <? echo Zend_Version::VERSION; ?> -->
+
+<!-- APPLICATION_ENVIRONMENT: <? echo getenv('APPLICATION_ENV') ?> -->
+
+<!-- SERVER_ADDR: <? echo getenv('SERVER_ADDR') ?> -->
+<style>
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+  .container.navbar-wrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+  .navbar-inner {
+    border-radius: 0;
+    margin: -20px 0;
+  }
+
+  .carousel .item {
+    height: 500px;
+  }
+  .carousel img {
+    width: auto;
+    height: 500px;
+  }
+  .carousel-control {
+    z-index: 10;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .navbar-inner {
+    margin: -20px;
+  }
+
+  .carousel {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .carousel .container {
+
+  }
+  .carousel .item {
+    height: 300px;
+  }
+  .carousel img {
+    height: 300px;
+  }
+  .carousel-caption {
+    width: 65%;
+    padding: 0 60px;
+    margin-top: 50px;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption .lead,
+  .carousel-caption .btn {
+    font-size: 18px;
+  }
+}
+</style>
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/images/carousel-1a.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>What?</h1>
+                    <p class="lead">The dot-art Schools programme is an interactive, online,
+                    inter-school art competition, culminating in an end of year exhibition for the
+                    top students in each participating school...</p>
+                    <a class="btn btn-large btn-primary" href="/what">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/images/carousel-2a.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Exhibition</h1>
+                    <p class="lead">The dot-art Schools exhibition 2015 will take place at St Georges Hall
+                    from the 5th to the 21st of June...</p>
+                    <a class="btn btn-large btn-primary" href="/exhibition/year2014">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/images/carousel-3a.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>2014-15</h1>
+                    <p class="lead">Sign up or register for more information about dot-art Schools 2014-15. 
+                    DEADLINE 16th DECEMBER 2014...</p>
+                    <a class="btn btn-large btn-primary" href="/register">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+    <div class="row">
+        <div class="span4">
+            <img class="img-circle" data-src="holder.js/140x140">
+            <h2>What?</h2>
+            <p>The dot-art Schools programme is an interactive, online, inter-school art competition, culminating in an end of year exhibition for the top students in each participating school...</p>
+            <p><a class="btn" href="/what">Learn more &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+            <img class="img-circle" data-src="holder.js/140x140">
+            <h2>Exhibition</h2>
+            <p>The dot-art Schools exhibition 2015 will take place at St Georges Hall
+                    from the 5th to the 21st of June...</p>
+            <p><a class="btn" href="/exhibition/year2014">Learn more &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+            <img class="img-circle" data-src="holder.js/140x140">
+            <h2>2014-15</h2>
+            <p>Sign up or register for more information about dot-art Schools 2014-15. 
+                    DEADLINE 16th DECEMBER 2014</p>
+            <p><a class="btn" href="/register">Learn more &raquo;</a></p>
+        </div><!-- /.span4 -->
+    </div><!-- /.row -->
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carousel').carousel();
+});
+</script>
