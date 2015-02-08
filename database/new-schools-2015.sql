@@ -16,7 +16,7 @@
 -- Copy-and-paste the INSERT statements below as many times as you need. Please leave
 -- a couple of blank lines between each school.
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Auckland College Lower School',
  'auckland-college-lower-school',
@@ -25,7 +25,7 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'auckland-college-logo.jpg',
  'auckland-college-lower-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
 
