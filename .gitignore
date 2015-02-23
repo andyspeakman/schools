@@ -5,6 +5,8 @@ log/error.log
 
 log/production-schools.log
 
+images
+
 library/Zend
 
 log/access.log
