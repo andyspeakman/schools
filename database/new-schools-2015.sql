@@ -456,10 +456,10 @@ develop self-reliance, and an ability to articulate feelings and ideas.',
  'http://www.stpatricksliverpool.co.uk',
  'st-patricks-logo.jpg',
  'st-patricks-primary-school');
- 
+
 INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
- 
+
 #------------------------------------------------------------------------------------
  
   INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
@@ -472,9 +472,17 @@ nearly 1,600 students on roll including a mixed Sixth Form of approximately 400 
  'http://www.weatherheadhigh.co.uk',
  'weatherhead-logo.jpg',
  'weatherhead-high-school');
- 
+
 INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
- 
- 
+
 #------------------------------------------------------------------------------------
+# Tidy-up statements:
+
+DELETE school_year
+ WHERE school_year_id IN (68, 98, 125, 126, 102, 109);
+
+UPDATE school
+   SET name = 'The Cavendish High Academy'
+ WHERE name = 'Cavendish High School';
+
