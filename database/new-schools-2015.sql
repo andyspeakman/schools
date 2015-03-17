@@ -1,22 +1,22 @@
--- This file will create entries in the database for all schools for 2015 that are NEW
--- to dot-art schools. So, no need to enter schools from last year if they have entered
--- again this year.
+# This file will create entries in the database for all schools for 2015 that are NEW
+# to dot-art schools. So, no need to enter schools from last year if they have entered
+# again this year.
 
--- Notes:
---   type = type of school; 1 = Primary; 2 = Secondary.
---   name = name of the school.
---   url_path = the website-friendly address for the school - lower-case, no spaces or
---     special chars.
---   statement = The statement to appear at the top the school's page on the site.
---   website = FULL address of the school's own website, including http://...
---   image = the name and folder of the image used as the school's logo,
---    e.g. 'alsop-high-school/alsop-logo.jpg'
---   image_folder = the folder where the school's entry images will be kept on the server.
+# Notes:
+#   type = type of school; 1 = Primary; 2 = Secondary.
+#   name = name of the school.
+#   url_path = the website-friendly address for the school - lower-case, no spaces or
+#     special chars.
+#   statement = The statement to appear at the top the school's page on the site.
+#   website = FULL address of the school's own website, including http://...
+#   image = the name and folder of the image used as the school's logo,
+#    e.g. 'alsop-high-school/alsop-logo.jpg'
+#   image_folder = the folder where the school's entry images will be kept on the server.
 
--- Copy-and-paste the INSERT statements below as many times as you need. Please leave
--- a couple of blank lines between each school.
+# Copy-and-paste the INSERT statements below as many times as you need. Please leave
+# a couple of blank lines between each school.
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Auckland College Lower School',
  'auckland-college-lower-school',
@@ -25,13 +25,13 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'auckland-college-logo.jpg',
  'auckland-college-lower-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
  
  
- INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Archbishop Blanch School',
  'archbishop-blanch-school',
@@ -45,12 +45,12 @@ INSERT INTO n_school_year (school, year)
  'archbishop-blanch-logo.jpg',
  'archbishop-blanch-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Broughton Hall High School',
  'broughton-hall-high-school',
@@ -65,12 +65,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'broughton-hall-logo.jpg',
  'broughton-hall-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Childwall Sports & Science Academy',
  'childwall-academy',
@@ -88,12 +88,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'childwall-academy-logo.jpg',
  'childwall-sports-and science-academy');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
  
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Gwladys St Primary School',
  'gwladys-st-primary-school',
@@ -108,12 +108,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'gwladys-street-logo.jpg',
  'gwladys-street-community-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Hilbre High School',
  'hilbre-high-school',
@@ -122,12 +122,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'hilbre-high-school-logo.jpg',
  'hilbre-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
  
- INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Hope School',
  'hope-school',
@@ -139,14 +139,14 @@ INSERT INTO n_school_year (school, year)
  'hope-school-logo.jpg',
  'hope-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
  
  
-  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Leamington Primary School',
  'leamington-primary-school',
@@ -160,12 +160,12 @@ INSERT INTO n_school_year (school, year)
  'leamington-logo.jpg',
  'leamington-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Liverpool College',
  'liverpool-college',
@@ -190,12 +190,12 @@ North Wales and Southport.',
  'liverpool-college-logo.jpg',
  'liverpool-college');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Maghull High School',
  'maghull-high-school',
@@ -212,12 +212,12 @@ painting and screen printing.',
  'maghull-high-school-logo.jpg',
  'maghull-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Maricourt High School',
  'maricourt-high-school',
@@ -231,13 +231,13 @@ work has been completed independently based on pupils’ own ideas and interests.'
  'maricourt-logo.jpg',
  'maricourt-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
  
  
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Merton Bank Primary School',
  'merton-bank-primary-school',
@@ -252,12 +252,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'merton-bank-logo.jpg',
  'merton-bank-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
------------------------------------------------------------------------------------- 
+#---------------------------------------------------------------------------------- 
 
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Much Woolton Primary School',
  'much-woolton-primary-school',
@@ -271,12 +271,12 @@ self-portrait was better so asked for that to be submitted instead!',
  'much-woolton-logo.jpg',
  'much-woolton-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
 
- INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Neston High School',
  'neston-high-school',
@@ -290,12 +290,12 @@ INSERT INTO n_school_year (school, year)
  'neston-high-logo.jpg',
  'neston-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-  ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
 
-  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Norman Pannell Primary School',
  'norman-pannell-primary-school',
@@ -311,12 +311,12 @@ INSERT INTO n_school_year (school, year)
  'norman-pannell-logo.jpg',
  'norman-pannell-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
 
- INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Parish C of E Primary School',
  'parish-c-e-primary-school',
@@ -331,12 +331,12 @@ Artsmark Gold Award recognising our excellence and commitment to the arts.',
  'parish-logo.jpg',
  'parish-c-e-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
  
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Springwood Heath Primary School',
  'springwood-heath-primary-school',
@@ -349,14 +349,14 @@ used a variety of neutral materials, wax and inks to create our work.',
  'springwood-logo.jpg',
  'springwood-heath-primary');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
 
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
  
  
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Cuthberts Primary School',
  'st-cuthberts-primary-school',
@@ -372,12 +372,12 @@ experimenting with different mediums. They have chosen their favourite pieces to
  'st-cuthberts-logo.jpg',
  'st-cuthberts-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
------------------------------------------------------------------------------------- 
+#---------------------------------------------------------------------------------- 
  
-  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'St Gregorys High School',
  'st-gregorys-high-school',
@@ -390,12 +390,12 @@ INSERT INTO n_school_year (school, year)
  'st-gregorys-logo.jpg',
  'st-gregorys-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
------------------------------------------------------------------------------------- 
+#---------------------------------------------------------------------------------- 
                               
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'St Marys College',
  'st-marys-college',
@@ -404,12 +404,12 @@ INSERT INTO n_school (type, name, url_path, statement, website, image, image_fol
  'st-marys-college-logo.jpg',
  'st-marys-college');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
------------------------------------------------------------------------------------- 
+#---------------------------------------------------------------------------------- 
                                      
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Michaels Catholic Primary School',
  'st-michaels-catholic-primary-school',
@@ -425,12 +425,12 @@ and found the paintings challenging and fun to do.',
  'st-michaels-catholic-logo.jpg',
  'st-michaels-catholic-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
------------------------------------------------------------------------------------- 
+#---------------------------------------------------------------------------------- 
                         
-INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Patricks Primary School',
  'st-patricks-primary-school',
@@ -444,12 +444,12 @@ develop self-reliance, and an ability to articulate feelings and ideas.',
  'st-patricks-logo.jpg',
  'st-patricks-primary-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
  
-  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Weatherhead High School',
  'weatherhead-high-school',
@@ -460,8 +460,8 @@ nearly 1,600 students on roll including a mixed Sixth Form of approximately 400 
  'weatherhead-logo.jpg',
  'weatherhead-high-school');
  
-INSERT INTO n_school_year (school, year)
+INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
  
- ------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
