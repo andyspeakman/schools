@@ -1,22 +1,22 @@
-# This file will create entries in the database for all schools for 2015 that are NEW
-# to dot-art schools. So, no need to enter schools from last year if they have entered
-# again this year.
+-- This file will create entries in the database for all schools for 2015 that are NEW
+-- to dot-art schools. So, no need to enter schools from last year if they have entered
+-- again this year.
 
-# Notes:
-#   type = type of school; 1 = Primary; 2 = Secondary.
-#   name = name of the school.
-#   url_path = the website-friendly address for the school - lower-case, no spaces or
-#     special chars.
-#   statement = The statement to appear at the top the school's page on the site.
-#   website = FULL address of the school's own website, including http://...
-#   image = the name and folder of the image used as the school's logo,
-#    e.g. 'alsop-high-school/alsop-logo.jpg'
-#   image_folder = the folder where the school's entry images will be kept on the server.
+-- Notes:
+--   type = type of school; 1 = Primary; 2 = Secondary.
+--   name = name of the school.
+--   url_path = the website-friendly address for the school - lower-case, no spaces or
+--     special chars.
+--   statement = The statement to appear at the top the school's page on the site.
+--   website = FULL address of the school's own website, including http://...
+--   image = the name and folder of the image used as the school's logo,
+--    e.g. 'alsop-high-school/alsop-logo.jpg'
+--   image_folder = the folder where the school's entry images will be kept on the server.
 
-# Copy-and-paste the INSERT statements below as many times as you need. Please leave
-# a couple of blank lines between each school.
+-- Copy-and-paste the INSERT statements below as many times as you need. Please leave
+-- a couple of blank lines between each school.
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Auckland College Lower School',
  'auckland-college-lower-school',
@@ -25,13 +25,13 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'auckland-college-logo.jpg',
  'auckland-college-lower-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------
  
  
- INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Archbishop Blanch School',
  'archbishop-blanch-school',
@@ -45,12 +45,12 @@ INSERT INTO school_year (school, year)
  'archbishop-blanch-logo.jpg',
  'archbishop-blanch-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Broughton Hall High School',
  'broughton-hall-high-school',
@@ -65,21 +65,21 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'broughton-hall-logo.jpg',
  'broughton-hall-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Childwall Sports & Science Academy',
  'childwall-academy',
  'Our school is a diverse and multicultural school that accommodates 42 different 
  nationalities. Here at Childwall Academy we strive to promote the Arts and encourage 
- all students to take part in unleashing their inner creativity. Throughout our students‚Äô
+ all students to take part in unleashing their inner creativity. Throughout our studentsí
   school career we aim to foster their talents and imagination through our subjects of 
   Music, Art and Drama. We promote a Love of learning through the Arts and enjoy a 100% success 
-  rate of our A‚Äô Level students gaining university places. More recently we are proud to 
+  rate of our Aí Level students gaining university places. More recently we are proud to 
   announce our Arts students gaining places at Liverpool Institute of Performing Arts 
   and University of the Arts London. Here at Childwall our ambitions for our students 
   are endless and we always strive to inspire, encourage and provide students with multiple 
@@ -88,34 +88,19 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'childwall-academy-logo.jpg',
  'childwall-sports-and science-academy');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------
  
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
- VALUES (2,
- 'Enterprise South Liverpool Academy',
- 'enterprise-south-liverpool-academy',
- 'NULL',
- 'http://www.esla.org.uk/',
- 'esla-logo.jpg',
- 'enterprise-south-liverpool-academy');
- 
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2015);
-
-
-#------------------------------------------------------------------------------------
- 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Gwladys St Primary School',
  'gwladys-st-primary-school',
  'Gwladys Street Primary is a two form entry school with children from Nursery age 
  to Year 6 situated in the heart of Walton. Our children are encouraged to express their 
  creativity throughout the curriculum, thinking and working in a creative and imaginative 
- way. We linked our artwork to the Year 6 topic ‚ÄòMoving People‚Äô in which they learn about 
+ way. We linked our artwork to the Year 6 topic ëMoving Peopleí in which they learn about 
  immigration and the reasons behind it. Here the children collaged images from world atlases 
  and local area ordinance survey maps, overlaying the collage with colourful silhouettes 
  of people travelling as they move homes, making new lives for themselves in different places.',
@@ -123,13 +108,12 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'gwladys-street-logo.jpg',
  'gwladys-street-community-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#------------------------------------------------------------------------------------
- 
- 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+ ------------------------------------------------------------------------------------
+
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Hilbre High School',
  'hilbre-high-school',
@@ -138,33 +122,36 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'hilbre-high-school-logo.jpg',
  'hilbre-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
  
- INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Hope School',
  'hope-school',
- 'NULL',
+ 'At Hope School we are committed to the principle that all children have the right to 
+ an education which meets their learning, emotional and social needs. We aim to establish 
+ and develop the foundations for their life-long learning. Our school motto is ìIf I Try I Canî 
+ and we feel with the correct support and direction our pupils can achieve.',
  'http://www.hopeschool-liverpool.co.uk/',
  'hope-school-logo.jpg',
  'hope-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
  
  
-  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Leamington Primary School',
  'leamington-primary-school',
  'Our school is located in the heart of Norris Green in Liverpool and enjoys an excellent 
- reputation. We are a community school for boys and girls from age 3 ‚Äì 11 years old. We pride 
+ reputation. We are a community school for boys and girls from age 3 ñ 11 years old. We pride 
  ourselves on providing a happy, stimulating and safe environment for all our children and 
  strive for every child to have a love for learning and to believe in themselves and have 
  high aspirations. Our topic this half term has been Animals in their natural environments. 
@@ -173,17 +160,17 @@ INSERT INTO school_year (school, year)
  'leamington-logo.jpg',
  'leamington-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Liverpool College',
  'liverpool-college',
  'Liverpool College is a unique academy, so visitors tell us. They profess that there is 
- a ‚Äúbuzz‚Äù, a sense of purpose, and a distinctive ethos about the place. We agree.
+ a ìbuzzî, a sense of purpose, and a distinctive ethos about the place. We agree.
  
 The College educates pupils aged 4-19 on a 28 acre campus in South Liverpool. Since 1840, 
 our ambition and mission is to help the young people of Liverpool and beyond to fulfil their 
@@ -203,12 +190,12 @@ North Wales and Southport.',
  'liverpool-college-logo.jpg',
  'liverpool-college');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Maghull High School',
  'maghull-high-school',
@@ -216,7 +203,7 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  is managed by Miss Garnett and Miss Jones who strongly believe that every child should 
  have the opportunity to be creative, fulfilling the school ethos to achieve, aspire and enjoy. 
 
-The students have been studying the Mexican Holiday ‚ÄòDia de Muertos.‚Äô This term they have 
+The students have been studying the Mexican Holiday ëDia de Muertos.í This term they have 
 explored culture in Mexico focussing on Sugar Skulls. Students have had the opportunity 
 to work from Primary sources, including skeleton props and flowers. These observations 
 have been developed using a variety of mediums including photography, ceramics, acrylic 
@@ -225,32 +212,32 @@ painting and screen printing.',
  'maghull-high-school-logo.jpg',
  'maghull-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Maricourt High School',
  'maricourt-high-school',
  'Maricourt High School  is a Catholic school situated in Maghull. Maricourt seeks to 
  provide and sustain a living Catholic community which is rooted in Christian values and 
  where growth and knowledge, respect, love and fellowship are shared by all. 
- The Artwork shown has been selected based on pupil‚Äôs effort and enthusiasm for the subject. 
+ The Artwork shown has been selected based on pupilís effort and enthusiasm for the subject. 
 Much of the work has been done in class, inspired by the work of Jasper Johns but some of the 
-work has been completed independently based on pupils‚Äô own ideas and interests.',
+work has been completed independently based on pupilsí own ideas and interests.',
  'http://www.maricourt.net/',
  'maricourt-logo.jpg',
  'maricourt-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
  
  
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Merton Bank Primary School',
  'merton-bank-primary-school',
@@ -265,12 +252,12 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'merton-bank-logo.jpg',
  'merton-bank-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#---------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------ 
 
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Much Woolton Primary School',
  'much-woolton-primary-school',
@@ -278,18 +265,18 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  The children love art and we are very proud of the work that they produce.
 
 In November the school participated in World War One Day and the children produced 
-their art work after learning about Flander‚Äôs Fields. Another child thought his 
+their art work after learning about Flanderís Fields. Another child thought his 
 self-portrait was better so asked for that to be submitted instead!',
  'http://www.muchwoolton.co.uk/',
  'much-woolton-logo.jpg',
  'much-woolton-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------
 
- INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Neston High School',
  'neston-high-school',
@@ -303,12 +290,12 @@ INSERT INTO school_year (school, year)
  'neston-high-logo.jpg',
  'neston-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------
 
-  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Norman Pannell Primary School',
  'norman-pannell-primary-school',
@@ -324,12 +311,12 @@ INSERT INTO school_year (school, year)
  'norman-pannell-logo.jpg',
  'norman-pannell-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
- INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+ INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Parish C of E Primary School',
  'parish-c-e-primary-school',
@@ -344,12 +331,12 @@ Artsmark Gold Award recognising our excellence and commitment to the arts.',
  'parish-logo.jpg',
  'parish-c-e-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
  
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'Springwood Heath Primary School',
  'springwood-heath-primary-school',
@@ -362,14 +349,14 @@ used a variety of neutral materials, wax and inks to create our work.',
  'springwood-logo.jpg',
  'springwood-heath-primary');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
 
 
-#------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------
  
  
-   INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Cuthberts Primary School',
  'st-cuthberts-primary-school',
@@ -377,7 +364,7 @@ INSERT INTO school_year (school, year)
  curriculum giving pupils the opportunity to try their hand at everything! The Arts are 
  celebrated throughout the school and children love to get involved in the many extra 
  curricular activities we offer.  We are part of a federation with our partner school 
- St Sebastian‚Äôs which means we are able to collaborate on projects and offer a wider range 
+ St Sebastianís which means we are able to collaborate on projects and offer a wider range 
  of activities.
 Pupils in Year 6 have been attending an after school club exploring different artists and 
 experimenting with different mediums. They have chosen their favourite pieces to submit.',
@@ -385,30 +372,30 @@ experimenting with different mediums. They have chosen their favourite pieces to
  'st-cuthberts-logo.jpg',
  'st-cuthberts-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#---------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------ 
  
-  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'St Gregorys High School',
  'st-gregorys-high-school',
- 'St Gregory‚Äôs Catholic High School is an inclusive and reflective learning community 
+ 'St Gregoryís Catholic High School is an inclusive and reflective learning community 
  for students aged 11-16, situated in Warrington within the Archdiocese of Liverpool. 
- Year 9 students have enjoyed exploring the theme of ‚ÄòThe Mad Hatter‚Äôs Tea Party‚Äô. Personal 
+ Year 9 students have enjoyed exploring the theme of ëThe Mad Hatterís Tea Partyí. Personal 
  responses have been created using a range of materials and techniques including 
  observational drawings, painting, collage and photography.',
  'http://www.stgregoryshigh.com',
  'st-gregorys-logo.jpg',
  'st-gregorys-high-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#---------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------ 
                               
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'St Marys College',
  'st-marys-college',
@@ -417,19 +404,19 @@ INSERT INTO school (type, name, url_path, statement, website, image, image_folde
  'st-marys-college-logo.jpg',
  'st-marys-college');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#---------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------ 
                                      
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Michaels Catholic Primary School',
  'st-michaels-catholic-primary-school',
  'St Michaels Catholic Primary School in Widnes is home to 244 pupils and 23 pre-school 
  children. We are a caring Catholic community and value the uniqueness of every child, 
  helping each and every one reach their full potential. As part of our wide ranging 
- curriculum we encourage our pupil‚Äôs love of art by having specialised art classes in 
+ curriculum we encourage our pupilís love of art by having specialised art classes in 
  our dedicated art studio.
 Our Year 6 pupils have explored many aspects of art and since September we have focussed 
 on the work of Vincent Van Gogh. The pupils have explored his multi-directional brushstrokes 
@@ -438,12 +425,12 @@ and found the paintings challenging and fun to do.',
  'st-michaels-catholic-logo.jpg',
  'st-michaels-catholic-primary-school');
  
-INSERT INTO school_year (school, year)
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
  
-#---------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------ 
                         
-INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (1,
  'St Patricks Primary School',
  'st-patricks-primary-school',
@@ -456,13 +443,13 @@ develop self-reliance, and an ability to articulate feelings and ideas.',
  'http://www.stpatricksliverpool.co.uk',
  'st-patricks-logo.jpg',
  'st-patricks-primary-school');
-
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2015);
-
-#------------------------------------------------------------------------------------
  
-  INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+INSERT INTO n_school_year (school, year)
+ VALUES(LAST_INSERT_ID(), 2015);
+ 
+ ------------------------------------------------------------------------------------
+ 
+  INSERT INTO n_school (type, name, url_path, statement, website, image, image_folder)
  VALUES (2,
  'Weatherhead High School',
  'weatherhead-high-school',
@@ -472,17 +459,9 @@ nearly 1,600 students on roll including a mixed Sixth Form of approximately 400 
  'http://www.weatherheadhigh.co.uk',
  'weatherhead-logo.jpg',
  'weatherhead-high-school');
-
-INSERT INTO school_year (school, year)
+ 
+INSERT INTO n_school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2015);
-
-#------------------------------------------------------------------------------------
-# Tidy-up statements:
-
-DELETE school_year
- WHERE school_year_id IN (68, 98, 125, 126, 102, 109);
-
-UPDATE school
-   SET name = 'The Cavendish High Academy'
- WHERE name = 'Cavendish High School';
-
+ 
+ 
+ ------------------------------------------------------------------------------------
