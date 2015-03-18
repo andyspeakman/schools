@@ -1,14 +1,10 @@
 
 schools.properties
 
-log/error.log
-
-log/production-schools.log
+tmp
 
 images
 
 library/Zend
 
-log/access.log
-
-log/development-schools.log
+log

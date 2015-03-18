@@ -2,7 +2,7 @@
 
 <project name="localutils" default="upload" basedir=".">
 
-    <import file="../../common.xml"/>
+    <import file="../common.xml"/>
     <property file="schools.properties"/>
 
     <target name="get.logs" description="FTPs logs from the live server.">

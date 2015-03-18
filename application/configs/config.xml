@@ -103,7 +103,7 @@
             <log>
                 <stream>
                     <writerParams>
-                        <stream>/Users/andrewspeakman/Sites/github/schools/log/development-schools.log</stream>
+                        <stream>/Users/andrewspeakman/Sites/schools/log/development-schools.log</stream>
                     </writerParams>
                     <formatterName>Simple</formatterName>
                     <formatterParams>
