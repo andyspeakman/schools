@@ -68,7 +68,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'natural-form-flower-head-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -78,7 +78,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'blockscape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
       INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -88,7 +88,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'futurescape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
    INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -98,7 +98,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'stream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -108,7 +108,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'big-tree.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -118,7 +118,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  '3-trees.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -128,7 +128,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pepper.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -138,7 +138,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'veggiefruit.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -148,7 +148,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  '2-veg.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -158,7 +158,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  '3-veg.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -168,7 +168,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'fruity-veg.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
   INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -179,7 +179,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'natural-form-triptych.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (93,
@@ -189,7 +189,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'leaf.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -203,7 +203,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Study of Giacometti',
  'charcoal-lady.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
   INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -213,7 +213,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'my-bag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
   INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -223,7 +223,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pink-liver-building.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -233,7 +233,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'radio-city-tower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -243,7 +243,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -253,7 +253,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -263,7 +263,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Study of Giacometti',
  'charcoal-man.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -273,7 +273,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'cathedral.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -283,7 +283,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -293,7 +293,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'lino-print-gnome.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -303,7 +303,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -313,7 +313,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'colourful-liverpool-building.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -323,7 +323,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-collage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -333,7 +333,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -343,7 +343,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gnome-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (94,
@@ -353,7 +353,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Study of Henry Moore',
  'charcoal-sleepers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -367,7 +367,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'harlequin-clown.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -377,7 +377,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -387,7 +387,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -397,7 +397,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'A caricature drawing of Angelina Jolie with a skyline background.',
  'angelina-jolie-caricature.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -407,7 +407,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'An image of a face inspired by the work of Picasso.',
  'many-colours.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -417,7 +417,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pink-pointe-shoes.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -427,7 +427,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'zebra.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -438,7 +438,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -448,7 +448,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -458,7 +458,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'clown-elf.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -468,7 +468,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'girl-with-black-hair.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -478,7 +478,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'I have used bright colours to create images of clown faces with large features.',
  '2-clown-boys.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -488,7 +488,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -498,7 +498,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -509,7 +509,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 hair and eyes dynamic and dramatic. The hair emphasizes the character.',
  'manga-girl.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -519,7 +519,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A drawing of a favourite bag',
  'pink-handbag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -529,7 +529,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  '2-clown-girls.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -539,7 +539,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -549,7 +549,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Marilyn Monroe.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -559,7 +559,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-joker.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -569,7 +569,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'picasso-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (69,
@@ -579,7 +579,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'girl-in-dungarees.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -593,7 +593,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pear-and-a-half .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -603,7 +603,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'alone.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -613,7 +613,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Alone-in-field.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -623,7 +623,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'berry-blast.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -633,7 +633,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'random.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -643,17 +643,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'crowded.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
- 'Kelsey D’Arcy',
+ 'Kelsey D''Arcy',
  'Dancing Pears',
  '30 x 42cm, Acrylic, ink (drawing pen) on paper, drawing ink',
  NULL,
  'dancing-pears.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -663,7 +663,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'flying-mushrooms.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -673,7 +673,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'intertwining-pears.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -683,7 +683,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'lonely-orange.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -693,7 +693,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'lovely-lettuce.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -703,7 +703,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mushroom-bloom.jpg');
 
----------------------------------------------------------------------------------------- 
+#-------------------------------------------------------------------------------------- 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -713,7 +713,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'orange-life.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -723,7 +723,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'oranges-at-night .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -733,7 +733,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'outstanding-oranges .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -743,7 +743,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'three.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -753,7 +753,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pears-behavin-badly.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -763,7 +763,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pears-in-sunset.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -773,7 +773,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pippa-pepper.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -783,7 +783,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mother-orange.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -793,7 +793,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mushroom-family.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -803,7 +803,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'odd-one-out.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -813,7 +813,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pears-of-pairs.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -823,7 +823,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pears-world.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (95,
@@ -833,7 +833,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'tip-of-iceberg.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -847,7 +847,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -857,7 +857,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -867,7 +867,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -877,7 +877,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -887,7 +887,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -897,7 +897,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -907,7 +907,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -917,7 +917,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -927,7 +927,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -937,7 +937,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -947,7 +947,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -957,7 +957,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -967,7 +967,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -977,7 +977,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -987,7 +987,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (96,
@@ -997,7 +997,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -1008,10 +1008,10 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Renee Maria Caine',
  'Outcasts and Cool Kids',
  '30 x 42cm, Oil pastels, pencils and felt pens',
- 'The work shows how ‘Outcasts’ and ‘Cool Kids’ are different but also similar.',
+ 'The work shows how ‘Outcasts'' and ‘Cool Kids'' are different but also similar.',
  'outcasts-cool-kids.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1019,22 +1019,22 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Demons in us',
  '30 x 42cm, Pencils',
  'When we were younger we thought that Demons were in our wardrobes or under our beds. 
- But as we get older we realise they’re actually in us, causing us to have a split personality.',
+ But as we get older we realise they''re actually in us, causing us to have a split personality.',
  'demons-in-us.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
  'Weronika Wojdylok',
- 'There’s Life out there',
+ 'There''s Life out there',
  '35 x 47cm, Spray paint',
  'The three planets in the universe are Earth, GJ 504b (57 light years away from Earth) and 
  the Moon. This then leaves the buildings, river and bridge to be on the plant Kepler 186f, 
- where I believe there is life because it’s found to be very similar to Earth.',
+ where I believe there is life because it''s found to be very similar to Earth.',
  'untitled-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -1045,7 +1045,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'society-killed-teenager.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1055,7 +1055,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'The work is about soldiers and how they sin and kill but for the right reasons.',
  'angel-with-shotgun.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1065,7 +1065,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'My work is inspired by Alice in Wonderland because we are all a little mad, no matter what!',
  'mad-as-a-hatter.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1074,21 +1074,21 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  '30 x 42cm, Marbling inks and Watercolour paints',
  'The work is about God and creation. The background is about the sea and the different 
  things it has to offer. I have used marbling to show how life can be a mess through 
- different people’s eyes.',
+ different people''s eyes.',
  'looking-through-eyes.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
  'Katy Whitfield',
  'Optimism',
  '30 x 42cm, Paint, pencil, collage and fineliner pen',
- 'My work is inspired by ‘optimism’ because she sees the good in the world (hence the world 
+ 'My work is inspired by ‘optimism'' because she sees the good in the world (hence the world 
  being used in the eyes). The colour represents what she draws and sees in the boring world.',
  'optimism.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1099,7 +1099,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  hate and pain that people might feel inside.',
  'who-are-you.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1110,7 +1110,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  one of his characters called DarkiPlier',
  'the-host.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1120,7 +1120,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-final-judgement.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1131,17 +1131,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  and shows how I can feel in some situations.',
  'the-mysterious-creature.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
  'Georgia Usher',
- 'Don’t Dream it, Be it!',
+ 'Don''t Dream it, Be it!',
  '30 x 42cm, Fibre tipped pens and coloured pencils',
  NULL,
  'dream-it.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1151,7 +1151,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1161,7 +1161,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'art-not-war.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1171,7 +1171,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (97,
@@ -1181,7 +1181,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -1196,7 +1196,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'aboriginal-dream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1206,7 +1206,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'australian-desert.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1216,7 +1216,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'chinese-bird.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1226,7 +1226,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'birds-of-paradise.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1236,7 +1236,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'chinese-symbolism.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1246,7 +1246,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'combined-cultures-mask .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1256,7 +1256,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'combined-cultures-design.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1266,7 +1266,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mask-with-feathers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1276,7 +1276,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'day-of-the-dead.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1286,7 +1286,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'l-for-lauren.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1296,7 +1296,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'indian-haze.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1306,7 +1306,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'indian-montage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1316,7 +1316,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'indian-textures.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1326,7 +1326,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'japanese-emperor.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1336,7 +1336,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'kangaroo-in-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1346,7 +1346,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'lotus-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1356,7 +1356,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'lotus-monkey.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1366,7 +1366,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mexican-montage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1376,7 +1376,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mexican-skull-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1386,7 +1386,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mexican-skull-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1396,7 +1396,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Temple in the mountain.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (99,
@@ -1406,7 +1406,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'willow-landscape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -1422,7 +1422,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'windy-mess.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1432,7 +1432,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-shimmering-sunrise.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1442,7 +1442,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sunset-city.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1452,7 +1452,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'cloudy-liverpool.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1462,7 +1462,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'shiny-sunset.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1472,7 +1472,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'light-skies.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -1483,17 +1483,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'colour-air-strike.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
- 'Jake Campbell-O’Neill',
+ 'Jake Campbell-O''Neill',
  'Dusk',
  '30 x 42cm, Acrylics on Canvas',
  NULL,
  'dusk.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1503,7 +1503,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'skyfall.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1513,7 +1513,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'liverpool-sunset.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1523,7 +1523,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'a-mystical-wonder.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1533,7 +1533,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'a-sunday-dream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1543,7 +1543,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-horizon.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1553,7 +1553,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-whispering-death.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1563,7 +1563,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'skylight.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1573,7 +1573,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'gleaming-mystery.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1583,7 +1583,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mysterious-sky.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1593,7 +1593,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'summer-sunset.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1603,7 +1603,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sun-style.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1613,7 +1613,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'chance-of-sunshine.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1623,7 +1623,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sunset-overdrive.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1633,7 +1633,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sunset-over-city.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1643,7 +1643,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'city-sunlight.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1653,7 +1653,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'tropical-trust.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1663,7 +1663,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-black-sun.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1673,7 +1673,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-tropical-city.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1683,7 +1683,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'the-mysterious-city.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1693,7 +1693,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'colourful-sky.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (100,
@@ -1703,7 +1703,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'dark-sky.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -1718,7 +1718,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Kimono study',
  'japanese-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1728,7 +1728,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Looking at Kusama',
  'japanese-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1738,7 +1738,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Japanese inspired art work',
  'japanese-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1748,7 +1748,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'japanese-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1758,7 +1758,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Japanese inspired art work',
  'japanese-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1768,7 +1768,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Japanese inspired art work',
  'japanese-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1778,7 +1778,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Japanese inspired art work',
  'japanese-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1788,7 +1788,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Japanese inspired art work',
  'japanese-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1798,7 +1798,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Manga study',
  'manga-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1808,7 +1808,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Manga Study',
  'manga-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -1819,7 +1819,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1829,7 +1829,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'shell-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1839,7 +1839,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1849,7 +1849,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'shell-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1859,7 +1859,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1869,7 +1869,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'Shell-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1879,7 +1879,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1889,7 +1889,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1899,7 +1899,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1909,7 +1909,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -1920,7 +1920,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1930,7 +1930,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Shell study',
  'shell-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1940,7 +1940,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Portrait study',
  'portrait-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1950,7 +1950,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'portrait-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (70,
@@ -1960,7 +1960,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Fashion ideas',
  'fashion-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -1974,7 +1974,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -1984,7 +1984,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -1994,7 +1994,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2004,7 +2004,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2014,7 +2014,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2024,7 +2024,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2034,7 +2034,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2044,7 +2044,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2054,7 +2054,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2064,7 +2064,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2074,7 +2074,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
  'Liam Furlong',
@@ -2083,7 +2083,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2093,7 +2093,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2103,7 +2103,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2113,7 +2113,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2123,7 +2123,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (101,
@@ -2133,7 +2133,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'self-portrait-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -2152,7 +2152,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  from Banksy, Ed Hardy and Si Scott and produced a research sheet based on these themes and ideas.',
  'street-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
@@ -2164,18 +2164,18 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  from Banksy, Ed Hardy and Si Scott and produced a research sheet based on these themes and ideas.',
  'ed-hardy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
  'Millie Bowers',
  'Celebrity',
  '20 x 29cm, Pencil and Pen',
- 'Students had to complete a Pop Art project looking at today’s Celebrity Icons and 
- transform them into a Pop Art style image looking at colour, bold lines and stylised features'.,
+ 'Students had to complete a Pop Art project looking at today''s Celebrity Icons and 
+ transform them into a Pop Art style image looking at colour, bold lines and stylised features.',
  'celebrity.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
@@ -2187,7 +2187,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  Ed Hardy and Si Scott and produced a research sheet based on these themes and ideas.',
  'street-art-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
@@ -2199,18 +2199,18 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  Ed Hardy and Si Scott and produced a research sheet based on these themes and ideas.',
  'identity.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
  'Lilli Buxton',
  'Pop Art',
  '30 x 42cm, Pencil and Pen',
- 'Students had to complete a Pop Art project looking at today’s Celebrity Icons and 
+ 'Students had to complete a Pop Art project looking at today''s Celebrity Icons and 
  transform them into a Pop Art style image looking at colour, bold lines and stylised features.',
  'pop-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
@@ -2221,7 +2221,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  The themes within the project look at culture, fashion and decoration.',
  'fabulous-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (71,
@@ -2231,7 +2231,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'pop-art-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -2246,7 +2246,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2256,7 +2256,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2266,7 +2266,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2276,7 +2276,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2286,7 +2286,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2296,7 +2296,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2306,7 +2306,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2316,7 +2316,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2326,7 +2326,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2336,7 +2336,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2346,7 +2346,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2356,7 +2356,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2366,7 +2366,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2376,7 +2376,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2386,7 +2386,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2396,7 +2396,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2406,7 +2406,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2416,7 +2416,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-18.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2426,7 +2426,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-19.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2436,7 +2436,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-20.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2446,7 +2446,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-21.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2456,7 +2456,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-22.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2466,7 +2466,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-23.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2476,7 +2476,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-24.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2486,7 +2486,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-25.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (104,
@@ -2496,7 +2496,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled-26.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -2513,7 +2513,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A Triptych of tile prints based on cultural patterns.',
  'prints-triptych-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2523,7 +2523,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'A Triptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-triptych-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -2534,7 +2534,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A Triptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-triptych-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2544,7 +2544,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A diptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-diptych-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2554,7 +2554,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A Triptych of tile prints based on cultural patterns.',
  'prints-triptych-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2564,7 +2564,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A Triptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-triptych-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2574,7 +2574,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'A Triptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-triptych-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2584,7 +2584,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A Triptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-triptych-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (105,
@@ -2594,7 +2594,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'A diptych of tile prints based on the patterns and textures discovered in architecture.',
  'prints-diptych-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -2611,7 +2611,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2621,7 +2621,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2631,7 +2631,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2641,7 +2641,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2651,7 +2651,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2661,7 +2661,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2671,7 +2671,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2681,17 +2681,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
  'Grace Tant',
  'Moving People 9',
  '21 x 30cm, Collage and oil pastels',
- NULL,,
+ NULL,
  'moving-people-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2701,7 +2701,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2711,7 +2711,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2721,7 +2721,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2731,7 +2731,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2741,7 +2741,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2751,17 +2751,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
- 'Keira O’Connell',
+ 'Keira O''Connell',
  'Moving People 16',
  '21 x 30cm, Collage and oil pastels',
  NULL,
  'moving-people-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2771,7 +2771,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2781,7 +2781,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-18.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2791,7 +2791,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-19.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2801,7 +2801,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-20.jpg');
 
-----------------------------------------------------------------------------------------]
+#--------------------------------------------------------------------------------------]
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
  'Maisie Smith',
@@ -2810,7 +2810,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-21.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2820,7 +2820,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-22.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2830,7 +2830,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-23.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2840,7 +2840,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-24.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (73,
@@ -2850,7 +2850,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moving-people-25.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -2859,13 +2859,13 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
- 'Eirinn O’Kane',
+ 'Eirinn O''Kane',
  'Uncle Seamus',
  '40 x 60cm, Acrylic on board',
  'Inspired by love of flowers and butterflies',
  'uncle-seamus.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
   INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2875,7 +2875,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'untitled.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2885,7 +2885,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sunset-island.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2895,7 +2895,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by flowers.',
  'fragmented-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2905,17 +2905,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by dark mythical creatures in books and paintings.',
  'midnight-mirror.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
  'Yenny Weng Mei',
- 'Let’s Make a Snowflake!',
+ 'Let''s Make a Snowflake!',
  '40 x 30cm, Acrylic on board',
  'Inspired by the animation and success of the film Frozen. With a snowflake design.',
  'lets-make-snowflake.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2925,7 +2925,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials including offcuts of wood and sand.',
  'untitled.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2935,7 +2935,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'beYOUtiful.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2945,7 +2945,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials.',
  'abstraction-white-dots.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2955,7 +2955,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Inspired by Marc Chagall and dreamlike imagery.',
  'dream-come-true.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2966,7 +2966,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  to lead to thoughts of the most romantic country in Europe.',
  'fleurs-de-paris.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2976,7 +2976,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Expression of inner feelings.',
  'beaten-frog.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2986,7 +2986,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials',
  'abstract.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -2996,7 +2996,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials',
  'mini-iceland.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3006,7 +3006,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials',
  'untitled-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3016,7 +3016,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by the colour purple.',
  'purple-mess.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3026,7 +3026,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by liars.',
  'pinnochio.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3036,7 +3036,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by various materials.',
  'Random.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3046,7 +3046,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by a starry night.',
  'nightscape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3056,7 +3056,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Inspired by Kandinsky.',
  'geometric-shape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (106,
@@ -3066,7 +3066,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Inspired by World War One.',
  'needs-no-name.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3082,7 +3082,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'victorious.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (108,
@@ -3092,7 +3092,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'woodland-walk.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (108,
@@ -3102,7 +3102,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'you-tuber.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (108,
@@ -3112,7 +3112,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'more-than-models.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -3123,7 +3123,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'modern-mainstream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3139,7 +3139,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'I created my design by painting my mask with bright colours to attract a young audience.',
  'entertainment-mask-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3150,7 +3150,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 filling the shapes using coloured sand to give texture to the picture.',
  'sand-art-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -3162,7 +3162,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 filling the shapes using coloured sand to give texture to the picture.',
  'sand-art-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3172,7 +3172,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'I designed my mask to entertain other people. I created my design by painting it.',
  'entertainment-mask-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3183,7 +3183,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 pencils to give it a more precise and defined look.',
  'tribal-art-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3195,7 +3195,7 @@ then painting over it with black tempera paint. Once dry I scrapped most of it o
 effect and coloured in a hand peace sign signal and glued it onto the cardstock.',
  'hope-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3207,19 +3207,19 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours being used.',
  'nature-around-us-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
  'Jimmy John Thomas',
  'Nature around us 2',
  '30 x 42cm, Pencil, pastels',
-'I designed a picture of a ‘wave’ by drawing curved lines and colouring each section 
+'I designed a picture of a ‘wave'' by drawing curved lines and colouring each section 
 a different colour using pastels and blending them into the next line of colour to 
 create a smooth and calm feel to it.',
  'nature-around-us-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3230,7 +3230,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 a bit of colour to it.',
  'tribal-art-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3240,7 +3240,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'I used felt-tip pens to help create the design of my tree to help show colour and texture.',
  'nature-around-us-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3252,7 +3252,7 @@ coloured strips of ripped paper onto a larger piece of paper and stuck the Meerk
 face onto it, giving it more of an African feel and look to it.',
  'african-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (75,
@@ -3263,7 +3263,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 filling the shapes using coloured sand to give texture to the picture.',
  'sand-art-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3279,7 +3279,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'parrot.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3289,7 +3289,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'shark.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3299,7 +3299,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'great-white-shark.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3309,7 +3309,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'underwater.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3319,7 +3319,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'black-white-tiger.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3329,7 +3329,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'monkey.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3339,7 +3339,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'rhino.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3349,7 +3349,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Zebra.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3359,7 +3359,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'giraffe.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3369,7 +3369,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'fish.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3379,7 +3379,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'giraffe-pop-art.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3389,7 +3389,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Tropical fish.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3399,7 +3399,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'panda.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
  'Amy Rehm',
@@ -3408,7 +3408,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'hunted.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3418,7 +3418,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'seahorse.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3428,7 +3428,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'Frog.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3438,7 +3438,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'giraffe-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3448,7 +3448,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'white-tiger.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3458,17 +3458,17 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sky-tiger.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
- 'Jade O’Brien and Millie-Kate Riley',
+ 'Jade O''Brien and Millie-Kate Riley',
  'Octopus',
  '42 x 30cm, Photograph of 3D Mod rock work',
  NULL,
  'octopus.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3478,7 +3478,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'keep-tigers-safe.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3488,7 +3488,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'crocodile.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
                              
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (76,
@@ -3498,7 +3498,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'elephant.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3514,7 +3514,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'George Harrison.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3524,7 +3524,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'arts-inspiration.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3534,7 +3534,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'john-power.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3544,7 +3544,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'young-creatives.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3554,7 +3554,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'moel-fammau.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3564,7 +3564,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'abby-clancy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3574,7 +3574,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'tom-baker.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3584,7 +3584,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'ricky-tomlinson-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3594,7 +3594,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'mick-johnson.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
  'Lewis Yu',
@@ -3603,7 +3603,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'ricky-tomlinson-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3613,7 +3613,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'ricky-tomlinson-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3623,7 +3623,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'sefton-park-meadows.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (77,
@@ -3633,7 +3633,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  NULL,
  'david-morrisey.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3650,7 +3650,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  She used Photoshop to merge the two photographs together.',
  'skull-and-rose.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3661,7 +3661,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  She used Photoshop to merge the two photographs together.',
  'skull-and-small-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3672,7 +3672,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  to create the work shown.',
  'skeleton-polyptych.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3683,7 +3683,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  flowers, using Photoshop.',
  'neon-skeleton-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3694,7 +3694,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  to create the work shown.',
  'fiery-neon-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3705,7 +3705,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  all images were edited using Photoshop to give a monochrome effect.',
  'mexican-triptych.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3716,7 +3716,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-flower-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3727,7 +3727,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-sugar-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3738,7 +3738,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-skull-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3749,7 +3749,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-skull-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3760,7 +3760,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-skull-diptych.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3771,7 +3771,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'ceramic-skull-triptych.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3782,7 +3782,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'skull-diptych-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3793,7 +3793,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  colours of the Mexican Day of The Dead celebration.',
  'skull-and-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3805,7 +3805,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  design was drawn in proportion.',
  'pink-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3817,7 +3817,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  the design was drawn in proportion.',
  'red-rose-and-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3829,7 +3829,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  the design was drawn in proportion.',
  'floral-arrangement.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3841,7 +3841,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  the design was drawn in proportion.',
  'flower-close-up.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3853,7 +3853,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  the design was drawn in proportion.',
  'pink-flower-purple.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3865,7 +3865,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  inks to add colour to the design.',
  'floral-screen-print.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3877,7 +3877,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  He used inks to add colour to the design.',
 'sugar-skull-screen.print.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3888,7 +3888,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  a kaleidoscope effect.',
  'kaleidoscope-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3899,7 +3899,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  create a kaleidoscope effect.',
  'kaleidoscope-sugar-skulls.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3911,7 +3911,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  the design was drawn in proportion.',
  'blue-sugar-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (78,
@@ -3923,7 +3923,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  design was drawn in proportion.',
  'Skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -3941,7 +3941,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 Hold your head up high',
  'for-eric.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -3951,7 +3951,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'the-quietest-people.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -3961,7 +3961,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Inspired by the rainbow',
  'Pattern.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -3971,38 +3971,38 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'parrot.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
  'Lia-Nicole Houseman',
- 'I’m Nothing but Human',
+ 'I''m Nothing but Human',
 '30cm by 42cm, Pencil and pen',
 'Symbolises that everybody is treated differently but we are all human and we are all 
 the same on the inside',
  'nothing-but-human.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
- 'Emily O’Gara',
+ 'Emily O''Gara',
  'Passing of Time',
 '60cm by 42cm, Poster paint',
 'Significant symbols in my life',
  'passing-of-time.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
  'Rebecca Atherton',
- 'I’m a Star',
+ 'I''m a Star',
 '60cm by 42cm, Paint',
 'Work incorporating my initials using symbols and abstract splats',
- 'I’m a Star.jpg');
+ 'im-a-star.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4012,7 +4012,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'My work is based on graphic logos, focussing on Superheroes.',
  'super.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4022,7 +4022,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'star-gazing.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4032,7 +4032,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Important letters and numbers inspired by Jasper Johns',
  'abstract-symbols.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4042,7 +4042,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'This represents the beauty of world peace, Live. Unite. Rejoice',
  'nations-unite.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4052,7 +4052,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'This work was inspired by Jasper Johns. In the work it says Taylor Cole',
  'blur.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4062,18 +4062,18 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'An abstract painting inspired by Jasper Johns using the bright colours that spoke to me.',
  'swirl-in-world.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
  'Ben Antrobus',
  'Abstract FC',
 '44cm by 44cm, Paint and pen',
-'My painting is based on Jasper John’s work. I’ve created and abstract piece using 
+'My painting is based on Jasper John''s work. I''ve created and abstract piece using 
 the letters L.F.C',
  'abstract-f-c.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4083,7 +4083,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Abstract work using texture',
  'spotty-numbers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4093,7 +4093,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Selected numbers and letters with splashes',
  'controlled-chaos.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4103,7 +4103,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Random numbers and letters in pink and purple',
  'messy-mania.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4113,7 +4113,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'letters-and-numbers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4123,7 +4123,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'm.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4133,7 +4133,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'b.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4143,7 +4143,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  '1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4153,7 +4153,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'after-jasper.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4163,7 +4163,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'circle.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4173,7 +4173,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'My mask has been created to attract people to him.',
  'african-mask.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (79,
@@ -4183,7 +4183,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 NULL,
  'the-mask.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4200,7 +4200,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Fine liner gives more detail to my picture of a little girl.',
  'mercury-dream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4210,7 +4210,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'I did a painting of a gold cat and used a felt liner around the outlines.',
  'the-golden-miaow.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4220,7 +4220,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'I came up with the flower puppy because I love puppies and I was thinking of flowers.',
  'flower-puppy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4232,7 +4232,7 @@ lovely picture of a little girl with patterns and colour and then cut and curled
 paper to make it slightly 3D',
  'little-girl-shine.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4242,7 +4242,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'A nature like picture based on the Arctic Wolf, it took me a term to finish.',
  'two-lives-of-a-wolf.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4252,7 +4252,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'My art piece represents we are all different and unique in different ways.',
  'rainbow-fusion.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4263,7 +4263,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 different flowers that I have in my garden.',
  'Flower Meadow.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4274,7 +4274,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 cogs, so I decided to try and draw it.',
  'found-the-clocks.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (80,
@@ -4285,7 +4285,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 eye and I suddenly had a burst of inspiration.',
  'standing-proud.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4302,51 +4302,51 @@ VALUES (81,
 'During our World War One day I painted a battleground with a fiery sky in the background.',
 'battle-ground-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (81,
 'Olivia Smith',
-'Bodies on Flander’s Fields',
+'Bodies on Flander''s Fields',
 '29cm x 41cm, Paint',
 'I painted this picture on the anniversary of World War One. It helped me to remember 
 those who had died for us in battle.',
 'bodies-on-flanders-fields.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (81,
-'Amelie O’Hanlon',
+'Amelie O''Hanlon',
 'The Battlefield.',
 '29cm x 41cm, Paint',
 'During World War One Day in school I painted a picture of a battlefield with soldiers.',
 'the-battlefield.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (81,
 'James Roberts',
-'Dead Man’s Land ',
+'Dead Man''s Land ',
 '29cm x 41cm, Paint',
 'I painted this picture on World War One Day to try and imagine what it was 
 like then, on the battlefield.',
 'dead-mans-land.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (81,
-'Ruari O’Brien',
+'Ruari O''Brien',
 'My Portrait',
 '18cm x 23cm, Pencil',
 'I drew my portrait and thought it was great so I chose it to be entered 
 into the competition.',
 'my-portrait.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (81,
@@ -4357,7 +4357,7 @@ VALUES (81,
 to think about how awful it must have been for the soldiers. ',
 'battle-royale.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4375,7 +4375,7 @@ VALUES (82,
 'A research sheet exploring the work of Printmaker Angie Lewin. ',
 'angie-lewin-inspiration.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4385,7 +4385,7 @@ VALUES (82,
 'A research sheet developing ideas in the style of artist Angie Lewin. ',
 'natural-forms.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4395,7 +4395,7 @@ VALUES (82,
 'A graphic outcome on the theme of food.',
 'tasty.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4405,7 +4405,7 @@ VALUES (82,
 'A mixed media piece developed from the theme of food.',
 'yummy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4415,7 +4415,7 @@ VALUES (82,
 'A mixed media graphic piece inspired by the theme Food.',
 'cherry-bakewell.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4425,47 +4425,47 @@ VALUES (82,
 'A graphic outcome on the theme of food using mixed media.',
 'Cupcake.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
 'Anna Nolan',
 'Vintage Botanicals',
 '29cm x 34cm, Collage, acrylic paint and pen',
-'A piece inspired by artist Angie Lewin and 1950’s textile designs.',
+'A piece inspired by artist Angie Lewin and 1950''s textile designs.',
 'vintage-botanicals.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
 'Leah Finnigan',
 'Angie Lewin Inspired',
 '28cm x 25cm, Acrylic Paint, collage and pen',
-'A piece inspired by artist Angie Lewin and 1950’s textile designs. ',
+'A piece inspired by artist Angie Lewin and 1950''s textile designs. ',
 'angie-lewin-inspired.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
 'Carli Duncalf',
-'1950’s inspired',
+'1950''s inspired',
 '31cm x 31cm, Acrylic Paint, collage and pen',
 'A design inspired by Angie Lewin prints.',
 '1950s-inspired.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
 'Jack Cooke',
-'Inspired by 1950’s textiles',
+'Inspired by 1950''s textiles',
 '29cm x 28cm, Acrylic Paint, collage and pen',
-'A botanical design inspired by 1950’s textiles',
+'A botanical design inspired by 1950''s textiles',
 'inspired-by-1950s-textiles.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4475,7 +4475,7 @@ VALUES (82,
 'A repeat pattern made using Photoshop from original work.',
 'digital-repeat-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4485,7 +4485,7 @@ VALUES (82,
 'A repeat pattern made using Photoshop from original work.',
 'digital-repeat-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (82,
@@ -4495,7 +4495,7 @@ VALUES (82,
 'A repeat pattern made using Photoshop from original work.',
 'digital-repeat-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4515,7 +4515,7 @@ style, Cubism is a painting movement developed by Picasso and Braque around 1907
 it became a major influence.',
 'cubism-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -4527,7 +4527,7 @@ VALUES (83,
 Cubism and is of my school. Cubism was a movement which Picasso started.',
 'cubism-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4538,7 +4538,7 @@ VALUES (83,
 to look very different; I changed to angles and added colour.',
 'cubism-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4550,7 +4550,7 @@ taken a picture of my school and changed the angles and colour to make it look l
 a Picasso.',
 'cubism-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4561,7 +4561,7 @@ VALUES (83,
 and changed to angles and colours.',
 'cubism-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4572,7 +4572,7 @@ VALUES (83,
 a major influence and I was inspired so tried to create my own cubist piece of work.',
 'cubism-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4583,7 +4583,7 @@ VALUES (83,
 and create a cubist piece work.',
 'cubism-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4594,7 +4594,7 @@ VALUES (83,
 in different ways. It is a very inspiring piece of art. ',
 'cubism-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4605,7 +4605,7 @@ VALUES (83,
 picture from around my school.',
 'cubism-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4615,7 +4615,7 @@ VALUES (83,
 'For this piece I was inspired by Picasso and Braque and the Cubist movement.',
 'cubism-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4626,7 +4626,7 @@ VALUES (83,
 together in different ways. It is a very inspiring piece of art.',
 'cubism-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4637,7 +4637,7 @@ VALUES (83,
 I took my inspiration from Picasso who started Cubism in the 1900s. My picture is very colourful.',
 'cubism-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4647,7 +4647,7 @@ VALUES (83,
 'This is my own colourful attempt at Cubism. It is taken from around my school. ',
 'cubism-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4658,7 +4658,7 @@ VALUES (83,
 I really enjoyed colouring in my school!',
 'cubism-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4669,7 +4669,7 @@ VALUES (83,
 a cubist piece of work. ',
 'cubism-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4680,7 +4680,7 @@ VALUES (83,
 different angles and with different colours. ',
 'cubism-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4692,7 +4692,7 @@ a painting movement developed by Picasso and Braque around 1907. This piece is a
 my school! ',
 'cubism-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4703,7 +4703,7 @@ VALUES (83,
 changed and coloured in with oil pastels. ',
 'cubism-18.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4715,7 +4715,7 @@ around and added colour. Cubism is a painting movement developed by Picasso and 
 around 1907, it became a major influence.',
 'cubism-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4726,7 +4726,7 @@ VALUES (83,
 changed and coloured in with oil pastels.',
 'cubism-20.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (83,
@@ -4738,7 +4738,7 @@ style, Cubism is a painting movement developed by Picasso and Braque around 1907
 became a major influence. I used oil pastels. ',
 'cubism-21.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4756,7 +4756,7 @@ VALUES (110,
 NULL,
 'personal-possessions-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4766,7 +4766,7 @@ VALUES (110,
 NULL,
 'personal-possessions-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4776,7 +4776,7 @@ VALUES (110,
 NULL,
 'personal-possessions-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4786,7 +4786,7 @@ VALUES (110,
 NULL,
 'personal-possessions-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4796,7 +4796,7 @@ VALUES (110,
 NULL,
 'personal-possessions-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4806,7 +4806,7 @@ VALUES (110,
 NULL,
 'personal-possessions-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4816,7 +4816,7 @@ VALUES (110,
 NULL,
 'personal-possessions-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4826,7 +4826,7 @@ VALUES (110,
 NULL,
 'personal-possessions-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4836,7 +4836,7 @@ VALUES (110,
 NULL,
 'personal-possessions-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4846,7 +4846,7 @@ VALUES (110,
 NULL,
 'personal-possessions-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4855,7 +4855,7 @@ VALUES (110,
 '84cm x 60cm, Charcoal & Chalks',
 NULL,
 'personal-possessions-11.jpg');
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4865,7 +4865,7 @@ VALUES (110,
 NULL,
 'personal-possessions-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (110,
@@ -4875,7 +4875,7 @@ VALUES (110,
 NULL,
 'personal-possessions-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -4891,7 +4891,7 @@ VALUES (84,
 NULL,
 'sleeping-nursery-rhyme.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4901,7 +4901,7 @@ VALUES (84,
 NULL,
 'nursery-rhyme-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4911,7 +4911,7 @@ VALUES (84,
 NULL,
 'poems-sleeping-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4921,7 +4921,7 @@ VALUES (84,
 NULL,
 'sleeping-cow.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4931,7 +4931,7 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-woman.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4941,7 +4941,7 @@ VALUES (84,
 NULL,
 'lion-and-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4951,7 +4951,7 @@ VALUES (84,
 NULL,
 'hey-diddle-fiddle.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4961,7 +4961,7 @@ VALUES (84,
 NULL,
 'hey-diddle-diddle.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4971,7 +4971,7 @@ VALUES (84,
 NULL,
 'sleeping-lion.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4981,7 +4981,7 @@ VALUES (84,
 NULL,
 'jumping-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -4991,7 +4991,7 @@ VALUES (84,
 NULL,
 'hey-diddle-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5001,7 +5001,7 @@ VALUES (84,
 NULL,
 'sleeping-fiddles.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5011,7 +5011,7 @@ VALUES (84,
 NULL,
 'sleeping-sun.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5021,7 +5021,7 @@ VALUES (84,
 NULL,
 'smiling-dish-spoon.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5031,17 +5031,17 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
 'Lewis Randles',
-'Hey diddle diddle the cat and the fiddle, the gypsy slept under the moon',
+'Hey diddle diddle the cat and the fiddle...',
 '30cm x 42cm, Mixed media',
 NULL,
 'gypsy-slept.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5051,7 +5051,7 @@ VALUES (84,
 NULL,
 'nursery-rhyme-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5061,7 +5061,7 @@ VALUES (84,
 NULL,
 'smiling-lion.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5071,7 +5071,7 @@ VALUES (84,
 NULL,
 'standing-lion.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5081,7 +5081,7 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5091,7 +5091,7 @@ VALUES (84,
 NULL,
 'starry-night.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5101,7 +5101,7 @@ VALUES (84,
 NULL,
 'lion-gypsy.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5111,7 +5111,7 @@ VALUES (84,
 NULL,
 'sleepy-cow.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5121,7 +5121,7 @@ VALUES (84,
 NULL,
 'under-the-moonlight.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5131,7 +5131,7 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5141,7 +5141,7 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (84,
@@ -5151,7 +5151,7 @@ VALUES (84,
 NULL,
 'sleeping-gypsy-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -5169,7 +5169,7 @@ VALUES (111,
 NULL,
 'study-of-nature.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5179,7 +5179,7 @@ VALUES (111,
 NULL,
 'natures-arms.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5189,7 +5189,7 @@ VALUES (111,
 NULL,
 'study-of-nature-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5199,7 +5199,7 @@ VALUES (111,
 NULL,
 'print-of-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5209,7 +5209,7 @@ VALUES (111,
 NULL,
 'print-of-flowers-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5219,7 +5219,7 @@ VALUES (111,
 NULL,
 'peas-in-pod.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5229,7 +5229,7 @@ VALUES (111,
 NULL,
 'two-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5239,7 +5239,7 @@ VALUES (111,
 NULL,
 'inside-the-flower.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (111,
@@ -5249,7 +5249,7 @@ VALUES (111,
 NULL,
 'natures-patterns.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -5268,7 +5268,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5280,7 +5280,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5292,7 +5292,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5304,7 +5304,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5316,7 +5316,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5328,7 +5328,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5340,7 +5340,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5352,7 +5352,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5364,7 +5364,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5376,7 +5376,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5388,7 +5388,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5400,7 +5400,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5412,7 +5412,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5424,7 +5424,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5436,7 +5436,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5448,7 +5448,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5460,7 +5460,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5472,7 +5472,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-18.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5484,7 +5484,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-19.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5496,7 +5496,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-20.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5508,7 +5508,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-21.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5520,7 +5520,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-22.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5532,7 +5532,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-23.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5544,7 +5544,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-24.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (85,
@@ -5556,7 +5556,7 @@ of neutral materials to build up our landscape with a 3D perspective. We used a 
 amount of wax to resist the ink and used three ink colours to paint our landscape.',
 'landscape-25.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -5574,7 +5574,7 @@ Photoshop. Kevin has also used a graphics tablet to alter the images and create 
 final design.',
 'left-below.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5585,7 +5585,7 @@ VALUES (112,
 She has carefully created painted layers to create the finished image.',
 'eye.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5596,7 +5596,7 @@ VALUES (112,
 created by layering images.',
 'beyonce.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5607,7 +5607,7 @@ VALUES (112,
 altering them and painting using a graphics tablet.',
 'screams.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5618,7 +5618,7 @@ VALUES (112,
 created by layering images.',
 'collage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5628,7 +5628,7 @@ VALUES (112,
 'Close up study of a section of a moth.',
 'Moths.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5638,7 +5638,7 @@ VALUES (112,
 'Study of a section of a moth.',
 'moth-study.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5648,7 +5648,7 @@ VALUES (112,
 'Close up study of a moth.',
 'moth-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5659,7 +5659,7 @@ VALUES (112,
 mixed media to create layers.',
 'natural-forms.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5669,7 +5669,7 @@ VALUES (112,
 'Sophie created this warm study of natural forms by creating layers with mixed media.',
 'detail-natural-forms.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5679,7 +5679,7 @@ VALUES (112,
 'Close up study of natural forms using mixed media to create a layered final piece.',
 'close-up.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5689,7 +5689,7 @@ VALUES (112,
 'Close up study of a fish.',
 'fish.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5700,7 +5700,7 @@ VALUES (112,
 media to create layers.',
 'sea-creature.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5710,7 +5710,7 @@ VALUES (112,
 'Close up study of a moth.',
 'moth-detail.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
@@ -5720,7 +5720,7 @@ VALUES (112,
 'Close up study of a section of a moth.',
 'moth-detail.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -5737,127 +5737,118 @@ VALUES (113,
 NULL,
 'l-f-c.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Mollie Jones',
-'A day in the life of St. Chad’s 1',
+'A day in the life of St. Chad''s 1',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
-INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
-VALUES (113,
-'Ella Clarke',
-'my life at St. Chad’s',
-'30 x 42cm, Mixed media,acrylic layered over paper',
-NULL,
-'my-life-st-chads.jpg');
-
-----------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Emily Dunwoody',
-'A day in the life of St. Chad’s 2',
+'A day in the life of St. Chad''s 2',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Ruby Thornton',
-'A day in the life of St. Chad’s 3',
+'A day in the life of St. Chad''s 3',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Neve Carroll',
-'A day in the life of St. Chad’s 4',
+'A day in the life of St. Chad''s 4',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Robyn Bibby',
-'A day in the life of St. Chad’s 5',
+'A day in the life of St. Chad''s 5',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Billie Jo Jones',
-'A day in the life of St. Chad’s 6',
+'A day in the life of St. Chad''s 6',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Charlotte Hulme',
-'A day in the life of St. Chad’s 7',
+'A day in the life of St. Chad''s 7',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Niamh King -Haughey',
-'A day in the life of St. Chad’s 8',
+'A day in the life of St. Chad''s 8',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Jordan Robinson',
-'A day in the life of St. Chad’s 9',
+'A day in the life of St. Chad''s 9',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Courtney Alexander-Hughes',
-'A day in the life of St. Chad’s 10',
+'A day in the life of St. Chad''s 10',
 '30 x 42cm, Mixed media,acrylic layered over paper',
 NULL,
 'life-of -st-chads-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Ella Clarke',
-'A day in the life of St. Chad’s 11',
+'A day in the life of St. Chad''s 11',
 '30 x 42cm, Mixed media,acrylic layered over paper,felt tips',
 NULL,
 'life-of -st-chads-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5867,7 +5858,7 @@ VALUES (113,
 NULL,
 'french-metalwork-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5877,7 +5868,7 @@ VALUES (113,
 NULL,
 'french-metalwork-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5886,7 +5877,7 @@ VALUES (113,
 '30 x 30cm, Paper and coloured pencils, aquarelle, ink metallic thread',
 NULL,
 'french-metalwork-3.jpg');
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5896,7 +5887,7 @@ VALUES (113,
 NULL,
 'french-metalwork-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5906,7 +5897,7 @@ VALUES (113,
 NULL,
 'french-metalwork-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5916,7 +5907,7 @@ VALUES (113,
 NULL,
 'french-metalwork-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
 'Amy Farrell',
@@ -5925,17 +5916,17 @@ VALUES (113,
 NULL,
 'french-metalwork-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
-'Ben O’Toole',
+'Ben O''Toole',
 'Decorative French Style metalwork 8',
 '30 x 30cm, Paper and coloured pencils, aquarelle, ink metallic thread',
 NULL,
 'french-metalwork-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5945,7 +5936,7 @@ VALUES (113,
 NULL,
 'french-metalwork-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5955,7 +5946,7 @@ VALUES (113,
 NULL,
 'french-metalwork-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5965,7 +5956,7 @@ VALUES (113,
 NULL,
 'french-metalwork-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (113,
@@ -5975,7 +5966,7 @@ VALUES (113,
 NULL,
 'french-metalwork-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -5994,7 +5985,7 @@ VALUES (86,
 so I am interested in music.',
 'musical-instruments.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6005,18 +5996,18 @@ VALUES (86,
 recreated to make my own unique design.',
 'keith-haring-tribute.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
 'Shannon Gibbons',
-'Flowers inspired by Georgia O’Keeffe',
+'Flowers inspired by Georgia O''Keeffe',
 '44 x 29cm,Chalk pastels',
-'I looked at the work of Georgia O’Keeffe in art club and I loved her artwork. 
+'I looked at the work of Georgia O''Keeffe in art club and I loved her artwork. 
 I created my own version using chalk pastels and smudging the colours together.',
 'georgia-okeefe-flowers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6028,7 +6019,7 @@ oil on canvas. I created my own version using acrylic paint and layering the col
 to create the effect of autumn leaves. ',
 'touch-of-autumn.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6039,7 +6030,7 @@ VALUES (86,
 they used. I created my own design based on examples I had studied.',
 'garden-girl.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6050,18 +6041,18 @@ VALUES (86,
 He inspires me and I love his paintings because they use vibrant colours. ',
 'landscape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
 'Abbey May Evans',
 'Rainbow',
 '29 x 41cm, Chalk pastels',
-'I looked at the work of Georgia O’Keeffe in art club and I loved her artwork. 
+'I looked at the work of Georgia O''Keeffe in art club and I loved her artwork. 
 I created my own version using chalk pastels and smudging the colours together.',
 'rainbow.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6072,7 +6063,7 @@ VALUES (86,
 in mythical creatures, for example Minotaurs, so that is why I chose it for my artwork.',
 'war-of-dragons.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6084,7 +6075,7 @@ symbol using chalk pastels. This is what people think it would look like, but re
 symbol is an owl in the middle standing on a perch with a circle of leaves surrounding it.',
 'eye-of-illuminati.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6095,7 +6086,7 @@ VALUES (86,
 the dark background as it makes the colours stand out.',
 'bookshelf.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6106,7 +6097,7 @@ VALUES (86,
 Then I used chalk pastels to colour it in so that I could blend the colours.',
 'tasmanian-devil.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (86,
@@ -6117,7 +6108,7 @@ VALUES (86,
 sketch based on gaming foes.',
 'twins.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -6133,7 +6124,7 @@ VALUES (87,
 NULL,
 'close-up.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6143,7 +6134,7 @@ VALUES (87,
 NULL,
 'checkmate.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6153,7 +6144,7 @@ VALUES (87,
 NULL,
 'time-for-tea.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6163,7 +6154,7 @@ VALUES (87,
 NULL,
 'alice-in-wonderland.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6173,7 +6164,7 @@ VALUES (87,
 NULL,
 'sugar-blast.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6183,7 +6174,7 @@ VALUES (87,
 NULL,
 'through-the-keyhole.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6193,7 +6184,7 @@ VALUES (87,
 NULL,
 'my-reality.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6203,7 +6194,7 @@ VALUES (87,
 NULL,
 'food-for-thought.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6213,7 +6204,7 @@ VALUES (87,
 NULL,
 'marshmallows.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6223,7 +6214,7 @@ VALUES (87,
 NULL,
 'still-life.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6233,7 +6224,7 @@ VALUES (87,
 NULL,
 'playing-cards.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6243,7 +6234,7 @@ VALUES (87,
 NULL,
 'tea-party.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6253,7 +6244,7 @@ VALUES (87,
 NULL,
 'snack-attack.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6263,17 +6254,17 @@ VALUES (87,
 NULL,
 'story-time.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
 'Jack Humphreys',
-'Madhatter’s Dream',
+'Madhatter''s Dream',
 '30 x 42cm, Mixed media collage',
 NULL,
 'madhatters-dream.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6283,17 +6274,17 @@ VALUES (87,
 NULL,
 'keyhole-abstract.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
 'Anna Owen',
-'Alice’s Journey',
+'Alice''s Journey',
 '30 x 42cm, Mixed media',
 NULL,
 'alices-journey.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6303,17 +6294,17 @@ VALUES (87,
 NULL,
 'am-i-mad.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
 'Jack Armstrong',
-'XOG’s Quest',
+'XOG''s Quest',
 '30 x 42cm, Photography, watercolours and pencil',
 NULL,
 'xogs-quest.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6323,7 +6314,7 @@ VALUES (87,
 NULL,
 'bonkers.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6333,7 +6324,7 @@ VALUES (87,
 NULL,
 'this-morning.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6343,7 +6334,7 @@ VALUES (87,
 NULL,
 'Cheshire Cat.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (87,
@@ -6353,7 +6344,7 @@ VALUES (87,
 NULL,
 'delicious.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -6372,7 +6363,7 @@ that she is prepared to sacrifice her life for. The message is that you must be 
 to suffer or fight if you wish to protect or prevent something',
 'fight-or-flight.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (114,
@@ -6384,7 +6375,7 @@ personality. The overlapping and woven images in my picture shows how life is mo
 complicated than it looks or seems',
 '14-billion-faces.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (114,
@@ -6394,7 +6385,7 @@ VALUES (114,
 'My work uses mendhi designs and is about spring.',
 'butterfly.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -6411,7 +6402,7 @@ VALUES (115,
 NULL,
 'african-mask-design-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6421,7 +6412,7 @@ VALUES (115,
 NULL,
 'african-mask-design-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6431,7 +6422,7 @@ VALUES (115,
 NULL,
 'african-mask-design-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6441,7 +6432,7 @@ VALUES (115,
 NULL,
 'african-mask-design-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6451,7 +6442,7 @@ VALUES (115,
 NULL,
 'african-mask-design-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6461,7 +6452,7 @@ VALUES (115,
 NULL,
 'african-mask-design-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6471,7 +6462,7 @@ VALUES (115,
 NULL,
 'african-mask-design-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6481,7 +6472,7 @@ VALUES (115,
 NULL,
 'african-mask-design-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6491,17 +6482,17 @@ VALUES (115,
 NULL,
 'african-mask-design-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
-'Ellie O’Driscoll',
+'Ellie O''Driscoll',
 'African mask design 10',
 '60 x 78cm, Mixed media',
 NULL,
 'african-mask-design-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6511,7 +6502,7 @@ VALUES (115,
 NULL,
 'african-mask-design-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6521,7 +6512,7 @@ VALUES (115,
 NULL,
 'african-mask-design-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6531,7 +6522,7 @@ VALUES (115,
 NULL,
 'african-mask-design-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6541,7 +6532,7 @@ VALUES (115,
 NULL,
 'african-mask-design-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6551,7 +6542,7 @@ VALUES (115,
 NULL,
 'african-mask-design-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6561,7 +6552,7 @@ VALUES (115,
 NULL,
 'african-mask-design-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (115,
@@ -6571,7 +6562,7 @@ VALUES (115,
 NULL,
 'african-mask-design-17.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -6590,7 +6581,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6601,7 +6592,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6612,7 +6603,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6623,7 +6614,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6634,7 +6625,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6645,7 +6636,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6656,7 +6647,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6667,7 +6658,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6678,7 +6669,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6689,7 +6680,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6700,7 +6691,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6711,7 +6702,7 @@ VALUES (116,
 One Area Of Opposite Colour Range',
 'palm-house-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6721,7 +6712,7 @@ VALUES (116,
 NULL,
 'skull-patterns-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6731,7 +6722,7 @@ VALUES (116,
 NULL,
 'skull-patterns-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6741,7 +6732,7 @@ VALUES (116,
 NULL,
 'skull-patterns-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6751,7 +6742,7 @@ VALUES (116,
 NULL,
 'skull-patterns-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6761,7 +6752,7 @@ VALUES (116,
 NULL,
 'skull-patterns-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6771,7 +6762,7 @@ VALUES (116,
 NULL,
 'skull-patterns-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6781,7 +6772,7 @@ VALUES (116,
 NULL,
 'skull-patterns-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (116,
@@ -6791,7 +6782,7 @@ VALUES (116,
 NULL,
 'skull-patterns-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -6811,7 +6802,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6823,7 +6814,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6835,7 +6826,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6847,7 +6838,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6859,7 +6850,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6871,7 +6862,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6883,7 +6874,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6895,7 +6886,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6907,7 +6898,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6919,7 +6910,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6931,7 +6922,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-11.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6943,7 +6934,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-12.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6955,7 +6946,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-13.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6967,7 +6958,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-14.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6979,7 +6970,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-15.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -6991,7 +6982,7 @@ and Motorbikes.  The work was influenced by Iain Mcarthur.  Initial research exp
 Salvador Dali and Rene Magritte.',
 'surrealism-16.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -7002,7 +6993,7 @@ VALUES (117,
 in colour and with an expression that captures the frenetic energy of urban life.',
 'midtown.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -7013,7 +7004,7 @@ VALUES (117,
 in colour and with an expression that captures the frenetic energy of urban life.',
 'surrealism-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -7024,7 +7015,7 @@ VALUES (117,
 in colour and with an expression that captures the frenetic energy of urban life.',
 'statue-of-liberty.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (117,
@@ -7035,7 +7026,7 @@ VALUES (117,
 in colour and with an expression that captures the frenetic energy of urban life.',
 'empire-state-building.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -7053,7 +7044,7 @@ VALUES (88,
 'A developmental piece as part of a portraiture project',
 'self-portrait-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7063,7 +7054,7 @@ VALUES (88,
 'A developmental drawing in response to a project on the theme of protection.',
 'hiding-behind-mask.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7073,7 +7064,7 @@ VALUES (88,
 'A response to photographic ideas around camouflage and disguise',
 'hidden-away.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7083,7 +7074,7 @@ VALUES (88,
 'A print based response to photography on vulnerability and protection.',
 'fragile.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7094,7 +7085,7 @@ VALUES (88,
 wealth and poverty and highlighting the tragic circumstances of homelessness.',
 'home.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7104,7 +7095,7 @@ VALUES (88,
 'A print response to a miniature world created in photographs',
 'lost.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7114,7 +7105,7 @@ VALUES (88,
 'An image responding to ideas of protection and issues that impact on some teenagers',
 'feel.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7125,7 +7116,7 @@ VALUES (88,
 associations with protection',
 'battle-scars.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7135,7 +7126,7 @@ VALUES (88,
 'A developmental piece as part of a portraiture project',
 'self-portrait-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7145,7 +7136,7 @@ VALUES (88,
 NULL,
 'escape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7155,7 +7146,7 @@ VALUES (88,
 NULL,
 'hidden.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7165,7 +7156,7 @@ VALUES (88,
 NULL,
 'brad.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7175,17 +7166,17 @@ VALUES (88,
 'A response to ideas of the protection we find in the safety of our homes',
 'shelter.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
-'Olivia O’Connell',
+'Olivia O''Connell',
 'Self portrait 3',
 '42 x 30cm, Pencil',
 'A developmental piece as part of a portraiture project',
 'self-portrait-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (88,
@@ -7195,7 +7186,7 @@ VALUES (88,
 'A response to fears of the dark and ideas that the light and our bedrooms protect us.',
 'Darkness Falls.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -7216,7 +7207,7 @@ VALUES (118,
 NULL,
 'flame-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7226,7 +7217,7 @@ VALUES (118,
 NULL,
 'lonely-church-night.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7236,7 +7227,7 @@ VALUES (118,
 NULL,
 'war-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7246,7 +7237,7 @@ VALUES (118,
 NULL,
 'dusky-sky.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7256,7 +7247,7 @@ VALUES (118,
 NULL,
 'through-a-window.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7266,7 +7257,7 @@ VALUES (118,
 NULL,
 'twilight-horizon.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7276,7 +7267,7 @@ VALUES (118,
 NULL,
 'abandoned-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7286,7 +7277,7 @@ VALUES (118,
 NULL,
 'up-it-goes.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7296,17 +7287,17 @@ VALUES (118,
 NULL,
 'window-of-doom.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
 'Ella Cooper',
-'Am Milky Sky at St. Luke’s',
+'Am Milky Sky at St. Luke''s',
 '21 x 30cm, Sketching pencil',
 NULL,
-'milky-sky-st-luke’s.jpg');
+'milky-sky-st-luke''s.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7316,7 +7307,7 @@ VALUES (118,
 NULL,
 'window-on-wall.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7326,7 +7317,7 @@ VALUES (118,
 NULL,
 'bombed-out-building.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7336,7 +7327,7 @@ VALUES (118,
 NULL,
 'bombed-out-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7346,7 +7337,7 @@ VALUES (118,
 NULL,
 'church-clock.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7356,7 +7347,7 @@ VALUES (118,
 NULL,
 'window-to-the-sky.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7366,7 +7357,7 @@ VALUES (118,
 NULL,
 'dawn-breaks.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7376,7 +7367,7 @@ VALUES (118,
 NULL,
 'sunset-over-clock-tower .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7386,7 +7377,7 @@ VALUES (118,
 NULL,
 'gateway-to-heaven .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7396,17 +7387,17 @@ VALUES (118,
 NULL,
 'rooftops.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
 'Olivia Dickinson',
-'God’s Height',
+'God''s Height',
 '21 x 30cm, Sketching pencil and watercolour',
 NULL,
 'gods-height.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7416,7 +7407,7 @@ VALUES (118,
 NULL,
 'stained-glass-window.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7426,7 +7417,7 @@ VALUES (118,
 NULL,
 'bombed-out-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7436,7 +7427,7 @@ VALUES (118,
 NULL,
 'church-before-midnight.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (118,
@@ -7446,7 +7437,7 @@ VALUES (118,
 NULL,
 'abandoned-church-yard.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -7462,7 +7453,7 @@ VALUES (89,
 NULL,
 'wheat-field-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7472,7 +7463,7 @@ VALUES (89,
 NULL,
 'wheat-field-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7482,7 +7473,7 @@ VALUES (89,
 NULL,
 'wheat-field-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7492,7 +7483,7 @@ VALUES (89,
 NULL,
 'sunflowers-in-vase.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7502,7 +7493,7 @@ VALUES (89,
 NULL,
 'noon rest-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7512,7 +7503,7 @@ VALUES (89,
 NULL,
 'noon rest-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7522,7 +7513,7 @@ VALUES (89,
 NULL,
 'self-portrait-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7532,7 +7523,7 @@ VALUES (89,
 NULL,
 'self-portrait-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7542,7 +7533,7 @@ VALUES (89,
 NULL,
 'self-portrait-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7552,7 +7543,7 @@ VALUES (89,
 NULL,
 'self-portrait-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7562,7 +7553,7 @@ VALUES (89,
 NULL,
 'young-peasant-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7572,7 +7563,7 @@ VALUES (89,
 NULL,
 'young-peasant-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7582,7 +7573,7 @@ VALUES (89,
 NULL,
 'young-peasant-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7592,7 +7583,7 @@ VALUES (89,
 NULL,
 'vase-daisies-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7602,7 +7593,7 @@ VALUES (89,
 NULL,
 'vase-daisies-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (89,
@@ -7612,7 +7603,7 @@ VALUES (89,
 NULL,
 'vase-daisies-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -7630,7 +7621,7 @@ VALUES (90,
 NULL,
 'stepping-stones.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7640,7 +7631,7 @@ VALUES (90,
 NULL,
 'the-knot.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7650,7 +7641,7 @@ VALUES (90,
 NULL,
 'looking-glass.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7660,7 +7651,7 @@ VALUES (90,
 NULL,
 'shadows.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7670,7 +7661,7 @@ VALUES (90,
 NULL,
 'reflect.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7680,7 +7671,7 @@ VALUES (90,
 NULL,
 'textures.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
 'Khaled Al-Saqqaf',
@@ -7689,7 +7680,7 @@ VALUES (90,
 NULL,
 'mirror.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7699,7 +7690,7 @@ VALUES (90,
 NULL,
 'the-view.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7709,7 +7700,7 @@ VALUES (90,
 NULL,
 'ocean-eye.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7719,7 +7710,7 @@ VALUES (90,
 NULL,
 'the-maze.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7729,7 +7720,7 @@ VALUES (90,
 NULL,
 'oak-of-stone.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7739,7 +7730,7 @@ VALUES (90,
 NULL,
 'big-wheel.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7749,7 +7740,7 @@ VALUES (90,
 NULL,
 'quiet-place.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7759,7 +7750,7 @@ VALUES (90,
 NULL,
 'wall-of-stone .jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7769,7 +7760,7 @@ VALUES (90,
 NULL,
 'the-wheel-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7779,7 +7770,7 @@ VALUES (90,
 NULL,
 'stumps.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (90,
@@ -7789,7 +7780,7 @@ VALUES (90,
 NULL,
 'the-wheel.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -7808,7 +7799,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7818,7 +7809,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7828,7 +7819,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7838,7 +7829,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7848,7 +7839,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-5.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7858,7 +7849,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-6.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7868,7 +7859,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead',
 'day-of-the-dead-7.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7878,7 +7869,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead',
 'day-of-the-dead-8.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7888,7 +7879,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead',
 'day-of-the-dead-9.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7898,7 +7889,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'native-american.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7908,7 +7899,7 @@ VALUES (119,
 'Celebrating Mexican Day of the Dead through the medium of print',
 'day-of-the-dead-10.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7918,7 +7909,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'the-hand-that-time-forgot.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7928,7 +7919,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'haunted-hand.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7938,7 +7929,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'nature-reclaimed-hand.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7948,7 +7939,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'ouch-hand.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7958,7 +7949,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'right-hand-drive.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7968,7 +7959,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'the-punch.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7978,7 +7969,7 @@ VALUES (119,
 NULL,
 'liverpool-skyline-culture-clash.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7988,7 +7979,7 @@ VALUES (119,
 NULL,
 'continuous-line-skull.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -7998,7 +7989,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'joy-rider.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -8008,7 +7999,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'first-hand-on-the-moon.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -8018,7 +8009,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'sun-worshipper.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -8028,7 +8019,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'lights-camera-hand.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -8038,7 +8029,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'carnival-hand.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (119,
@@ -8048,7 +8039,7 @@ VALUES (119,
 'Surreal hand cast sculpture. Digital edition',
 'catching-a-wave.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8067,7 +8058,7 @@ VALUES (120,
 NULL,
 'adriannas-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8077,7 +8068,7 @@ VALUES (120,
 NULL,
 'aishas-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8087,7 +8078,7 @@ VALUES (120,
 NULL,
 'christines-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8097,7 +8088,7 @@ VALUES (120,
 NULL,
 'emmas-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8107,7 +8098,7 @@ VALUES (120,
 NULL,
 'lilys-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8117,7 +8108,7 @@ VALUES (120,
 NULL,
 'lukes-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8127,7 +8118,7 @@ VALUES (120,
 NULL,
 'natalias-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8137,7 +8128,7 @@ VALUES (120,
 NULL,
 'phoebes-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8147,7 +8138,7 @@ VALUES (120,
 NULL,
 'ryans-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8157,27 +8148,27 @@ VALUES (120,
 NULL,
 'shreyas-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
 'Sophia Ruddy',
-'Sophia’s tag',
+'Sophia''s tag',
 '42 x 30cm, Coloured pencils',
 NULL,
 'sophias-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
 'Anya Gavin',
-'Anya’s-tag',
+'Anya''s-tag',
 '42 x 30cm, Coloured pencils',
 NULL,
 'anyas-tag.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8187,7 +8178,7 @@ VALUES (120,
 NULL,
 'food-montage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8197,7 +8188,7 @@ VALUES (120,
 NULL,
 'food-medley.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8208,7 +8199,7 @@ VALUES (120,
 piece to defy the title.',
 'nothing-to-declare.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8218,7 +8209,7 @@ VALUES (120,
 NULL,
 'music-medley.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8228,7 +8219,7 @@ VALUES (120,
 'Nothing is perfect. Everything can be improved',
 'symphony-of-chaos.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8238,7 +8229,7 @@ VALUES (120,
 NULL,
 'my-interests.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8249,7 +8240,7 @@ VALUES (120,
 waters. I was inspired by the plants in my back garden.',
 'lot-of-leaves.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8259,17 +8250,17 @@ VALUES (120,
 NULL,
 'stationery.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
 'Katy Fergusson',
-'Grandad, what’s a jigsaw?',
+'Grandad, what''s a jigsaw?',
 '28 x 22cm, Acrylic and pen',
 NULL,
 'whats-a-jigsaw.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8279,7 +8270,7 @@ VALUES (120,
 NULL,
 'inside-my-house.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8290,7 +8281,7 @@ VALUES (120,
 a graphics tablet pen, earphones and a USB.',
 'nerd-at-work.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8300,7 +8291,7 @@ VALUES (120,
 NULL,
 'the-stylist.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (120,
@@ -8308,11 +8299,11 @@ VALUES (120,
 'Stained Glass',
 '42 x 30cm, Watercolour and pen',
 'I was inspired to make this painting when I was walking on my way to school and looking 
-at the nature around me.  Michael Craig-Martin’s overlapping pieces influenced my layout 
+at the nature around me.  Michael Craig-Martin''s overlapping pieces influenced my layout 
 and gives an impression of stained glass.',
 'stained-glass.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8333,7 +8324,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-scene.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8345,7 +8336,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-river-bridge.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8357,7 +8348,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-beach.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8369,7 +8360,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'favourite-teacher.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8381,7 +8372,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-church.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8393,7 +8384,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-mountain.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8405,7 +8396,7 @@ As part of this, they were asked to look at different images of Spain, including
 cultural landmarks in Spain, and create their own artistic response.',
 'spanish-beach-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8417,7 +8408,7 @@ different art materials to explore colour and texture.  He chose to copy a pictu
 building for this piece of work.',
 'building.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8429,7 +8420,7 @@ different art materials to explore colour and texture.  She chose to copy a pict
 building for this piece of work.',
 'building-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (102,
@@ -8441,7 +8432,7 @@ different art materials to explore colour and texture.  He chose to copy a pictu
 water & mountain landscape for this piece of work.',
 'landscape.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8457,21 +8448,21 @@ VALUES (121,
 'Willow Fisher',
 'Monster',
 '60 x 42cm, Watercolour and fineliner',
-'A piece work adapted from a ‘Supergirl’ front cover and developed using 
+'A piece work adapted from a ‘Supergirl'' front cover and developed using 
 watercolour and fineliner.',
 'monster.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (121,
 'Leigh Cleverly',
 'Iron Man',
 '60 x 42cm, Acrylic',
-'A pastiche of Leigh’s favourite comic art images assembled and developed using acrylic.',
+'A pastiche of Leigh''s favourite comic art images assembled and developed using acrylic.',
 'iron-man.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (121,
@@ -8481,19 +8472,19 @@ VALUES (121,
 'A piece developed after looking at the work of Lous Jover',
 'singer.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (121,
 'Sam Carmichel',
 'Spiderman',
 '60 x 42cm, Acrylic',
-'Year 9 have been studying ‘Pop Art and Comics’ producing a project and final piece.
+'Year 9 have been studying ‘Pop Art and Comics'' producing a project and final piece.
 Each of the students have produced a personal response  based on the work of Pop Artist 
 or Comic artistsko such as Frank Miler, Ste Ditko, Litchenstein and Warhol.',
 'spiderman.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (121,
@@ -8503,17 +8494,17 @@ VALUES (121,
 'A piece of mixed-media developed from various Manga/Animie artists.',
 'good-luck.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (121,
 'Megan Iarvin',
 'Captain America',
 '60 x 42cm, Poster paint',
-'A comic scene based on the work of Roy Litchenstein and featuring ‘Captain America!’',
+'A comic scene based on the work of Roy Litchenstein and featuring ‘Captain America!''',
 'captain-america.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8532,7 +8523,7 @@ VALUES (122,
 NULL,
 'curiousity.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8542,7 +8533,7 @@ VALUES (122,
 NULL,
 'beauty-is-beneath.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8552,7 +8543,7 @@ VALUES (122,
 NULL,
 'mechanical-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8562,7 +8553,7 @@ VALUES (122,
 NULL,
 'window-into-my-world.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8572,7 +8563,7 @@ VALUES (122,
 NULL,
 'machine-nature-1.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8582,7 +8573,7 @@ VALUES (122,
 NULL,
 'society-is-dead.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8592,7 +8583,7 @@ VALUES (122,
 NULL,
 'at-night.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8602,7 +8593,7 @@ VALUES (122,
 NULL,
 'natural-form.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8612,7 +8603,7 @@ VALUES (122,
 NULL,
 'machine-nature-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8622,7 +8613,7 @@ VALUES (122,
 NULL,
 'i-am-robot.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8632,7 +8623,7 @@ VALUES (122,
 NULL,
 'dreamworld.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8642,7 +8633,7 @@ VALUES (122,
 NULL,
 'no-more-war.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8652,7 +8643,7 @@ VALUES (122,
 NULL,
 'think-bubble.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8662,7 +8653,7 @@ VALUES (122,
 NULL,
 'inspector-dawg-here.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8672,7 +8663,7 @@ VALUES (122,
 NULL,
 'me-myself-and-i.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8682,7 +8673,7 @@ VALUES (122,
 NULL,
 'mechanical-2.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8692,7 +8683,7 @@ VALUES (122,
 NULL,
 'i-am-legend.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8702,7 +8693,7 @@ VALUES (122,
 NULL,
 'who-am-i.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8712,7 +8703,7 @@ VALUES (122,
 NULL,
 'salute-to-80s.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8722,7 +8713,7 @@ VALUES (122,
 NULL,
 'hidden.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8732,7 +8723,7 @@ VALUES (122,
 NULL,
 'fear.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8742,7 +8733,7 @@ VALUES (122,
 NULL,
 'machine-nature-3.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8752,7 +8743,7 @@ VALUES (122,
 NULL,
 'crunch.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8762,7 +8753,7 @@ VALUES (122,
 NULL,
 'machine-nature-4.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (122,
@@ -8772,7 +8763,7 @@ VALUES (122,
 NULL,
 'my-soul.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8791,7 +8782,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'join-land-army.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8801,7 +8792,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'we-need-you.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8811,7 +8802,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'chums-are-fighting.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8821,7 +8812,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'make-do-mend.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8831,7 +8822,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'go.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8841,7 +8832,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'be-ready.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8851,7 +8842,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'the-great-war.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8861,7 +8852,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'lest-we-forget.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8871,7 +8862,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'women-of-britain.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8881,7 +8872,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'poppy-to-remember.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8891,7 +8882,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'war.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8901,7 +8892,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'keep-calm.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8911,17 +8902,17 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'haunting-flares.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
 'Nicole Marnell',
-'Don’t waste it',
+'Don''t waste it',
 '41 x 15cm, Pencil',
 'Piece based on the anniversary of WWI.',
 'dont-waste-it.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8931,7 +8922,7 @@ VALUES (91,
 'Piece based on the anniversary of WWI.',
 'you-said.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8941,17 +8932,17 @@ VALUES (91,
 'Piece based on Alice in Wonderland.',
 'alice.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
 'Shanane Hollingworth',
-'We’re all mad here',
+'We''re all mad here',
 '36 x 28cm, Pen, pencil, watercolour',
 'Piece based on Alice in Wonderland.',
 'were-all-mad-here.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (91,
@@ -8961,7 +8952,7 @@ VALUES (91,
 'Piece based on Alice in Wonderland.',
 'smile.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
 
@@ -8979,7 +8970,7 @@ VALUES (124,
 'A relief tile based on the Tardis.',
 'tardis.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -8989,7 +8980,7 @@ VALUES (124,
 NULL,
 'cottage.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -8999,7 +8990,7 @@ VALUES (124,
 NULL,
 'balamoray.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -9009,7 +9000,7 @@ VALUES (124,
 NULL,
 'gold-house.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -9019,7 +9010,7 @@ VALUES (124,
 NULL,
 'house.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -9029,7 +9020,7 @@ VALUES (124,
 NULL,
 'house-with-balcony.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (124,
@@ -9039,6 +9030,6 @@ VALUES (124,
 NULL,
 'Liver buildings.jpg');
 
-----------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
 
