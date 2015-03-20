@@ -60,14 +60,6 @@
 # Copy-and-paste the INSERT statement below as many times as you need. Please leave
 # a couple of blank lines between each entry.
 
-INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
- VALUES (93,
- 'Abbie Foster',
- 'Natural Form Flower Head',
- '29 x 21cm, Charcoal and White Chalk',
- NULL,
- 'natural-form-flower-head-1.jpg');
-
 #--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -5715,10 +5707,10 @@ VALUES (112,
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
 VALUES (112,
 'Natalie Tait',
-'Moth Detail',
+'Moth Close Up',
 '21 x 21cm, Watercolour on paper',
 'Close up study of a section of a moth.',
-'moth-detail.jpg');
+'moth-close-up.jpg');
 
 #--------------------------------------------------------------------------------------
 
