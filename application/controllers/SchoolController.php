@@ -24,13 +24,16 @@ class SchoolController extends Zend_Controller_Action
         }
         $this->view->school = $school;
         $schoolId = $school['school_id'];
+        
+        $conf = $bootstrap->getResource('config');
+        $currentYear = $conf->competition->currentYear;
+        $this->view->currentYear = $currentYear;
 
         // Retrieve school's entries from the cache:
         $entriesCacheKey = 'school_entries_' . $schoolCacheName;
         if (!$entries = $cache->load($entriesCacheKey)) {
             $manager = new Lightman_Managers_Entry();
-            //$entries = $manager->fetchForSchool($schoolId);
-            $entries = $manager->fetchEntriesByYear($schoolId, 2015);
+            $entries = $manager->fetchEntriesByYear($schoolId, $currentYear);
             $cache->save($entries, $entriesCacheKey);
         }
         $this->view->entries = $entries;
