@@ -8,3 +8,7 @@ images
 library/Zend
 
 log
+
+log/access.log
+
+log/development-schools.log
