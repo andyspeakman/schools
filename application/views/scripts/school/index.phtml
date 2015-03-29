@@ -39,27 +39,21 @@
 
 <h4>School Competition Entries</h4>
 
-<p>Our <a href="/panel">panel of art experts</a> will select their top three artworks from each school, then public voting
-will take place from 1st 30th April. The first-placed entry from each school will be included
+<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school and public voting is now open until 30th April. The first-placed entry from each school will be included
 in an exhibition at St Georges Hall in Liverpool starting on the 5th of June. Visit our
 <a href="/exhibition/year2015">Exhibition</a> page for more details.</p>
-
-<!---
-<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school, public voting
-has taken place, and the winners are shown below. The first-placed entry from each school will be included
-in an exhibition at St Georges Hall in Liverpool starting on the 5th of June. Visit our
-<a href="/exhibition/year2015">Exhibition</a> page for more details.</p>
---->
 
 <!-- Entries here: -->
 
 <?php foreach ($this->entries as $entry):?>
+
 <?php if ($entryCount == 0): ?>
     <div class="row row-entry">
 <?php endif; ?>
 
 <?php
 $rankClass = '';
+/*
 switch ($entry['rank']) {
     case 1:
         $rankClass = 'third';
@@ -73,16 +67,23 @@ switch ($entry['rank']) {
     default:
         $rankClass = '';
 }
+*/
+?>
+
+<?php
+$imageSrc = '/images/';
+$imageSrc .= $this->escape($this->school['image_folder']) . '/';
+$imageSrc .= $this->currentYear . '/';
+$imageSrc .= $this->escape($entry['image']);
 ?>
 
 <div class="span4 entry-panel">
-    <img src="/images/<?php echo $this->escape($this->school['image_folder']) ?>/<?php echo $this->currentYear ?>/<?php echo $this->escape($entry['image']) ?>" />
+    <img src="<?php echo $imageSrc ?>" />
     <div class="entry-details <?php echo $rankClass ?>">
         <p class="title"><?php echo $this->escape($entry['title']) ?></p>
         <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
         <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
 
-        <!--
         <?php if ($entry['rank'] == 1): ?>
             <div style="margin-bottom: 0.5em;">
                 <a href="#entry-<?php echo $entry['entry_id'] ?>" role="button" class="btn btn-primary" data-toggle="modal">Vote...</a>
@@ -95,10 +96,8 @@ switch ($entry['rank']) {
                 data-count="none">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <?php endif; ?>
-		-->
     </div>
     
-    <!--
     <?php if ($entry['rank'] == 1): ?>
         <div id="entry-<?php echo $entry['entry_id'] ?>" class="modal hide fade voting-panel" tabindex="-1"
             role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -127,7 +126,7 @@ switch ($entry['rank']) {
                         </div>
                     </div>
                 </div>
-                <img src="/images/<?php echo $this->escape($entry['image']) ?>" class="span2 hidden-phone" />
+                <img src="<?php echo $imageSrc ?>" class="span2 hidden-phone" />
             </div>
             <div class="modal-footer">
                 <button type="submit" class="btn btn-primary">Place your vote</button>
@@ -135,7 +134,6 @@ switch ($entry['rank']) {
             </form>
         </div>
     <?php endif; ?>
-    -->
     
 </div>
 
