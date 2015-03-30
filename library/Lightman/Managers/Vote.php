@@ -51,7 +51,7 @@ class Lightman_Managers_Vote
         $data = array(
             'status' => self::STATUS_CONFIRMED
         );
-        $where = $table->getAdapter()->quoteInto('id = ?', $id);
+        $where = $table->getAdapter()->quoteInto('vote_id = ?', $id);
         $table->update($data, $where);
     }
 

@@ -25,7 +25,7 @@ class VoteController extends Zend_Controller_Action
         }
         
         $emailAddress = $vote['email'];
-        $voteId = $vote['id'];
+        $voteId = $vote['vote_id'];
         $log->debug('EMAIL: ' . $emailAddress);
         $log->debug('ID: ' . $voteId);
         
