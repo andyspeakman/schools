@@ -189,3 +189,100 @@ UPDATE entry
    SET rank = 1
  WHERE entry_id IN (8736, 8737, 8742)
    AND school_year = 124;
+
+-- Alsop High School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7906, 7910, 7911)
+   AND school_year = 93;
+
+-- Archbishop Beck Catholic Sports College:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7922, 7926, 7927)
+   AND school_year = 94;
+
+-- Archbishop Blanch School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7934, 7937, 7942)
+   AND school_year = 69;
+
+-- Arnot St Mary CofE Primary School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7957, 7973, 7974)
+   AND school_year = 95;
+
+-- Barlows Primary School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7979, 7981, 7992)
+   AND school_year = 96;
+
+-- Bellerive Catholic Collage:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (7997, 7998, 8002)
+   AND school_year = 97;
+
+-- Broad Green International School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8016, 8025, 8030)
+   AND school_year = 99;
+
+-- Broadgreen Primary School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8038, 8054, 8062)
+   AND school_year = 100;
+
+-- Broughton Hall:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8063, 8078, 8085)
+   AND school_year = 70;
+
+-- Cardinal Heenan Catholic High School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8088, 8101, 8104)
+   AND school_year = 101;
+
+-- Childwall Sports & Science Academy:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8107, 8108, 8111)
+   AND school_year = 71;
+
+-- Gateacre High:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8119, 8126, 8130)
+   AND school_year = 104;
+
+-- Greenbank High School:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8139, 8143, 8144)
+   AND school_year = 105;
+
+-- Gwladys St Community Primary:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8163, 8166, 8171)
+   AND school_year = 73;
+
+-- Hillside High:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8175, 8176, 8192)
+   AND school_year = 106;
+
+-- Holy Family Catholic High:
+UPDATE entry
+   SET rank = 1
+ WHERE entry_id IN (8194, 8196, 8198)
+   AND school_year = 108;
+
