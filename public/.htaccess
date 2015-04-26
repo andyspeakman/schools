@@ -4,6 +4,8 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteRule ^votenow$ /schools [R=302,L]
+
 # 2015 schools:
 RewriteRule ^alsop-high-school$ /school/index/name/alsop-high-school [R=302,L]
 RewriteRule ^archbishop-beck-catholic-college$ /school/index/name/archbishop-beck-catholic-college [R=302,L]
@@ -126,7 +128,7 @@ RewriteRule ^west-derby-school$ /archive/entries/year/2014/school/west-derby-sch
 RewriteRule ^weston-primary-school$ /archive/entries/year/2014/school/weston-primary-school [R=302,L]
 RewriteRule ^whitefield-primary-school$ /archive/entries/year/2014/school/whitefield-primary-school [R=302,L]
 
-#SetEnv APPLICATION_ENV development
+SetEnv APPLICATION_ENV development
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
