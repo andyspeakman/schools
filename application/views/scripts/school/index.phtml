@@ -39,9 +39,7 @@
 
 <h4>School Competition Entries</h4>
 
-<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school and public voting is now open until 30th April. The first-placed entry from each school will be included
-in an exhibition at St Georges Hall in Liverpool starting on the 5th of June. Visit our
-<a href="/exhibition/year2015">Exhibition</a> page for more details.</p>
+<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school and public voting ran from 1st - 30th April. The winners will be announced here on Tuesday 5th May. The first-placed entry from each school will be included in an exhibition at St Georges Hall in Liverpool starting on the 5th of June. Visit our <a href="/exhibition/year2015">Exhibition</a> page for more details.</p>
 
 <!-- Entries here: -->
 
@@ -84,6 +82,7 @@ $imageSrc .= $this->escape($entry['image']);
         <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
         <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
 
+        <!--
         <?php if ($entry['rank'] == 1): ?>
             <div style="margin-bottom: 0.5em;">
                 <a href="#entry-<?php echo $entry['entry_id'] ?>" role="button" class="btn btn-primary" data-toggle="modal">Vote...</a>
@@ -96,8 +95,10 @@ $imageSrc .= $this->escape($entry['image']);
                 data-count="none">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <?php endif; ?>
+        -->
     </div>
     
+    <!--
     <?php if ($entry['rank'] == 1): ?>
         <div id="entry-<?php echo $entry['entry_id'] ?>" class="modal hide fade voting-panel" tabindex="-1"
             role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -134,7 +135,8 @@ $imageSrc .= $this->escape($entry['image']);
             </form>
         </div>
     <?php endif; ?>
-    
+    -->
+
 </div>
 
 <?php $entryCount++; ?>
