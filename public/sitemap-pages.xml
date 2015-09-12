@@ -79,6 +79,12 @@
         <changefreq>daily</changefreq>
     </url>
     <url>
+        <loc>http://schools.dot-art.com/workshops</loc>
+        <lastmod>2015-09-12</lastmod>
+        <priority>1.00</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
         <loc>http://schools.dot-art.com/contact</loc>
         <lastmod>2015-03-29</lastmod>
         <priority>1.00</priority>

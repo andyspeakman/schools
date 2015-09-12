@@ -12,7 +12,8 @@
             remotedir="${remote.dir}/log"
             depends="no"
             action="get"
-            verbose="yes">
+            verbose="yes"
+            serverTimeZoneConfig="Europe/Berlin">
             <fileset dir="${local.dir}/log">
                 <include name="production-schools.log" />
                 <include name="error_log" />
