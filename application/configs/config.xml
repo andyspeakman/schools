@@ -3,7 +3,7 @@
     <production>
         <appnamespace>Application</appnamespace>
         <competition>
-            <currentYear>2015</currentYear>
+            <currentYear>2016</currentYear>
             <active>true</active>
         </competition>
         <bootstrap>
