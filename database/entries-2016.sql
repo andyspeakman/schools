@@ -99,6 +99,11 @@
 # Copy-and-paste the INSERT statement below as many times as you need. Please leave
 # a couple of blank lines between each entry.
 
+DELETE e
+  FROM entry e
+  JOIN school_year y ON e.`school_year` = y.`school_year_id`
+ WHERE y.`year` = 2016;
+
 #--------------------------------------------------------------------------------------
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -174,7 +179,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (129,
  'Ffion Davies',
- 'Ffion&#39;s Fishes',
+ 'Ffion''s Fishes',
  '30 x 42cm, Acrylic paint on paper',
  NULL,
  'ffions-fishes.jpg');
@@ -2199,7 +2204,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Rainbow Tears',
  '30 x 42cm, Watercolour and pen',
  NULL,
- ' rainbow-of-tears.jpg');
+ 'rainbow-of-tears.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -2276,7 +2281,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (132,
  'George Craig',
- 'Lola&#39;s Tears',
+ 'Lola''s Tears',
  '30 x 21cm, Watercolour and pen',
  NULL,
  'lolas-tears.jpg');
@@ -2326,7 +2331,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (132,
  'Sophie Hughes',
- 'Freya&#39;s Dream Tree',
+ 'Freya''s Dream Tree',
  '30 x 42cm, Watercolour and pen',
  NULL,
  'freyas-dream-tree.jpg');
@@ -2369,7 +2374,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'The Indian Princess',
  '30 x 21cm, Watercolour',
  NULL,
- 'portrait_1.jpg');
+ 'the-indian-princess.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -3399,7 +3404,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Dia de los muertos',
 '42 x 30cm, Watercolour and pen',
  NULL,
- 'pop-art-portrait-1.jpg');
+ 'dia-de-muertos.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -3419,7 +3424,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  'Remembering Paris',
  '42 x 30cm, Watercolour and pencil',
  NULL,
- 'pop-art-portrait-1.jpg');
+ 'remembering-paris.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -4099,7 +4104,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'John and Hilda',
 '42 x 60cm, Mixed media based on gathering life story at elderly peoples home',
  NULL,
-'ww1-memorial.jpg');
+'john-and-hilda.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -5569,7 +5574,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Fantasy',
 '40 x 30cm, Paint', 
 NULL,
-'moving-silhouette-1.jpg');
+'fantasy.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
