@@ -2146,6 +2146,104 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 
 
 
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Anna Zhou',
+ 'Issues',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'issues.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Ciera Walsh',
+ 'Untitled',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'untitled.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Eleanor Murphy',
+ 'Self Image',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'self-image.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Emma Li',
+ 'Shepherd Fairey',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'shepherd-fairey.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Fabian Ennis',
+ 'Coloured Eye',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'coloured-eye.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Ben Brady',
+ 'Terrorism',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'terrorism.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Georgia Murphy',
+ 'Untitled 2',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'untitled-2.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Saimen Wu',
+ 'Untitled 3',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'untitled-3.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (131,
+ 'Lisa Chan',
+ 'Realistic Eye',
+ '29 x 21cm, Acrylic',
+ NULL,
+ 'realistic-eye.jpg');
+ 
+#--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
