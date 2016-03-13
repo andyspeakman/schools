@@ -106,28 +106,6 @@ RewriteRule ^school/the-oldershaw-academy$ /school/index/name/the-oldershaw-acad
 RewriteRule ^school/weatherhead-high-school$ /school/index/name/weatherhead-high-school [R=302,L]
 RewriteRule ^school/west-kirby-residential-school$ /school/index/name/west-kirby-residential-school [R=302,L]
 
-
-# Older redirects - now to archive pages:
-RewriteRule ^auckland-college-lower-school$ /archive/entries/year/2014/school/auckland-college-lower-school [R=302,L]
-RewriteRule ^auckland-college-secondary-school$ /archive/entries/year/2014/school/auckland-college-secondary-school [R=302,L]
-RewriteRule ^birkenhead-high-school-academy$ /archive/entries/year/2014/school/birkenhead-high-school-academy [R=302,L]
-RewriteRule ^calderstones-school$ /archive/entries/year/2014/school/calderstones-school [R=302,L]
-RewriteRule ^christian-fellowship-middle-school$ /archive/entries/year/2014/school/christian-fellowship-middle-school [R=302,L]
-RewriteRule ^christian-fellowship-upper-school$ /archive/entries/year/2014/school/christian-fellowship-upper-school [R=302,L]
-RewriteRule ^de-la-salle-school-st-helens$ /archive/entries/year/2014/school/de-la-salle-school-st-helens [R=302,L]
-RewriteRule ^enterprise-south-liverpool-academy$ /archive/entries/year/2013/school/enterprise-south-liverpool-academy [R=302,L]
-RewriteRule ^holly-lodge-girls-college$ /archive/entries/year/2014/school/holly-lodge-girls-college [R=302,L]
-RewriteRule ^merchant-taylors-boys-school$ /archive/entries/year/2014/school/merchant-taylors-boys-school [R=302,L]
-RewriteRule ^rainford-ce-primary-school$ /archive/entries/year/2014/school/rainford-ce-primary-school [R=302,L]
-RewriteRule ^range-high-school$ /archive/entries/year/2014/school/range-high-school [R=302,L]
-RewriteRule ^saints-peter-and-paul-catholic-primary-school$ /archive/entries/year/2014/school/saints-peter-and-paul-catholic-primary-school [R=302,L]
-RewriteRule ^st-matthews-primary-school$ /archive/entries/year/2014/school/st-matthews-primary-school [R=302,L]
-RewriteRule ^the-belvedere-academy$ /archive/entries/year/2014/school/the-belvedere-academy [R=302,L]
-RewriteRule ^wade-deacon-high-school$ /archive/entries/year/2014/school/wade-deacon-high-school [R=302,L]
-RewriteRule ^west-derby-school$ /archive/entries/year/2014/school/west-derby-school [R=302,L]
-RewriteRule ^weston-primary-school$ /archive/entries/year/2014/school/weston-primary-school [R=302,L]
-RewriteRule ^whitefield-primary-school$ /archive/entries/year/2014/school/whitefield-primary-school [R=302,L]
-
 SetEnv APPLICATION_ENV development
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]
