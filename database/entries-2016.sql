@@ -833,10 +833,10 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (150,
  'Ella Hewitt',
- 'Untitled 2',
+ 'Zoella',
  '30 x 26cm, Paint on Canvas',
  NULL,
- 'untitled-2.jpg');
+ 'zoella.jpg');
  
 #-------------------------------------------------------------------------------------- 
 
@@ -1914,7 +1914,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (130,
  'Charlotte Parr',
- 'You''ll Never Work Alone',
+ 'You'll Never Walk Alone',
  '60 x 42cm, Mixed media',
  NULL,
  'never-walk-alone.jpg');
@@ -2459,7 +2459,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (132,
  'Mia Hawkins',
- 'Mia&#39;s Tears',
+ 'Mia''s Tears',
  '30 x 21cm, Watercolour',
  NULL,
  'mias-tears.jpg');
@@ -3910,10 +3910,10 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (135,
  'Tom Clark',
- 'Lest we forget 3',
+ 'Lest we forget poppies',
  '21 x 30cm, Pencil and pen',
  NULL,
-  'lest-we-forget-3.jpg');
+  'lest-we-forget-poppies.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -3979,11 +3979,11 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (135,
-'Tomika Michaels',
+'Tamika Michaels',
  'Poppy Trail',
  '21 x 30cm, Pencil and pen',
  NULL,
-'portrait-1.jpg');
+'poppy-trail.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -3991,7 +3991,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
  VALUES (135,
  'Rebecca Rylands',
  'Rainbow Watch',
- '21 x 15cm, Mixed media pastel, paint, crayon, acetate',
+ '21 x 15cm, Mixed media pastel, paint, crayon, wire, acetate',
  NULL,
 'rainbow-watch.jpg');
  
@@ -4040,10 +4040,10 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (135,
 'Leighton Tickle',
-'WW1',
+'WM1',
  '21 x 15cm, Black card and crayon',
  NULL,
-'ww1.jpg');
+'wm1.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -4718,7 +4718,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (164,
-'Alicia Greenay',
+'Alicia Greenough',
 'Teenage Dream',
 '42 x 30cm, Collage',
  NULL,
@@ -4970,16 +4970,6 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (166,
-'Ella Hoey',
-'Art work in the style of Juan Miro 10',
- '24 x 30cm, Felt tip pens, card, paint',
- NULL,
-'style-miro-10.jpg');
- 
-#--------------------------------------------------------------------------------------
-
-INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
- VALUES (166,
 'Bronagh Carson',
 'Art work in the style of Juan Miro 11',
 '26 x 35cm, Felt tip pens, card, paint',
@@ -5106,7 +5096,7 @@ NULL,
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (167,
-'Rebecca Leven',
+'Rebecca Levene',
 'fish-pattern-detail',
 '41 x 29cm, Acrylic Paint, Oil Pastel', 
 NULL,
@@ -5599,24 +5589,15 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 '29 x 42cm, Mixed media', 
 NULL,
 'walking-man.jpg');
- 
-#--------------------------------------------------------------------------------------
-INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
- VALUES (169,
-'Sydney Haskayne',
-'Abstract  1',
-'29 x 42cm, Mixed media', 
-NULL,
-'abstract-1.jpg');
- 
+
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (169,
 'Tapeh Savage',
-'Abstract  2',
+'Abstract',
 '14 x 20cm, Mixed media', 
 NULL,
-'abstract-2.jpg');
+'abstract.jpg');
  
 #--------------------------------------------------------------------------------------
 
@@ -5650,7 +5631,7 @@ NULL,
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (136,
-'Cameron Smith',
+'Reece Dugdale',
 'Urban Junk',
 '40 x 30cm, Pencil and acrylic', 
 NULL,
@@ -5731,7 +5712,7 @@ NULL,
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (136,
-'Reece Dugdale',
+'Cameron Smith',
 'The joker (urban decay)',
 '60 x 40cm, Mixed media', 
 NULL,
@@ -6583,7 +6564,7 @@ NULL,
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (171,
-'Robin Bigwood',
+'Robyn Bidgood',
 'Exotic-plants-print-1',
 '20 x 28cm, Polystyrene print', 
 NULL,
@@ -8260,10 +8241,10 @@ NULL,
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (142,
 'Daniel Duffy',
-'Music 6',
+'Street Art 7',
 '30 x 42cm, Mixed media', 
 NULL,
-'music-6.jpg');
+'street-art-7.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -8278,10 +8259,10 @@ NULL,
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (142,
 'Rebecca Melvin',
-'Street Art 4',
+'Music 4',
 '30 x 42cm, Mixed media', 
 NULL,
-'street-art-4.jpg');
+'music-4.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -8296,10 +8277,10 @@ NULL,
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (142,
 'Mikey Aspinal',
-'Street Art 5',
+'Music 5',
 '30 x 42cm, Mixed media', 
 NULL,
-'street-art-5.jpg');
+'music-5.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
@@ -8412,7 +8393,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 'Curious',
 '41 x 31cm, Acrylic, water colour', 
 NULL,
-'street-art-6.jpg');
+'curious.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
