@@ -1914,7 +1914,7 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
  VALUES (130,
  'Charlotte Parr',
- 'You'll Never Walk Alone',
+ 'You''ll Never Walk Alone',
  '60 x 42cm, Mixed media',
  NULL,
  'never-walk-alone.jpg');
