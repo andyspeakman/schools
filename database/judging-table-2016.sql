@@ -121,7 +121,7 @@ INSERT INTO judging (school, title, artist) VALUES ('St Chads Catholic & CofE Hi
 INSERT INTO judging (school, title, artist) VALUES ('St Hildas CoE High School','Golden Tamarin','Nyah Boorman');
 INSERT INTO judging (school, title, artist) VALUES ('St Hildas CoE High School','Cloud Leopard','Niamh Boorman');
 INSERT INTO judging (school, title, artist) VALUES ('St Hildas CoE High School','Michael Craig Madness','Calise McGill');
-INSERT INTO judging (school, title, artist) VALUES ('St John Bosco Arts College','Georgia O''Keeffe Flower 2','Guste Ditaliskaite');
+INSERT INTO judging (school, title, artist) VALUES ('St John Bosco Arts College','Georgia O''Keeffe Flower 2','Oliwia Kordalska');
 INSERT INTO judging (school, title, artist) VALUES ('St John Bosco Arts College','Untitled','Chloe Mcarthy');
 INSERT INTO judging (school, title, artist) VALUES ('St John Bosco Arts College','African Skull Mask','Ashliegh Louise Boot');
 INSERT INTO judging (school, title, artist) VALUES ('St Julies Catholic High','Lily','Holly Robinson-Tilly');

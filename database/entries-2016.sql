@@ -7055,10 +7055,19 @@ NULL,
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
- VALUES (174,
+VALUES (174,
 'Guste Ditaliskaite',
 'Georgia O''Keeffe flower 2',
-'15 x 11cm, Colour pencil', 
+'15 x 11cm, Colour pencil',
+NULL,
+'okeefe-flower-2.jpg');
+
+#--------------------------------------------------------------------------------------
+INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
+ VALUES (174,
+'Oliwia Kordalska',
+'Georgia O''Keeffe flower design 2',
+'60 x 40cm, Oil pastels', 
 NULL,
 'okeefe-design-2.jpg');
  
@@ -7088,15 +7097,6 @@ INSERT INTO entry (school_year, artist, title, properties, artist_description, i
 '60 x 40cm, Oil pastels', 
 NULL,
 'okeefe-design-1.jpg');
- 
-#--------------------------------------------------------------------------------------
-INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
- VALUES (174,
-'Oliwia Kordalska',
-'Georgia O''Keeffe flower design 2',
-'60 x 40cm, Oil pastels', 
-NULL,
-'okeefe-design-2.jpg');
  
 #--------------------------------------------------------------------------------------
 INSERT INTO entry (school_year, artist, title, properties, artist_description, image)
