@@ -36,7 +36,7 @@
                     <backend>
                         <name>File</name>
                         <options>
-                            <cache_dir><zf:const zf:name="APPLICATION_PATH" />/../tmp/</cache_dir>
+                            <cache_dir><zf:const zf:name="APPLICATION_PATH" />/../../tmp/</cache_dir>
                         </options>
                     </backend>
                 </schools>
