@@ -107,7 +107,7 @@
                     </writerParams>
                     <formatterName>Simple</formatterName>
                     <formatterParams>
-                        <format>%timestamp% %priorityName%: -- - - - - %message%</format>
+                        <format>%timestamp% %priorityName%: %message%</format>
                     </formatterParams>
                     <filterName>Priority</filterName>
                     <filterParams>
