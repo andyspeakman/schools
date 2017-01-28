@@ -1,0 +1,165 @@
+<?php
+   $this->headTitle($this->escape($this->school['name']));
+   $this->headMeta()->appendName('description', 'List of competition entries from ' . $this->escape($this->school['name']));
+   $this->headScript()->appendFile('/scripts/bootstrap-modal.js', 'text/javascript');
+   $entryCount = 0;
+?>
+
+<div class="container lowered">
+
+<div class="jumbotron who">
+<h1 class="what"><?php echo $this->escape($this->school['name']) ?></h1>
+</div>
+<ul class="breadcrumb">
+  <li><a href="/">Home</a> <span class="divider">/</span></li>
+  <li><a href="/schools">All Schools</a> <span class="divider">/</span></li>
+  <?php if ($this->school['type'] == 1): ?>
+    <li><a href="/schools/primary">Primary</a> <span class="divider">/</span></li>
+  <?php endif; ?>
+  <?php if ($this->school['type'] == 2): ?>
+    <li><a href="/schools/secondary">Secondary</a> <span class="divider">/</span></li>
+  <?php endif; ?>
+  <li class="active"><?php echo $this->escape($this->school['name']) ?></li>
+</ul>
+
+
+<div class="row">
+<div class="span9">
+    <?php echo $this->escape($this->school['statement']) ?>
+    <br />
+    <br />
+    <?php if (!is_null($this->school['website'])): ?>
+        <p><a href="<?php echo $this->escape($this->school['website']) ?>"
+            target="_blank"><?php echo $this->escape($this->school['website']) ?></a>
+        </p>
+    <?php endif; ?>
+</div>
+<div class="span3"><img src="/images/<?php echo $this->escape($this->school['image_folder']) ?>/<?php echo $this->escape($this->school['image']) ?>" /></div>
+</div>
+
+<h4>School Competition Entries</h4>
+
+<!--
+<p>Our <a href="/panel">panel of art experts</a> are currently selecting their top three entries from each school from the
+submissions below. Public voting will be open from 29th March - 30th April and the winners will be 
+announced here on Tuesday 3rd May. The first-placed entry from 
+each school will be included in an exhibition at St Georges Hall in Liverpool starting on the 27th May.</p>
+
+<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school and public 
+voting is now open until Saturday 30th April 2016. The winners will be announced here on Tuesday
+3rd May 2016. The first-placed entry from each school will be included in an exhibition at St Georges Hall in
+Liverpool running from Friday 27th May to Saturday 11th May.</p>
+
+-->
+
+<p>Our <a href="/panel">panel of art experts</a> have selected their top three artworks from each school and public 
+voting ran from 1st - 30th April. The winners will be announced here on Tuesday 3rd May. The first-placed entry from 
+each school will be included in an exhibition at St Georges Hall in Liverpool from 27th May - 11th June,. 
+Visit our <a href="/exhibition/year2016">Exhibition</a> page for more details.</p>
+
+<!-- Entries here: -->
+
+<?php foreach ($this->entries as $entry):?>
+
+<?php if ($entryCount == 0): ?>
+    <div class="row row-entry">
+<?php endif; ?>
+
+
+<?php
+$rankClass = '';
+switch ($entry['rank']) {
+    case 1:
+        $rankClass = 'third';
+        break;
+    case 2:
+        $rankClass = 'second';
+        break;
+    case 3:
+        $rankClass = 'first';
+        break;
+    default:
+        $rankClass = '';
+}
+?>
+
+<?php
+$imageSrc = '/images/';
+$imageSrc .= $this->escape($this->school['image_folder']) . '/';
+$imageSrc .= $this->currentYear . '/';
+$imageSrc .= $this->escape($entry['image']);
+?>
+
+<div class="span4 entry-panel">
+    <img src="<?php echo $imageSrc ?>" />
+    <div class="entry-details <?php echo $rankClass ?>">
+        <p class="title"><?php echo $this->escape($entry['title']) ?></p>
+        <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
+        <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
+        <!--
+        <?php if ($entry['rank'] == 1): ?>
+            <div style="margin-bottom: 0.5em;">
+                <a href="#entry-<?php echo $entry['entry_id'] ?>" role="button" class="btn btn-primary" data-toggle="modal">Vote...</a>
+            </div>
+            <a href="https://twitter.com/share" class="twitter-share-button"
+                data-text="I'm voting for <?php echo $this->escape($entry['title']) ?> by <?php echo $this->escape($entry['artist']) ?>"
+                data-via="dotartSchools"
+                data-size="large"
+                data-hashtags="dotartschools"
+                data-count="none">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <?php endif; ?>
+        -->
+    </div>
+    
+    <!--
+    <?php if ($entry['rank'] == 1): ?>
+        <div id="entry-<?php echo $entry['entry_id'] ?>" class="modal hide fade voting-panel" tabindex="-1"
+            role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3><?php echo $this->escape($entry['title']) ?> <small>by <?php echo $this->escape($entry['artist']) ?></small></h3>
+            </div>
+            <form method="post" action="/school/vote">
+            <div class="modal-body">
+                <div class="span3">
+                <?php if (!is_null($entry['artist_description'])): ?>
+                    <blockquote><p><?php echo $this->escape($entry['artist_description']); ?></p></blockquote>
+                <?php endif; ?>
+                <p>If you would like to vote for <strong><?php echo $this->escape($entry['title']) ?></strong>,
+                please enter your email address in the box below, and click the <em>Place your vote</em>
+                button.</p><br />
+                    <input type="hidden" name="art-id" value="<?php echo $entry['entry_id'] ?>" id="art-id" />
+                    <input type="hidden" name="school-id" value="<?php echo $this->school['school_id'] ?>" id="school-id" />
+                    <input type="hidden" name="school-url" value="<?php echo $this->school['url_path'] ?>" id="school-id" />
+                    <input type="hidden" name="artist" value="<?php echo $this->escape($entry['artist']) ?>" id="artist" />
+                    <input type="hidden" name="entry-title" value="<?php echo $this->escape($entry['title']) ?>" id="entry-title" />
+                    <div class="control-group">
+                        <label class="control-label" for="email-address">Email:</label>
+                        <div class="controls">
+                            <input type="email" name="email-address" id="email-address" placeholder="Email address" required>
+                        </div>
+                    </div>
+                </div>
+                <img src="<?php echo $imageSrc ?>" class="span2 hidden-phone" />
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Place your vote</button>
+            </div>
+            </form>
+        </div>
+    <?php endif; ?>
+    -->
+
+</div>
+
+<?php $entryCount++; ?>
+<?php if ($entryCount == 3): ?>
+    <?php $entryCount = 0; ?>
+    </div>
+<?php endif; ?>
+
+<?php endforeach;?>
+</div>
+
+</div>
