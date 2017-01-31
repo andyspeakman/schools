@@ -23,6 +23,5 @@ $application = new Zend_Application(
     APPLICATION_PATH . '/configs/config.xml'
 );
 
-$application->setAutoloaderNamespaces(array('Lightman_'))
-            ->bootstrap()
+$application->bootstrap()
             ->run();

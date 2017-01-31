@@ -15,3 +15,5 @@ log/development-schools.log
 
 
 liverpool/liverpool-schools.properties
+
+test/test.db
