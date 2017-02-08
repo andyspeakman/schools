@@ -1,7 +1,5 @@
 <?php
 
-//require_once '/Users/andrewspeakman/Sites/schools/library/Zend/Test/PHPUnit/ControllerTestCase.php';
-
 class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 {
 	public function setUp()
@@ -36,10 +34,58 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
     }
 
 	/** @test */
+	public function weGoToThePrimarySchoolsPage()
+	{
+        $this->dispatch('/schools/primary');
+        $this->assertController('schools');
+        $this->assertAction('primary');
+    }
+
+	/** @test */
+	public function weGoToTheSecondarySchoolsPage()
+	{
+        $this->dispatch('/schools/secondary');
+        $this->assertController('schools');
+        $this->assertAction('secondary');
+    }
+
+	/** @test */
 	public function weGoToASchoolPage()
 	{
         $this->dispatch('/school/index/name/alder-hey-childrens-hospital-school');
         $this->assertController('school');
+        $this->assertAction('index');
+    }
+
+	/** @test */
+	public function weGoToTheWhatPage()
+	{
+        $this->dispatch('/what');
+        $this->assertController('what');
+        $this->assertAction('index');
+    }
+
+	/** @test */
+	public function weGoToThePanelPage()
+	{
+        $this->dispatch('/panel');
+        $this->assertController('panel');
+        $this->assertAction('index');
+    }
+
+	/** @test */
+	public function weGoToTheWorkshopsPage()
+	{
+        $this->dispatch('/workshops');
+        $this->assertController('workshops');
+        $this->assertAction('index');
+    }
+
+	/** @test */
+	public function weGoToTheContactPage()
+	{
+        $this->dispatch('/contact');
+        $this->assertController('contact');
         $this->assertAction('index');
     }
 
