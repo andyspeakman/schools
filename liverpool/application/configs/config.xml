@@ -120,4 +120,12 @@
             </log>
         </resources>
     </development>
+    <test zf:extends="development">
+        <database>
+            <adapter>Pdo_Sqlite</adapter>
+            <params>
+                <database>/User/andrewspeakman/Sites/schools/test/test.db</database>
+            </params>
+        </database>
+    </test>
 </configdata>

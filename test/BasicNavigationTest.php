@@ -11,7 +11,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 		// );
 		// $this->bootstrap = $bs;
 		$this->bootstrap = new Zend_Application(
-		    'development',
+		    APPLICATION_ENV,
 		    APPLICATION_PATH . '/configs/config.xml'
 		);
 		parent::setUp();

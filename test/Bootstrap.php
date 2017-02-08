@@ -10,7 +10,7 @@ $root = '/Users/andrewspeakman/Sites/schools';
 $library = $root . '/library';
 $application = $root . '/liverpool/application';
 
-define('APPLICATION_ENV', 'development');
+define('APPLICATION_ENV', 'test');
 define('APPLICATION_PATH', $application);
 
 $path = array(
