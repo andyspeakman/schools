@@ -32,62 +32,196 @@ CREATE TABLE entry (
   FOREIGN KEY (school_year) REFERENCES school_year(school_year_id)
 );
 
- INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
- VALUES (2,
- 'Archbishop Blanch School',
- 'archbishop-blanch-school',
- 'Archbishop Blanch is a Church of England School for girls in Years 7 to 11, with a mixed Sixth Form, 
- serving the Diocese of Liverpool. The school aims to develop in our pupils a love of God, 
- an understanding of and respect for the faith and traditions of others and a real and abiding 
- belief in their own value and self-worth. Pupils learn about the works of artists from a variety of 
- cultures and by increasing their own level of creativity and imagination they develop a sense of 
- reflection and achievement.',
- 'http://www.abblanch.com/',
- 'archbishop-blanch-logo.jpg',
- 'archbishop-blanch-school');
- 
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2015);
- 
-#----------------------------------------------------------------------------------
+
+-- Cheshire:
+
+-- 2017, Primary:
 
 INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
- VALUES (2,
- 'Broughton Hall High School',
- 'broughton-hall-high-school',
- 'At Broughton Hall girls school we are aware of the need to prepare our pupils to achieve the necessary 
- qualifications and skills for their adult lives. A wide range of courses at all levels is available with 
- access to the most up to date equipment. A full range of extra-curricular activities is provided to 
- further the aesthetic, sporting and academic talents of each pupil. Through our Community Courses and Family 
- of Schools, we have extended educational opportunities to all ages. Our community education programme reflects
-  the belief that education is a lifelong process and we strive to instil the necessary values and attitudes 
-  to work to enable all pupils to find fulfilment in a rapidly changing world.',
- 'http://www.broughtonhall.com',
- 'broughton-hall-logo.jpg',
- 'broughton-hall-high-school');
- 
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2015);
+  VALUES (1,
+    'Chehsire 2017 Primary School One',
+    'cheshire-2017-primary-school-one',
+    'This is the Chehsire 2017 Primary School One.',
+    'http://www.c2017ps01.ac.uk/',
+    'cheshire-2017-primary-school-one.jpg',
+    'cheshire-2017-primary-school-one');
 
-#----------------------------------------------------------------------------------
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2017);
+
+-- 2017, Secondary:
 
 INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
- VALUES (2,
- 'Childwall Sports & Science Academy',
- 'childwall-academy',
- 'Our school is a diverse and multicultural school that accommodates 42 different 
- nationalities. Here at Childwall Academy we strive to promote the Arts and encourage 
- all students to take part in unleashing their inner creativity. Throughout our students’
-  school career we aim to foster their talents and imagination through our subjects of 
-  Music, Art and Drama. We promote a Love of learning through the Arts and enjoy a 100% success 
-  rate of our A’ Level students gaining university places. More recently we are proud to 
-  announce our Arts students gaining places at Liverpool Institute of Performing Arts 
-  and University of the Arts London. Here at Childwall our ambitions for our students 
-  are endless and we always strive to inspire, encourage and provide students with multiple 
-  opportunities to succeed.',
- 'http://www.childwallssa.org/',
- 'childwall-academy-logo.jpg',
- 'childwall-sports-and science-academy');
- 
+  VALUES (2,
+    'Cheshire 2017 Secondary School One',
+    'cheshire-2017-secondary-school-one',
+    'This is the Cheshire 2017 Secondary School One.',
+    'http://www.c2017ss01.ac.uk/',
+    'cheshire-2017-secondary-school-one.jpg',
+    'cheshire-2017-secondary-school-one');
+
 INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2015);
+ VALUES(LAST_INSERT_ROWID(), 2017);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Cheshire 2017 Secondary School Two',
+    'cheshire-2017-secondary-school-two',
+    'This is the Cheshire 2017 Secontary School Two.',
+    'http://www.c2017ss02.ac.uk/',
+    'cheshire-2017-secondary-school-two.jpg',
+    'cheshire-2017-secondary-school-two');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2017);
+
+-- Liverpool:
+
+-- 2016, Primary:
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (1,
+    'Liverpool 2016 Primary School One',
+    'liverpool-2016-primary-school-one',
+    'This is the Liverpool 2016 Primary School One.',
+    'http://www.l2016ps01.ac.uk/',
+    'liverpool-2016-primary-school-one.jpg',
+    'liverpool-2016-primary-school-one');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (1,
+    'Liverpool 2016 Primary School Two',
+    'liverpool-2016-primary-school-two',
+    'This is the Liverpool 2016 Primary School Two.',
+    'http://www.l2016ps02.ac.uk/',
+    'liverpool-2016-primary-school-two.jpg',
+    'liverpool-2016-primary-school-two');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (1,
+    'Liverpool 2016 Primary School Three',
+    'liverpool-2016-primary-school-three',
+    'This is the Liverpool 2016 Primary School Three.',
+    'http://www.l2016ps03.ac.uk/',
+    'liverpool-2016-primary-school-three.jpg',
+    'liverpool-2016-primary-school-three');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (1,
+    'Liverpool 2016 Primary School Four',
+    'liverpool-2016-primary-school-four',
+    'This is the Liverpool 2016 Primary School Four.',
+    'http://www.l2016ps04.ac.uk/',
+    'liverpool-2016-primary-school-four.jpg',
+    'liverpool-2016-primary-school-four');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+-- 2016, Secondary:
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School One',
+    'liverpool-2016-secondary-school-one',
+    'This is the Liverpool 2016 Secondary School One.',
+    'http://www.l2016ss01.ac.uk/',
+    'liverpool-2016-secondary-school-one.jpg',
+    'liverpool-2016-secondary-school-one');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Two',
+    'liverpool-2016-secondary-school-two',
+    'This is the Liverpool 2016 Secondary School Two.',
+    'http://www.l2016ss02.ac.uk/',
+    'liverpool-2016-secondary-school-two.jpg',
+    'liverpool-2016-secondary-school-two');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Three',
+    'liverpool-2016-secondary-school-three',
+    'This is the Liverpool 2016 Secondary School Three.',
+    'http://www.l2016ss03.ac.uk/',
+    'liverpool-2016-secondary-school-three.jpg',
+    'liverpool-2016-secondary-school-three');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Four',
+    'liverpool-2016-secondary-school-four',
+    'This is the Liverpool 2016 Secondary School Four.',
+    'http://www.l2016ss04.ac.uk/',
+    'liverpool-2016-secondary-school-four.jpg',
+    'liverpool-2016-secondary-school-four');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Five',
+    'liverpool-2016-secondary-school-five',
+    'This is the Liverpool 2016 Secondary School Five.',
+    'http://www.l2016ss05.ac.uk/',
+    'liverpool-2016-secondary-school-five.jpg',
+    'liverpool-2016-secondary-school-five');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Six',
+    'liverpool-2016-secondary-school-six',
+    'This is the Liverpool 2016 Secondary School Six.',
+    'http://www.l2016ss06.ac.uk/',
+    'liverpool-2016-secondary-school-six.jpg',
+    'liverpool-2016-secondary-school-six');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Seven',
+    'liverpool-2016-secondary-school-seven',
+    'This is the Liverpool 2016 Secondary School Seven.',
+    'http://www.l2016ss07.ac.uk/',
+    'liverpool-2016-secondary-school-seven.jpg',
+    'liverpool-2016-secondary-school-seven');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
+INSERT INTO school (type, name, url_path, statement, website, image, image_folder)
+  VALUES (2,
+    'Liverpool 2016 Secondary School Eight',
+    'liverpool-2016-secondary-school-eight',
+    'This is the Liverpool 2016 Secondary School Eight.',
+    'http://www.l2016ss08.ac.uk/',
+    'liverpool-2016-secondary-school-eight.jpg',
+    'liverpool-2016-secondary-school-eight');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
