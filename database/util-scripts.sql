@@ -1,44 +1,57 @@
-update school_year set school = 82 where school = 59;
-delete from school where `school_id` = 59;
+-- Returns count of votes by school and entry for 2014:
+ SELECT COUNT(1) AS votes, e.artist, e.title, s.name
+   FROM vote v
+   JOIN entry e ON v.entry = e.entry_id
+   JOIN school_year y ON e.school_year = y.school_year_id
+   JOIN school s ON y.school = s.school_id
+  WHERE v.status = 2
+    AND y.year = 2016
+  GROUP BY e.artist, e.title, s.name
+ ORDER BY s.name, votes DESC
 
-update school_year set school = 92 where school = 12;
-delete from school where `school_id` = 12;
+-- Returns the votes with a ranking:
+SET @rank = 0;
+select votes, @rank := IF(@current_school = name, @rank - 1, 3) AS rank, entry_id, artist, name, @current_school := name, x.rank
+  from
+(
+ SELECT COUNT(1) AS votes, e.`entry_id`, e.artist, e.title, s.name, e.rank
+   FROM vote v
+   JOIN entry e ON v.entry = e.entry_id
+   JOIN school_year y ON e.school_year = y.school_year_id
+   JOIN school s ON y.school = s.school_id
+  WHERE v.status = 2
+    AND y.year = 2016
+  GROUP BY e.entry_id, e.artist, e.title, s.name
+ ORDER BY s.name, votes DESC
+) x;
 
-update school_year set school = 96 where school = 52;
-delete from school where `school_id` = 52;
+-- Updates the rank of each entry based on calculated rank:
+update entry e
+  join (
+select votes, @rank := IF(@current_school = name, @rank - 1, 3) AS rank, entry_id, artist, name, @current_school := name
+  from
+(
+ SELECT COUNT(1) AS votes, e.`entry_id`, e.artist, e.title, s.name
+   FROM vote v
+   JOIN entry e ON v.entry = e.entry_id
+   JOIN school_year y ON e.school_year = y.school_year_id
+   JOIN school s ON y.school = s.school_id
+  WHERE v.status = 2
+    AND y.year = 2016
+  GROUP BY e.entry_id, e.artist, e.title, s.name
+ ORDER BY s.name, votes DESC
+) x
+) y on e.`entry_id` = y. entry_id
+set e.`rank` = y.rank;
 
-update school
-   SET image_folder = 'enterprise-south-liverpool-academy',
-       image = 'esla-logo.jpg'
- WHERE school_id = 82;
-
- update school
-   SET image_folder = 'the-academy-of-st-francis-of-assisi',
-       image = 'asfa-logo.jpg'
- WHERE school_id = 92;
-
-update school
-   SET image_folder = 'the-kingsway-academy',
-       image = 'the-kingsway-academy-logo.jpg'
- WHERE school_id = 93;
-
-update school
-   SET image_folder = 'west-derby-school',
-       image = 'west-derby-logo.jpg'
- WHERE school_id = 96;
-
-delete from school_year where school = 79;
-delete from school where `school_id` = 79;
-
-update school
-   SET name = 'St Bede''s Catholic Junior School',
-   `url_path` = 'st-bedes-catholic-junior-school',
-   image_folder = 'st-bedes-catholic-junior-school'
- WHERE school_id = 90;
-
-update school
-   SET name = 'St Sebastian''s Primary School',
-   `url_path` = 'st-sebastians-primary-school',
-   image_folder = 'st-sebastians-primary-school'
- WHERE school_id = 91;
- 
+-- Find schools with no votes:
+select *
+  from school_year
+ where year = 2016
+   and school NOT IN (
+select distinct y.`school`
+  from vote v
+  join entry e on v.`entry` = e.`entry_id`
+  join school_year y on e.`school_year` = y.`school_year_id`
+ where v.status = 2
+   and y.year = 2016);
