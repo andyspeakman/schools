@@ -8,6 +8,10 @@
         <competition>
             <currentYear>2016</currentYear>
             <active>true</active>
+            <region>
+                <id>1</id>
+                <name>Liverpool</name>
+            </region>
         </competition>
         <bootstrap>
             <path><zf:const zf:name="APPLICATION_PATH" />/Bootstrap.php</path>
@@ -121,10 +125,14 @@
         </resources>
     </development>
     <test zf:extends="development">
+        <competition>
+            <currentYear>2017</currentYear>
+            <active>true</active>
+        </competition>
         <database>
             <adapter>Pdo_Sqlite</adapter>
             <params>
-                <database>/User/andrewspeakman/Sites/schools/test/test.db</database>
+                <dbname>/Users/andrewspeakman/Sites/schools/test/test.db</dbname>
             </params>
         </database>
     </test>
