@@ -1,10 +1,7 @@
 #AddOutputFilterByType DEFLATE text/html text/plain text/xml application/x-javascript text/css text/javascript application/json text/json application/javascript
 
-#LogLevel rewrite:debug
 RewriteEngine On
 RewriteBase /
-
-RewriteRule ^votenow$ /schools [R=302,L]
 
 # 2015 schools:
 RewriteRule ^alsop-high-school$ /school/index/name/alsop-high-school [R=302,L]
