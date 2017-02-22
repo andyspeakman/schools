@@ -136,7 +136,7 @@
         <database>
             <adapter>Pdo_Sqlite</adapter>
             <params>
-                <dbname>/Users/andrewspeakman/Sites/schools/test/test.db</dbname>
+                <dbname>/Users/andrewspeakman/Sites/schools/database/test/test.db</dbname>
             </params>
         </database>
     </test>
