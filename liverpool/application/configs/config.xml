@@ -6,8 +6,8 @@
             <resources value="Lightman_" />
         </autoloaderNamespaces>
         <competition>
-            <currentYear>2016</currentYear>
-            <active>true</active>
+            <currentYear>2017</currentYear>
+            <active>false</active>
             <region>
                 <id>1</id>
                 <name>Liverpool</name>

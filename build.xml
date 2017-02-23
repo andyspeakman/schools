@@ -3,7 +3,31 @@
 <project name="localutils" default="upload" basedir=".">
 
     <import file="../common.xml"/>
-    <property file="schools.properties"/>
+    <property file="liverpool/liverpool-schools.properties"/>
+
+    <target name="scp.upload" description="SCPs the site to the live server.">
+        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}"
+            verbose="yes"
+            trust="true">
+            <fileset dir="${local.dir}">
+                <include name="**/*.css" />
+                <include name="**/*.html" />
+                <include name="**/*.ico" />
+                <include name="**/*.js" />
+                <include name="**/*.pdf" />
+                <include name="**/*.php" />
+                <include name="**/*.phtml" />
+                <include name="**/*.xml" />
+                <include name="**/*.doc" />
+                <exclude name="resources/" />
+                <exclude name="cheshire/test/" />
+                <exclude name="liverpool/test/" />
+                <exclude name="library/Zend/" />
+                <exclude name="${pubilc.folder}/styles/less/" />
+                <exclude name="**/build.xml" />
+            </fileset>
+        </scp>
+    </target>
 
     <target name="get.logs" description="FTPs logs from the live server.">
         <ftp server="${remote.server}"
