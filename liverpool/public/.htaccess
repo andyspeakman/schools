@@ -103,7 +103,7 @@ RewriteRule ^school/the-oldershaw-academy$ /school/index/name/the-oldershaw-acad
 RewriteRule ^school/weatherhead-high-school$ /school/index/name/weatherhead-high-school [R=302,L]
 RewriteRule ^school/west-kirby-residential-school$ /school/index/name/west-kirby-residential-school [R=302,L]
 
-SetEnv APPLICATION_ENV production
+SetEnv APPLICATION_ENV development
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
