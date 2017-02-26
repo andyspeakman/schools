@@ -21,6 +21,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToTheHomePage()
 	{
         $this->dispatch('/');
+        $this->assertResponseCode(200);
         $this->assertController('index');
         $this->assertAction('index');
     }
@@ -29,6 +30,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToTheSchoolsPage()
 	{
         $this->dispatch('/schools');
+        $this->assertResponseCode(200);
         $this->assertController('schools');
         $this->assertAction('index');
     }
@@ -37,6 +39,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToThePrimarySchoolsPage()
 	{
         $this->dispatch('/schools/primary');
+        $this->assertResponseCode(200);
         $this->assertController('schools');
         $this->assertAction('primary');
     }
@@ -45,22 +48,16 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToTheSecondarySchoolsPage()
 	{
         $this->dispatch('/schools/secondary');
+        $this->assertResponseCode(200);
         $this->assertController('schools');
         $this->assertAction('secondary');
-    }
-
-	/** @test */
-	public function weGoToASchoolPage()
-	{
-        $this->dispatch('/school/index/name/alder-hey-childrens-hospital-school');
-        $this->assertController('school');
-        $this->assertAction('index');
     }
 
 	/** @test */
 	public function weGoToTheWhatPage()
 	{
         $this->dispatch('/what');
+        $this->assertResponseCode(200);
         $this->assertController('what');
         $this->assertAction('index');
     }
@@ -69,6 +66,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToThePanelPage()
 	{
         $this->dispatch('/panel');
+        $this->assertResponseCode(200);
         $this->assertController('panel');
         $this->assertAction('index');
     }
@@ -77,6 +75,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToTheWorkshopsPage()
 	{
         $this->dispatch('/workshops');
+        $this->assertResponseCode(200);
         $this->assertController('workshops');
         $this->assertAction('index');
     }
@@ -85,6 +84,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
 	public function weGoToTheContactPage()
 	{
         $this->dispatch('/contact');
+        $this->assertResponseCode(200);
         $this->assertController('contact');
         $this->assertAction('index');
     }

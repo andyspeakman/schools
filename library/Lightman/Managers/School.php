@@ -44,11 +44,11 @@ class Lightman_Managers_School
         return $results;
     }
 
-    public static function fetchByUrl($name)
+    public function fetchByUrl($name)
     {
         $db = Zend_Registry::get('dbAdapter');
-        $sql = 'SELECT school_id, type, name, image, url_path, statement, website, image_folder FROM school WHERE url_path = ?';
-        $results = $db->fetchRow($sql, $name);
+        $sql = 'SELECT school_id, type, name, image, url_path, statement, website, image_folder FROM school WHERE url_path = ? AND region = ?';
+        $results = $db->fetchRow($sql, array($name, $this->_currentRegionId));
         return $results;
     }
 

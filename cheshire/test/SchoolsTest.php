@@ -35,12 +35,5 @@ class SchoolsTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertQueryCount('.school-panel', 2);
     }
 
-	/** @test */
-	public function weSeeAll2016ArchiveSchools()
-	{
-        $this->dispatch('/archive/entries/year/2016');
-        $this->assertResponseCode(200);
-        $this->assertQueryCount('.school-panel', 12);
-    }
 
 }

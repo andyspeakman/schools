@@ -12,6 +12,7 @@ class SchoolController extends Zend_Controller_Action
         $schoolName = $this->getRequest()->getParam('name');
         if ($schoolName == null) {
             $log->err('SchoolController: Attempt to retrieve school data without a name value');
+            throw new Zend_Controller_Action_Exception('Attempted to visit a school page with no name value', 404);
         }
         
         $schoolCacheName = str_replace('-', '', $schoolName);
@@ -19,7 +20,12 @@ class SchoolController extends Zend_Controller_Action
         
         // Retrieve school from the cache:
         if (!$school = $cache->load($schoolCacheKey)) {
-            $school = Lightman_Managers_School::fetchByUrl($schoolName);
+            $schoolManager = new Lightman_Managers_School();
+            $school = $schoolManager->fetchByUrl($schoolName);
+            if (empty($school)) {
+                $log->err('SchoolController: Attempt to retrieve school data with a name value of ' . $schoolName);
+                throw new Zend_Controller_Action_Exception('This school does not exist', 404);
+            }
             $cache->save($school, $schoolCacheKey);
         }
         $this->view->school = $school;
@@ -32,8 +38,8 @@ class SchoolController extends Zend_Controller_Action
         // Retrieve school's entries from the cache:
         $entriesCacheKey = 'school_entries_' . $schoolCacheName;
         if (!$entries = $cache->load($entriesCacheKey)) {
-            $manager = new Lightman_Managers_Entry();
-            $entries = $manager->fetchEntriesByYear($schoolId, $currentYear);
+            $entryManager = new Lightman_Managers_Entry();
+            $entries = $entryManager->fetchEntriesByYear($schoolId, $currentYear);
             $cache->save($entries, $entriesCacheKey);
         }
         $this->view->entries = $entries;
