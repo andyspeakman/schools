@@ -101,15 +101,16 @@
         </database>
         <resources>
             <cachemanager>
-                <ppm>
+                <schools>
                     <frontend>
                         <name>Core</name>
                         <options>
-                            <lifetime>1</lifetime>
+                            <caching>false</caching>
+                            <lifetime>0</lifetime>
                             <automatic_serialization>true</automatic_serialization>
                         </options>
                     </frontend>
-                </ppm>
+                </schools>
             </cachemanager>
             <log>
                 <stream>
