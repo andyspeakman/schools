@@ -26,6 +26,15 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertAction('index');
     }
 
+    /** @test */
+    public function weGoToTheExhibitionPage()
+    {
+        $this->dispatch('/exhibition');
+        $this->assertResponseCode(200);
+        $this->assertController('exhibition');
+        $this->assertAction('index');
+    }
+
 	/** @test */
 	public function weGoToTheSchoolsPage()
 	{
