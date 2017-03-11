@@ -1,110 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://schools.dot-art.com/</loc>
-        <lastmod>2016-03-11</lastmod>
+		<loc>http://cheshire.schools.dot-art.com/</loc>
+        <lastmod>2017-03-11</lastmod>
 		<priority>1.00</priority>
 		<changefreq>daily</changefreq>
 	</url>
     <url>
-        <loc>http://schools.dot-art.com/schools</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/schools</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/schools/primary</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/schools/primary</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/schools/secondary</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/schools/secondary</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/archive</loc>
-        <lastmod>2016-03-11</lastmod>
-        <priority>1.00</priority>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/archive/entries/year/2015</loc>
-        <lastmod>2016-03-11</lastmod>
-        <priority>1.00</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/archive/entries/year/2014</loc>
-        <lastmod>2015-03-11</lastmod>
-        <priority>1.00</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/archive/entries/year/2013</loc>
-        <lastmod>2014-03-11</lastmod>
-        <priority>1.00</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/vote/howtovote</loc>
-        <lastmod>2016-01-26</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/vote/howtovote</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/exhibition/year2015</loc>
-        <lastmod>2015-01-22</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/exhibition</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/exhibition/year2014</loc>
-        <lastmod>2015-06-22</lastmod>
-        <priority>0.80</priority>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/exhibition/year2013</loc>
-        <lastmod>2013-06-22</lastmod>
-        <priority>0.60</priority>
-        <changefreq>daily</changefreq>
-    </url>
-    <url>
-        <loc>http://schools.dot-art.com/what</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/what</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/panel</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/panel</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/news</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/news</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/news/press</loc>
-        <lastmod>2014-09-07</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/news/press</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/workshops</loc>
-        <lastmod>2015-09-12</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/workshops</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://schools.dot-art.com/contact</loc>
-        <lastmod>2016-03-11</lastmod>
+        <loc>http://cheshire.schools.dot-art.com/contact</loc>
+        <lastmod>2017-03-11</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
