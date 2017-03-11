@@ -140,5 +140,14 @@
                 <dbname>/Users/andrewspeakman/Sites/schools/database/test/test.db</dbname>
             </params>
         </database>
+        <resources>
+            <log>
+                <stream>
+                    <writerParams>
+                        <stream><zf:const zf:name="APPLICATION_PATH" />/../log/test-schools.log</stream>
+                    </writerParams>
+                </stream>
+            </log>
+        </resources>
     </test>
 </configdata>

@@ -1,8 +1,6 @@
 RewriteEngine On
 RewriteBase /
 
-#RewriteRule ^vote$ /schools [R=302,L]
-
 SetEnv APPLICATION_ENV development
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]

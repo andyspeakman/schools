@@ -7,6 +7,12 @@ class VoteController extends Zend_Controller_Action
     {
     }
     
+    public function indexAction()
+    {
+        $redirector = $this->_helper->getHelper('Redirector');
+        $redirector->gotoSimple('index', 'schools');
+    }
+    
     public function confirmAction()
     {
         $bootstrap = $this->getInvokeArg('bootstrap');

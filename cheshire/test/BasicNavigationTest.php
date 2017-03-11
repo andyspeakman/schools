@@ -44,6 +44,13 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertAction('index');
     }
 
+    /** @test */
+    public function theVoteShortcutTakesUsToTheSchoolsPage()
+    {
+        $this->dispatch('/vote');
+        $this->assertRedirectTo('/schools');
+    }
+
 	/** @test */
 	public function weGoToThePrimarySchoolsPage()
 	{
