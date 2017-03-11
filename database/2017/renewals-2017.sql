@@ -36,5 +36,4 @@ INSERT INTO school_year (school, year) VALUES (92, 2017);
 INSERT INTO school_year (school, year) VALUES (49, 2017);
 INSERT INTO school_year (school, year) VALUES (93, 2017);
 INSERT INTO school_year (school, year) VALUES (96, 2017);
-INSERT INTO school_year (school, year) VALUES (53, 2017);
 INSERT INTO school_year (school, year) VALUES (97, 2017);

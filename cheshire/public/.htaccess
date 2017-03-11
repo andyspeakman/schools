@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteBase /
 
-#RewriteRule ^vote$ /schools [R=302,L]
+RewriteRule ^vote$ /schools [R=302,L]
 
 SetEnv APPLICATION_ENV development
 

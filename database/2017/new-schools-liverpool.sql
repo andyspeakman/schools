@@ -6,7 +6,7 @@ INSERT INTO school (type, region, name, url_path, statement, website, image, ima
 INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2017);
 
-INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (2, 1, "Kings Leadership Academy Liverpool", "kings-leadership-liverpool", "At King’s Leadership Academy we place great emphasis on building strong character traits in all of our students. We believe that strength of character is the cornerstone of academic success. In Art, Year 9 students have been exploring the theme of identity. Here they have used a variety of media to investigate, explore and record their own personal response to this theme.", "http://www.kingsliverpool.com/", "kings-leadership-liverpool-logo", "kings-leadership-liverpool");
+INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (2, 1, "Kings Leadership Academy Liverpool", "kings-leadership-liverpool", "At King’s Leadership Academy we place great emphasis on building strong character traits in all of our students. We believe that strength of character is the cornerstone of academic success. In Art, Year 9 students have been exploring the theme of identity. Here they have used a variety of media to investigate, explore and record their own personal response to this theme.", "http://www.kingsliverpool.com/", "kings-leadership-liverpool-logo.jpg", "kings-leadership-liverpool");
 INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ID(), 2017);
 

@@ -32,5 +32,10 @@ class ExhibitionController extends Zend_Controller_Action
     {
         // action body
     }
+
+    public function year2017Action()
+    {
+        // action body
+    }
 }
 
