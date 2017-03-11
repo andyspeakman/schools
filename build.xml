@@ -5,23 +5,28 @@
     <import file="../common.xml"/>
     <property file="schools.properties"/>
 
+    <patternset id="code.files">
+        <include name="public/.htaccess" />
+        <include name="**/*.css" />
+        <include name="**/*.html" />
+        <include name="**/*.ico" />
+        <include name="**/*.js" />
+        <include name="**/*.pdf" />
+        <include name="**/*.php" />
+        <include name="**/*.phtml" />
+        <include name="**/*.xml" />
+        <include name="**/*.doc" />
+        <exclude name="test/" />
+        <exclude name="${pubilc.folder}/styles/less/" />
+        <exclude name="**/build.xml" />
+    </patternset>
+
     <target name="upload.liverpool" description="SCPs the Liverpool site to the live server.">
         <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/liverpool"
             verbose="yes"
             trust="true">
             <fileset dir="${local.dir}/liverpool">
-                <include name="**/*.css" />
-                <include name="**/*.html" />
-                <include name="**/*.ico" />
-                <include name="**/*.js" />
-                <include name="**/*.pdf" />
-                <include name="**/*.php" />
-                <include name="**/*.phtml" />
-                <include name="**/*.xml" />
-                <include name="**/*.doc" />
-                <exclude name="test/" />
-                <exclude name="${pubilc.folder}/styles/less/" />
-                <exclude name="**/build.xml" />
+                <patternset refid="code.files" />
             </fileset>
         </scp>
     </target>
@@ -31,18 +36,7 @@
             verbose="yes"
             trust="true">
             <fileset dir="${local.dir}/cheshire">
-                <include name="**/*.css" />
-                <include name="**/*.html" />
-                <include name="**/*.ico" />
-                <include name="**/*.js" />
-                <include name="**/*.pdf" />
-                <include name="**/*.php" />
-                <include name="**/*.phtml" />
-                <include name="**/*.xml" />
-                <include name="**/*.doc" />
-                <exclude name="test/" />
-                <exclude name="${pubilc.folder}/styles/less/" />
-                <exclude name="**/build.xml" />
+                <patternset refid="code.files" />
             </fileset>
         </scp>
     </target>
