@@ -7,7 +7,7 @@
         </autoloaderNamespaces>
         <competition>
             <currentYear>2017</currentYear>
-            <active>false</active>
+            <active>true</active>
             <region>
                 <id>1</id>
                 <name>Liverpool</name>

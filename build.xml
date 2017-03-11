@@ -3,13 +3,13 @@
 <project name="localutils" default="upload" basedir=".">
 
     <import file="../common.xml"/>
-    <property file="liverpool/liverpool-schools.properties"/>
+    <property file="schools.properties"/>
 
-    <target name="scp.upload" description="SCPs the site to the live server.">
-        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}"
+    <target name="upload.liverpool" description="SCPs the Liverpool site to the live server.">
+        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/liverpool"
             verbose="yes"
             trust="true">
-            <fileset dir="${local.dir}">
+            <fileset dir="${local.dir}/liverpool">
                 <include name="**/*.css" />
                 <include name="**/*.html" />
                 <include name="**/*.ico" />
@@ -19,12 +19,46 @@
                 <include name="**/*.phtml" />
                 <include name="**/*.xml" />
                 <include name="**/*.doc" />
-                <exclude name="resources/" />
-                <exclude name="cheshire/test/" />
-                <exclude name="liverpool/test/" />
-                <exclude name="library/Zend/" />
+                <exclude name="test/" />
                 <exclude name="${pubilc.folder}/styles/less/" />
                 <exclude name="**/build.xml" />
+            </fileset>
+        </scp>
+    </target>
+
+    <target name="upload.cheshire" description="SCPs the Cheshire site to the live server.">
+        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/cheshire"
+            verbose="yes"
+            trust="true">
+            <fileset dir="${local.dir}/cheshire">
+                <include name="**/*.css" />
+                <include name="**/*.html" />
+                <include name="**/*.ico" />
+                <include name="**/*.js" />
+                <include name="**/*.pdf" />
+                <include name="**/*.php" />
+                <include name="**/*.phtml" />
+                <include name="**/*.xml" />
+                <include name="**/*.doc" />
+                <exclude name="test/" />
+                <exclude name="${pubilc.folder}/styles/less/" />
+                <exclude name="**/build.xml" />
+            </fileset>
+        </scp>
+    </target>
+
+    <target name="upload.library" description="SCPs the library code to the live server.">
+        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/library"
+            verbose="yes"
+            trust="true">
+            <fileset dir="${local.dir}/library">
+                <include name="**/*.css" />
+                <include name="**/*.html" />
+                <include name="**/*.php" />
+                <include name="**/*.js" />
+                <include name="**/*.phtml" />
+                <include name="**/*.xml" />
+                <exclude name="Zend/" />
             </fileset>
         </scp>
     </target>
