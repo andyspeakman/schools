@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^schools$ http://liverpool.schools.dot-art.com/schools [R=301,L]
+RewriteRule ^schools/primary$ http://liverpool.schools.dot-art.com/schools/primary [R=301,L]
+RewriteRule ^schools/secondary$ http://liverpool.schools.dot-art.com/schools/secondary [R=301,L]
+RewriteRule ^archive$ http://liverpool.schools.dot-art.com/archive [R=301,L]
+RewriteRule ^archive/entries/year/2015$ http://liverpool.schools.dot-art.com/archive/entries/year/2015 [R=301,L]
+RewriteRule ^archive/entries/year/2014$ http://liverpool.schools.dot-art.com/archive/entries/year/2014 [R=301,L]
+RewriteRule ^archive/entries/year/2013$ http://liverpool.schools.dot-art.com/archive/entries/year/2013 [R=301,L]
+RewriteRule ^vote/howtovote$ http://liverpool.schools.dot-art.com/vote/howtovote [R=301,L]
+RewriteRule ^exhibition/year2015$ http://liverpool.schools.dot-art.com/exhibition/year2015 [R=301,L]
+RewriteRule ^exhibition/year2014$ http://liverpool.schools.dot-art.com/exhibition/year2014 [R=301,L]
+RewriteRule ^exhibition/year2013$ http://liverpool.schools.dot-art.com/exhibition/year2013 [R=301,L]
+RewriteRule ^what$ http://liverpool.schools.dot-art.com/what [R=301,L]
+RewriteRule ^panel$ http://liverpool.schools.dot-art.com/panel [R=301,L]
+RewriteRule ^news$ http://liverpool.schools.dot-art.com/news [R=301,L]
+RewriteRule ^news/press$ http://liverpool.schools.dot-art.com/news/press [R=301,L]
+RewriteRule ^workshops$ http://liverpool.schools.dot-art.com/workshops [R=301,L]
+RewriteRule ^contact$ http://liverpool.schools.dot-art.com/contact [R=301,L]

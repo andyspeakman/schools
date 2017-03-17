@@ -93,7 +93,7 @@ $imageSrc .= $this->escape($entry['image']);
 <div class="span4 entry-panel">
     <img src="<?php echo $imageSrc ?>" />
     <div class="entry-details <?php echo $rankClass ?>">
-        <p class="title"><?php echo $this->escape($entry['title']) ?></p>
+        <p class="title"><?php echo $entry['title'] ?></p>
         <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
         <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
         <!--
