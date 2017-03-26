@@ -47,7 +47,6 @@ class SchoolController extends Zend_Controller_Action
     
     public function voteAction()
     {
-        /*
         $bootstrap = $this->getInvokeArg('bootstrap');
         $log = $bootstrap->getResource('log');
 
@@ -97,7 +96,6 @@ class SchoolController extends Zend_Controller_Action
         
         $this->view->returnSchoolUrl = $schoolUrl;
         $this->_helper->viewRenderer->setRender('thankyou');
-        */
     }
 
     private function _getCleanEmail($email)
