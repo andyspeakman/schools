@@ -89,7 +89,6 @@ switch ($entry['rank']) {
     default:
         $rankClass = '';
 }
-$rankClass = '';
 ?>
 
 <?php
@@ -105,57 +104,7 @@ $imageSrc .= $this->escape($entry['image']);
         <p class="title"><?php echo $entry['title'] ?></p>
         <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>
         <p class="properties"><?php echo $this->escape($entry['properties']) ?></p>
-        <?php if ($entry['rank'] == 1): ?>
-            <div style="margin-bottom: 0.5em;">
-                <a href="#entry-<?php echo $entry['entry_id'] ?>" role="button" class="btn btn-primary" data-toggle="modal">Vote...</a>
-            </div>
-            <a href="https://twitter.com/share" class="twitter-share-button"
-                data-text="I'm voting for <?php echo $this->escape($entry['title']) ?> by <?php echo $this->escape($entry['artist']) ?>"
-                data-via="dotartSchools"
-                data-size="large"
-                data-hashtags="dotartschools"
-                data-count="none">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        <?php endif; ?>
     </div>
-    
-    <?php if ($entry['rank'] == 1): ?>
-        <div id="entry-<?php echo $entry['entry_id'] ?>" class="modal hide fade voting-panel" tabindex="-1"
-            role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                <h3><?php echo $this->escape($entry['title']) ?> <small>by <?php echo $this->escape($entry['artist']) ?></small></h3>
-            </div>
-            <form method="post" action="/school/vote">
-            <div class="modal-body">
-                <div class="span3">
-                <?php if (!is_null($entry['artist_description'])): ?>
-                    <blockquote><p><?php echo $this->escape($entry['artist_description']); ?></p></blockquote>
-                <?php endif; ?>
-                <p>If you would like to vote for <strong><?php echo $this->escape($entry['title']) ?></strong>,
-                please enter your email address in the box below, and click the <em>Place your vote</em>
-                button.</p><br />
-                    <input type="hidden" name="art-id" value="<?php echo $entry['entry_id'] ?>" id="art-id" />
-                    <input type="hidden" name="school-id" value="<?php echo $this->school['school_id'] ?>" id="school-id" />
-                    <input type="hidden" name="school-url" value="<?php echo $this->school['url_path'] ?>" id="school-id" />
-                    <input type="hidden" name="artist" value="<?php echo $this->escape($entry['artist']) ?>" id="artist" />
-                    <input type="hidden" name="entry-title" value="<?php echo $this->escape($entry['title']) ?>" id="entry-title" />
-                    <div class="control-group">
-                        <label class="control-label" for="email-address">Email:</label>
-                        <div class="controls">
-                            <input type="email" name="email-address" id="email-address" placeholder="Email address" required>
-                        </div>
-                    </div>
-                </div>
-                <img src="<?php echo $imageSrc ?>" class="span2 hidden-phone" />
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-primary">Place your vote</button>
-            </div>
-            </form>
-        </div>
-    <?php endif; ?>
-
 </div>
 
 <?php $entryCount++; ?>
