@@ -1,2 +1,0 @@
-application/controllers/SchoolsController.php:        if ($conf->competition->active == 'true') {
-library/Lightman/Managers/School.php:        $this->_currentYear = $conf->competition->currentYear;
