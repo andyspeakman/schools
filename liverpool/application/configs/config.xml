@@ -6,8 +6,8 @@
             <resources value="Lightman_" />
         </autoloaderNamespaces>
         <competition>
-            <currentYear>2017</currentYear>
-            <active>true</active>
+            <currentYear>2018</currentYear>
+            <active>false</active>
             <region>
                 <id>1</id>
                 <name>Liverpool</name>
@@ -87,7 +87,7 @@
     <development zf:extends="production">
         <competition>
             <currentYear>2018</currentYear>
-            <active>false</active>
+            <active>true</active>
         </competition>
         <database>
             <adapter>Mysqli</adapter>

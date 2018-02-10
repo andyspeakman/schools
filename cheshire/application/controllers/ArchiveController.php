@@ -16,6 +16,7 @@ class ArchiveController extends Zend_Controller_Action
     {
         $bootstrap = $this->getInvokeArg('bootstrap');
         $log = $bootstrap->getResource('log');
+        $manager = new Lightman_Managers_School();
 
         $year = $this->getRequest()->getParam('year');
         if ($year == null) {
@@ -27,7 +28,7 @@ class ArchiveController extends Zend_Controller_Action
         $schoolName = $this->getRequest()->getParam('school');
         if ($schoolName == null) {
             // Year:
-            $entries = Lightman_Managers_School::fetchSchoolsByYear($year);
+            $entries = $manager->fetchSchoolsByYear($year);
             $this->_helper->viewRenderer->setRender('year');
             $this->view->entries = $entries;
         } else {
@@ -35,7 +36,7 @@ class ArchiveController extends Zend_Controller_Action
             $school = Lightman_Managers_School::fetchByUrl($schoolName);
             $this->view->school = $school;
             $schoolId = $school['school_id'];
-            $entries = Lightman_Managers_Entry::fetchEntriesByYear($schoolId, $year);
+            $entries = $manager->fetchEntriesByYear($schoolId, $year);
             $this->view->entries = $entries;
         }
         
