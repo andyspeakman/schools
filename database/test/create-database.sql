@@ -36,6 +36,20 @@ CREATE TABLE entry (
 
 -- Cheshire:
 
+-- 2016, Primary:
+
+INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder)
+  VALUES (1, 2,
+    'Chehsire 2016 Primary School One',
+    'cheshire-2016-primary-school-one',
+    'This is the Chehsire 2016 Primary School One.',
+    'http://www.c2016ps01.ac.uk/',
+    'cheshire-2016-primary-school-one.jpg',
+    'cheshire-2016-primary-school-one');
+
+INSERT INTO school_year (school, year)
+ VALUES(LAST_INSERT_ROWID(), 2016);
+
 -- 2017, Primary:
 
 INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder)

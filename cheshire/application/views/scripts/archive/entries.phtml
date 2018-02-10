@@ -58,8 +58,15 @@ switch ($entry['rank']) {
 }
 ?>
 
+<?php
+$imageSrc = '/images/';
+$imageSrc .= $this->escape($this->school['image_folder']) . '/';
+$imageSrc .= $this->year . '/';
+$imageSrc .= $this->escape($entry['image']);
+?>
+
 <div class="span4 entry-panel">
-    <img src="/images/<?php echo $this->escape($entry['image_folder']) ?>/<?php echo $this->escape($entry['image']) ?>" />
+    <img src="<?php echo $imageSrc ?>" />
     <div class="entry-details <?php echo $rankClass ?>">
         <p class="title"><?php echo $this->escape($entry['title']) ?></p>
         <p class="artist"><?php echo $this->escape($entry['artist']) ?></p>

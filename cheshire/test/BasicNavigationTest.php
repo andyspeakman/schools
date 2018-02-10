@@ -26,15 +26,6 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertAction('index');
     }
 
-    /** @test */
-    public function weGoToTheExhibitionPage()
-    {
-        $this->dispatch('/exhibition');
-        $this->assertResponseCode(200);
-        $this->assertController('exhibition');
-        $this->assertAction('index');
-    }
-
 	/** @test */
 	public function weGoToTheSchoolsPage()
 	{
@@ -67,6 +58,24 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertResponseCode(200);
         $this->assertController('schools');
         $this->assertAction('secondary');
+    }
+
+    /** @test */
+    public function weGoToTheArchivePage()
+    {
+        $this->dispatch('/archive');
+        $this->assertResponseCode(200);
+        $this->assertController('archive');
+        $this->assertAction('index');
+    }
+
+    /** @test */
+    public function weGoToTheExhibitionPage()
+    {
+        $this->dispatch('/exhibition');
+        $this->assertResponseCode(200);
+        $this->assertController('exhibition');
+        $this->assertAction('index');
     }
 
 	/** @test */

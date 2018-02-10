@@ -33,10 +33,10 @@ class ArchiveController extends Zend_Controller_Action
             $this->view->entries = $entries;
         } else {
             // Entries:
-            $school = Lightman_Managers_School::fetchByUrl($schoolName);
+            $school = $manager->fetchByUrl($schoolName);
             $this->view->school = $school;
             $schoolId = $school['school_id'];
-            $entries = $manager->fetchEntriesByYear($schoolId, $year);
+            $entries = Lightman_Managers_Entry::fetchEntriesByYear($schoolId, $year);
             $this->view->entries = $entries;
         }
         
