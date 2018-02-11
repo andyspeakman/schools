@@ -87,6 +87,24 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertAction('index');
     }
 
+    /** @test */
+    public function weGoToTheSupportersPage()
+    {
+        $this->dispatch('/support/supporters');
+        $this->assertResponseCode(200);
+        $this->assertController('support');
+        $this->assertAction('supporters');
+    }
+
+    /** @test */
+    public function weGoToTheGetInvolvedPage()
+    {
+        $this->dispatch('/support/getinvolved');
+        $this->assertResponseCode(200);
+        $this->assertController('support');
+        $this->assertAction('getinvolved');
+    }
+
 	/** @test */
 	public function weGoToThePanelPage()
 	{
