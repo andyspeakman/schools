@@ -24,7 +24,7 @@ class SchoolsController extends Zend_Controller_Action
     {
         $this->view->type = 'All Schools';
 
-        if (!$this->_competitionActive) {
+        if ($this->isComingSoon()) {
             $this->view->comingsoon = true;
             return;
         }
@@ -43,7 +43,7 @@ class SchoolsController extends Zend_Controller_Action
         $this->view->type = 'Primary';
         $this->_helper->viewRenderer->setRender('index');
 
-        if (!$this->_competitionActive) {
+        if ($this->isComingSoon()) {
             $this->view->comingsoon = true;
             return;
         }
@@ -62,7 +62,7 @@ class SchoolsController extends Zend_Controller_Action
         $this->view->type = 'Secondary';
         $this->_helper->viewRenderer->setRender('index');
 
-        if (!$this->_competitionActive) {
+        if ($this->isComingSoon()) {
             $this->view->comingsoon = true;
             return;
         }
@@ -74,6 +74,11 @@ class SchoolsController extends Zend_Controller_Action
             $this->_cache->save($schools, self::SECONDARY_SCHOOLS_RESULTS);
         }
         $this->view->entries = $schools;
+    }
+
+    private function isComingSoon()
+    {
+        return !$this->_competitionActive && $this->getRequest()->getParam('preview') != 'true';
     }
 
 }

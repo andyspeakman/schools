@@ -1,3 +1,1 @@
-INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (1, 2, "Acton CE Primary Academy", "acton-ce-primary", "Acton CE Primary Academy is a small, rural school situated in Cheshire.  Creativity is a priority and central part of our... We believe in immersing children in as many experiences through art as possible. Our childrens love of art was recently highlighted in our SIAMs inspection where one child explained that in art we can really let our imaginations go.  Year 5 have been learning about traditional and abstract portraits. They have chosen to either layer self-portraits to produce abstract art in acrylics, or produce a more traditional line and water colour painting of Queen Elizabeth I.", "http://www.actonceprimary.net", "acton-ce-primary-logo.jpg", "acton-ce-primary");
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2018);
+

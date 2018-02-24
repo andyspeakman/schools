@@ -86,8 +86,8 @@
     </production>
     <development zf:extends="production">
         <competition>
-            <currentYear>2017</currentYear>
-            <active>true</active>
+            <currentYear>2018</currentYear>
+            <active>false</active>
         </competition>
         <database>
             <adapter>Mysqli</adapter>

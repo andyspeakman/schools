@@ -1,3 +1,1 @@
-INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (2, 1, "Bank View High School", "bank-view-high", "Bank View High school is a special provision school for ASD and CLD students from Year 7 to 14. We have a large number of students with social, emotional and physical needs. The artwork I have submitted this year in our first time of dot-art Schools is a mixture of Year 9 students who have started looking at African Art, in particularly the patterns and masks of that culture. These are all A4 size and completed in Colour pencils or watercolours or a mix of both. The other entries are from students who have completed mixed media abstract compositions inspired by their research of Frank Stella and Kandinsky. ", "http://www.bankviewhighschool.com/", "bank-view-high-logo.jpg", "bank-view-high");
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2018);
+
