@@ -1,6 +1,7 @@
-DROP TABLE entry;
-DROP TABLE school_year;
-DROP TABLE school;
+DROP TABLE IF EXISTS champion;
+DROP TABLE IF EXISTS entry;
+DROP TABLE IF EXISTS school_year;
+DROP TABLE IF EXISTS school;
 
 CREATE TABLE school (
   school_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -33,6 +34,13 @@ CREATE TABLE entry (
   FOREIGN KEY (school_year) REFERENCES school_year(school_year_id)
 );
 
+CREATE TABLE champion ( 
+ school       smallint     NOT NULL,
+ year         smallint     NOT NULL,
+ image        varchar(100) NOT NULL,
+    FOREIGN KEY (school) REFERENCES school (school_id)
+);
+
 
 -- Cheshire:
 
@@ -54,7 +62,7 @@ INSERT INTO school_year (school, year)
 
 INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder)
   VALUES (1, 2,
-    'Chehsire 2017 Primary School One',
+    'Cheshire 2017 Primary School One',
     'cheshire-2017-primary-school-one',
     'This is the Chehsire 2017 Primary School One.',
     'http://www.c2017ps01.ac.uk/',
@@ -68,9 +76,9 @@ INSERT INTO school_year (school, year)
 
 INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder)
   VALUES (2, 2,
-    'Cheshire 2017 Secondary School One',
-    'cheshire-2017-secondary-school-one',
-    'This is the Cheshire 2017 Secondary School One.',
+    'Cheshire 2017 Secondary School One Champion',
+    'cheshire-2017-secondary-school-one-champion',
+    'This is the Cheshire 2017 Secondary School One. It is also a championed school.',
     'http://www.c2017ss01.ac.uk/',
     'cheshire-2017-secondary-school-one.jpg',
     'cheshire-2017-secondary-school-one');
@@ -244,9 +252,9 @@ INSERT INTO school_year (school, year)
 
 INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder)
   VALUES (2, 1,
-    'Liverpool 2017 Secondary School One',
-    'liverpool-2017-secondary-school-one',
-    'This is the Liverpool 2017 Secondary School One.',
+    'Liverpool 2017 Secondary School One Champion',
+    'liverpool-2017-secondary-school-one-champion',
+    'This is the Liverpool 2017 Secondary School One. It is also a championed school.',
     'http://www.l2017ss01.ac.uk/',
     'liverpool-2017-secondary-school-one.jpg',
     'liverpool-2017-secondary-school-one');
@@ -819,4 +827,11 @@ INSERT INTO school (type, region, name, url_path, statement, website, image, ima
 
 INSERT INTO school_year (school, year)
  VALUES(LAST_INSERT_ROWID(), 2017);
+
+-- Champions:
+
+INSERT INTO champion (school, year, image)
+SELECT school_id, 2018, 'champion-logo.jpg'
+  FROM school
+ WHERE name LIKE '%champion';
 

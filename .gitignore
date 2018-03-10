@@ -19,3 +19,9 @@ liverpool/liverpool-schools.properties
 test/test.db
 
 cheshire/cheshire-schools.properties
+
+*.db
+
+*.db
+
+database/test/test.db

@@ -1,3 +1,10 @@
+-- Schools Index:
+SELECT y.school_year_id, s.school_id, s.name, CASE s.region WHEN 1 THEN 'Liverpool' ELSE 'Cheshire' END
+  FROM school s
+  JOIN school_year y ON s.school_id = y.school
+ WHERE y.year = 2018
+ ORDER BY s.name;
+
 -- Returns count of votes by school and entry for 2017:
  SELECT COUNT(1) AS votes, e.artist, e.title, s.name
    FROM vote v
