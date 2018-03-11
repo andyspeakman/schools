@@ -44,4 +44,20 @@ class SchoolTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertAction('error');
     }
 
+	/** @test */
+	public function weeSeeChampionLogosOnAChampionSchoolPage()
+	{
+        $this->dispatch('/school/index/name/cheshire-2017-secondary-school-one-champion');
+        $this->assertResponseCode(200);
+        $this->assertQueryCount('.champion-panel', 1);
+    }    
+
+	/** @test */
+	public function weDontSeeChampionLogosOnANonChampionSchoolPage()
+	{
+        $this->dispatch('/school/index/name/cheshire-2017-primary-school-one');
+        $this->assertResponseCode(200);
+        $this->assertQueryCount('.champion-panel', 0);
+    }
+
 }

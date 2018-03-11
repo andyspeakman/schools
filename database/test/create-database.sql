@@ -37,8 +37,10 @@ CREATE TABLE entry (
 CREATE TABLE champion ( 
  school       smallint     NOT NULL,
  year         smallint     NOT NULL,
- image        varchar(100) NOT NULL,
-    FOREIGN KEY (school) REFERENCES school (school_id)
+ name         varchar(100),
+ image        varchar(100),
+ url          varchar(100),
+    FOREIGN KEY (school) REFERENCES school(school_id)
 );
 
 
@@ -830,8 +832,8 @@ INSERT INTO school_year (school, year)
 
 -- Champions:
 
-INSERT INTO champion (school, year, image)
-SELECT school_id, 2018, 'champion-logo.jpg'
+INSERT INTO champion (school, year, name, image, url)
+SELECT school_id, 2017, 'Great Sponsor', 'champion-logo.jpg', 'http://greatsponsor.org.uk'
   FROM school
  WHERE name LIKE '%champion';
 

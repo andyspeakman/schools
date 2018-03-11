@@ -25,6 +25,8 @@
 
 <div class="row">
 <div class="span9">
+    <h4>About This School</h4>
+
     <?php echo $this->escape($this->school['statement']) ?>
     <br />
     <br />
@@ -36,6 +38,23 @@
 </div>
 <div class="span3"><img src="/images/<?php echo $this->escape($this->school['image_folder']) ?>/<?php echo $this->escape($this->school['image']) ?>" /></div>
 </div>
+
+<?php if (!is_null($this->school['champimage'])): ?>
+  <h4>dot-art Schools Champion</h4>
+  <div class="row">
+  <div class="span12 champion-panel">
+    <p>This school has been generously supported by <b><?php echo $this->escape($this->school['champname']) ?></b> through our dot-art Schools Champions programme.</p>
+    <a href="/support/getinvolved">
+      <img src="/images/champions/schools-champion-logo-web.jpg" />
+    </a>
+    &nbsp;
+    <a href="<?php echo $this->escape($this->school['champurl']) ?>">
+      <img src="<?php echo $this->escape($this->school['champimage']) ?>" />
+    </a>
+  </div>
+  </div>
+  <br />
+<?php endif; ?>
 
 <h4>School Competition Entries</h4>
 
