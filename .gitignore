@@ -25,3 +25,5 @@ cheshire/cheshire-schools.properties
 *.db
 
 database/test/test.db
+
+database/test/test.db
