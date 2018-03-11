@@ -20,7 +20,7 @@ INSERT INTO champion (school, year, name, image, url)
 
 -- Derwent Lodge Estates – St Margarets Academy
 INSERT INTO champion (school, year, name, image, url)
- VALUES (11, 2018, 'Derwent Lodge Estates', '/images/champions/derwent-lodge-logo-web.jpg', '');
+ VALUES (11, 2018, 'Derwent Lodge Estates', '/images/champions/derwent-lodge-logo-web.jpg', NULL);
 
 
 
