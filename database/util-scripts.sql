@@ -69,5 +69,30 @@ select distinct y.`school`
    FROM entry e
    JOIN school_year y ON e.school_year = y.school_year_id
    JOIN school s ON y.school = s.school_id
-  WHERE y.year = 2017
+  WHERE y.year = 2018
   GROUP BY e.rank;
+
+-- Populate and update the vote summary table:
+DELETE FROM vote_summary;
+
+insert into vote_summary (school_id, entry_id, votes)
+select y.school, e.entry_id, 0
+  from entry e
+  join school_year y on e.school_year = y.school_year_id
+ where y.year = 2018
+   and e.`rank` IS NOT NULL;
+   
+UPDATE vote_summary vs
+  JOIN (
+SELECT v.entry as entry_id, COUNT(1) as cnt
+  FROM vote v
+  JOIN entry e ON v.entry = e.entry_id
+  JOIN school_year y ON e.school_year = y.school_year_id
+ WHERE y.year = 2018
+   AND v.status = 2
+ GROUP BY v.entry 
+  ) vc ON vs.entry_id = vc.entry_id
+   SET vs.votes = vc.cnt;
+   
+
+
