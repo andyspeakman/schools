@@ -5811,6 +5811,51 @@ INSERT INTO `entry` (`entry_id`, `school_year`, `artist`, `title`, `properties`,
 (13895, 332, 'Marlia Walker', 'Dome of Home 23', '42cm x 30cm, Collage and black paint', NULL, 'dome-of-home-23.jpg', NULL),
 (13896, 332, 'Finlay Walsh', 'Dome of Home 24', '42cm x 30cm, Collage and black paint', NULL, 'dome-of-home-24.jpg', NULL);
 
+
+
+--
+-- Table structure for table `champion`
+--
+
+CREATE TABLE `champion` (
+  `school` smallint(6) NOT NULL,
+  `year` smallint(6) NOT NULL,
+  `name` varchar(100) COLLATE latin1_german2_ci DEFAULT NULL,
+  `image` varchar(100) COLLATE latin1_german2_ci DEFAULT NULL,
+  `url` varchar(100) COLLATE latin1_german2_ci DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_german2_ci;
+
+--
+-- Dumping data for table `champion`
+--
+
+INSERT INTO `champion` (`school`, `year`, `name`, `image`, `url`) VALUES
+(5, 2018, 'Maggie Mullen Architects', '/images/champions/maggie-mullen-architects-web.jpg', 'http://www.maggiemullanarchitects.co.uk/'),
+(44, 2018, 'Go3 Partners', '/images/champions/go3-logo-web.jpg', 'http://www.metropolis2.co.uk/go3/'),
+(64, 2018, 'Rhodes Brook', '/images/champions/rhodes-brook-logo-web.jpg', 'http://www.rhodesbrook.co.uk/'),
+(151, 2018, 'Hyperion Executive Search', '/images/champions/hyperion-logo-web.jpg', 'http://hyperionsearch.co.uk/'),
+(156, 2018, 'Hyperion Executive Search', '/images/champions/hyperion-logo-web.jpg', 'http://hyperionsearch.co.uk/'),
+(11, 2018, 'Derwent Lodge Estates', '/images/champions/derwent-lodge-logo-web.jpg', NULL),
+(130, 2018, 'Derwent Lodge Estates', '/images/champions/derwent-lodge-logo-web.jpg', NULL),
+(166, 2018, 'Intilery', '/images/champions/intilery-logo-web.jpg', 'http://www.intilery.com/'),
+(168, 2018, 'Chester Townhouse', '/images/champions/townhouse-chester-logo-web.jpg', 'https://chestertownhouse.com/');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vote`
+--
+
+CREATE TABLE `vote` (
+  `vote_id` mediumint(6) NOT NULL,
+  `entry` smallint(6) NOT NULL,
+  `email` varchar(100) COLLATE latin1_german2_ci NOT NULL,
+  `hash` varchar(100) COLLATE latin1_german2_ci NOT NULL,
+  `status` smallint(6) NOT NULL,
+  `date_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_german2_ci;
+
+
 --
 -- Indexes for dumped tables
 --
@@ -5836,6 +5881,20 @@ ALTER TABLE `school_year`
   ADD KEY `fk_school` (`school`);
 
 --
+-- Indexes for table `champion`
+--
+ALTER TABLE `champion`
+  ADD KEY `school` (`school`);
+
+--
+-- Indexes for table `vote`
+--
+ALTER TABLE `vote`
+  ADD PRIMARY KEY (`vote_id`),
+  ADD KEY `fk_entry` (`entry`);
+
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -5854,6 +5913,13 @@ ALTER TABLE `school`
 --
 ALTER TABLE `school_year`
   MODIFY `school_year_id` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=333;
+
+--
+-- AUTO_INCREMENT for table `vote`
+--
+ALTER TABLE `vote`
+  MODIFY `vote_id` mediumint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33108;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
