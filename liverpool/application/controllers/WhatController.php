@@ -13,6 +13,25 @@ class WhatController extends Zend_Controller_Action
         // action body
     }
 
+    public function programmeAction()
+    {
+        // action body
+    }
+    
+    public function teachersAction()
+    {
+        // action body
+    }
+
+    public function artsmarkAction()
+    {
+        // action body
+    }
+
+    public function backgroundAction()
+    {
+        // action body
+    }
 
 }
 
