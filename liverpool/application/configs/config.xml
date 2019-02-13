@@ -6,8 +6,8 @@
             <resources value="Lightman_" />
         </autoloaderNamespaces>
         <competition>
-            <currentYear>2018</currentYear>
-            <active>true</active>
+            <currentYear>2019</currentYear>
+            <active>false</active>
             <region>
                 <id>1</id>
                 <name>Liverpool</name>
@@ -86,16 +86,16 @@
     </production>
     <development zf:extends="production">
         <competition>
-            <currentYear>2018</currentYear>
-            <active>true</active>
+            <currentYear>2019</currentYear>
+            <active>false</active>
         </competition>
         <database>
             <adapter>Mysqli</adapter>
             <params>
-                <username>dotart</username>
-                <password>d0t4rt</password>
+                <username>root</username>
+                <password>my-secret-pw</password>
                 <dbname>dotart</dbname>
-                <host>localhost</host>
+                <host>127.0.0.1</host>
                 <port>3306</port>
             </params>
         </database>
