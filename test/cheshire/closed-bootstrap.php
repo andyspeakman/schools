@@ -1,5 +1,4 @@
 <?php
-// Based on http://weierophinney.net/matthew/archives/190-Setting-up-your-Zend_Test-test-suites.html
 
 // PHP settings
 error_reporting(E_ALL | E_STRICT);
@@ -10,7 +9,7 @@ $root = '/Users/andrewspeakman/Sites/schools';
 $library = $root . '/library';
 $application = $root . '/cheshire/application';
 
-define('APPLICATION_ENV', 'test');
+define('APPLICATION_ENV', 'test-closed');
 define('APPLICATION_PATH', $application);
 
 $path = array(

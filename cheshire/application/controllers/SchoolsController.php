@@ -7,7 +7,7 @@ class SchoolsController extends Zend_Controller_Action
     const SCHOOLS_RESULTS = 'schools_result_set';
     
     private $_cache;
-    private $_competitionActive = false;
+    private $_competitionOpen = false;
     
     public function init()
     {
@@ -15,8 +15,8 @@ class SchoolsController extends Zend_Controller_Action
         $cacheManager = $bootstrap->getResource('cachemanager');
         $this->_cache = $cacheManager->getCache('schools');
         $conf = $bootstrap->getResource('config');
-        if ($conf->competition->active == 'true') {
-            $this->_competitionActive = true;
+        if ($conf->competition->status == 'open') {
+            $this->_competitionOpen = true;
         }
     }
 
@@ -78,7 +78,7 @@ class SchoolsController extends Zend_Controller_Action
 
     private function isComingSoon()
     {
-        return !$this->_competitionActive && $this->getRequest()->getParam('preview') != 'true';
+        return !$this->_competitionOpen && $this->getRequest()->getParam('preview') != 'true';
     }
 
 }

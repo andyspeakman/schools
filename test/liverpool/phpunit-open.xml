@@ -1,0 +1,9 @@
+<phpunit bootstrap="open-bootstrap.php">
+  <testsuites>
+    <testsuite name="Liverpool Open Status Tests">
+      <file>SchoolTest.php</file>
+      <file>SchoolsTest.php</file>
+      <file>BasicNavigationTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
