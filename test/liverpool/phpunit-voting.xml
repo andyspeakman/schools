@@ -1,0 +1,7 @@
+<phpunit bootstrap="voting-bootstrap.php">
+  <testsuites>
+    <testsuite name="Liverpool Voting Status Tests">
+      <file>VotingStatusTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
