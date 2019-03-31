@@ -20,21 +20,21 @@ class VotingStatusTest extends Zend_Test_PHPUnit_ControllerTestCase
     }
 
 	/** @test */
-	public function weSeeVotingButtons()
+	public function weDontSeeVotingButtons()
 	{
         $this->dispatch('/school/index/name/liverpool-2017-primary-school-one');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('#voting-button', 3);
+        $this->assertQueryCount('#voting-button', 0);
     }
 
     /** @test */
-    public function weDontSeeResults()
+    public function weSeeResults()
     {
         $this->dispatch('/school/index/name/liverpool-2017-primary-school-one');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('.first', 0);
-        $this->assertQueryCount('.second', 0);
-        $this->assertQueryCount('.third', 0);
+        $this->assertQueryCount('.first', 1);
+        $this->assertQueryCount('.second', 1);
+        $this->assertQueryCount('.third', 1);
     }
 
 }

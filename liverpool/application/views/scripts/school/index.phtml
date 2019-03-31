@@ -98,7 +98,8 @@ each school will be included in an exhibition at Liverpool School of Art and Des
 
 <?php
 $rankClass = '';
-switch ($entry['rank']) {
+if ($this->competitionStatus == "results") {
+    switch ($entry['rank']) {
     case 1:
         $rankClass = 'third';
         break;
@@ -110,8 +111,8 @@ switch ($entry['rank']) {
         break;
     default:
         $rankClass = '';
+    }
 }
-$rankClass = '';
 ?>
 
 <?php

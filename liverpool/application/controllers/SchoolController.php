@@ -3,7 +3,7 @@
 class SchoolController extends Zend_Controller_Action
 {
 
-    private $_competitionStatus = false;
+    private $_competitionStatus;
 
     public function init()
     {

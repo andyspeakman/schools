@@ -68,4 +68,14 @@ class SchoolTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertQueryCount('#voting-button', 0);
     }
 
+	/** @test */
+	public function weDontSeeResults()
+	{
+        $this->dispatch('/school/index/name/cheshire-2017-primary-school-one');
+        $this->assertResponseCode(200);
+        $this->assertQueryCount('.first', 0);
+        $this->assertQueryCount('.second', 0);
+        $this->assertQueryCount('.third', 0);
+    }
+
 }
