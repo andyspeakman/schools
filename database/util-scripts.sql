@@ -2,17 +2,27 @@
 SELECT y.school_year_id, s.school_id, s.name, CASE s.region WHEN 1 THEN 'Liverpool' ELSE 'Cheshire' END
   FROM school s
   JOIN school_year y ON s.school_id = y.school
- WHERE y.year = 2018
+ WHERE y.year = 2019
  ORDER BY s.name;
 
--- Returns count of votes by school and entry for 2017:
+-- Daily votes:
+SELECT DATE(date_time), v.status, COUNT(1) AS votes
+   FROM vote v
+   JOIN entry e ON v.entry = e.entry_id
+   JOIN school_year y ON e.school_year = y.school_year_id
+   JOIN school s ON y.school = s.school_id
+  WHERE y.year = 2019
+    AND TIMESTAMPDIFF(DAY, date_time, CURDATE()) < 5
+  GROUP BY DATE(date_time), v.status
+  
+-- Returns count of votes by school and entry for 2019:
  SELECT COUNT(1) AS votes, e.artist, e.title, s.name
    FROM vote v
    JOIN entry e ON v.entry = e.entry_id
    JOIN school_year y ON e.school_year = y.school_year_id
    JOIN school s ON y.school = s.school_id
   WHERE v.status = 2
-    AND y.year = 2017
+    AND y.year = 2019
   GROUP BY e.artist, e.title, s.name
  ORDER BY s.name, votes DESC
 
@@ -27,7 +37,7 @@ select votes, @rank := IF(@current_school = name, @rank - 1, 3) AS rank, entry_i
    JOIN school_year y ON e.school_year = y.school_year_id
    JOIN school s ON y.school = s.school_id
   WHERE v.status = 2
-    AND y.year = 2017
+    AND y.year = 2019
   GROUP BY e.entry_id, e.artist, e.title, s.name
  ORDER BY s.name, votes DESC
 ) x;
@@ -44,7 +54,7 @@ select votes, @rank := IF(@current_school = name, @rank - 1, 3) AS rank, entry_i
    JOIN school_year y ON e.school_year = y.school_year_id
    JOIN school s ON y.school = s.school_id
   WHERE v.status = 2
-    AND y.year = 2017
+    AND y.year = 2019
   GROUP BY e.entry_id, e.artist, e.title, s.name
  ORDER BY s.name, votes DESC
 ) x
@@ -52,24 +62,24 @@ select votes, @rank := IF(@current_school = name, @rank - 1, 3) AS rank, entry_i
 set e.`rank` = y.rank;
 
 -- Find schools with no votes:
-select s.region, s.type, s.name
+select CASE s.region WHEN 1 THEN 'Liverpool' ELSE 'Cheshire' END, CASE s.type WHEN 1 THEN 'Primary' ELSE 'Secondary' END, s.name
   from school_year y
   join school s on s.`school_id` = y.`school`
- where year = 2017
+ where year = 2019
    and school NOT IN (
 select distinct y.`school`
   from vote v
   join entry e on v.`entry` = e.`entry_id`
   join school_year y on e.`school_year` = y.`school_year_id`
  where v.status = 2
-   and y.year = 2017);
+   and y.year = 2019);
 
 -- Check the 1-2-3 spread is equal:
  SELECT e.rank, count(1)
    FROM entry e
    JOIN school_year y ON e.school_year = y.school_year_id
    JOIN school s ON y.school = s.school_id
-  WHERE y.year = 2018
+  WHERE y.year = 2019
   GROUP BY e.rank;
 
 -- Populate and update the vote summary table:
@@ -79,7 +89,7 @@ insert into vote_summary (school_id, entry_id, votes)
 select y.school, e.entry_id, 0
   from entry e
   join school_year y on e.school_year = y.school_year_id
- where y.year = 2018
+ where y.year = 2019
    and e.`rank` IS NOT NULL;
    
 UPDATE vote_summary vs
@@ -88,7 +98,7 @@ SELECT v.entry as entry_id, COUNT(1) as cnt
   FROM vote v
   JOIN entry e ON v.entry = e.entry_id
   JOIN school_year y ON e.school_year = y.school_year_id
- WHERE y.year = 2018
+ WHERE y.year = 2019
    AND v.status = 2
  GROUP BY v.entry 
   ) vc ON vs.entry_id = vc.entry_id
