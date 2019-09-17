@@ -1,7 +1,0 @@
-<phpunit bootstrap="closed-bootstrap.php">
-  <testsuites>
-    <testsuite name="Cheshire Closed Status Tests">
-      <file>ClosedStatusTest.php</file>
-    </testsuite>
-  </testsuites>
-</phpunit>

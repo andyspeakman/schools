@@ -1,7 +1,0 @@
-<phpunit bootstrap="results-bootstrap.php">
-  <testsuites>
-    <testsuite name="Cheshire Results Status Tests">
-      <file>ResultsStatusTest.php</file>
-    </testsuite>
-  </testsuites>
-</phpunit>
