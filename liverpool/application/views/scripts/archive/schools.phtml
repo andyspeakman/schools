@@ -1,0 +1,43 @@
+<?php
+   $this->headTitle('Archive '. $this->year);
+   $this->headMeta()->appendName('description', 'Archive of schools who took part in past dot-art Schools programmes; an interactive, 
+   inter school, online art competition, culminating in an exhibition of the winning students works.');
+   $entryCount = 0;
+?>
+
+<div class="container lowered">
+
+<div class="jumbotron who">
+<h1 class="what">Schools</h1>
+</div>
+<ul class="breadcrumb">
+  <li><a href="/">Home</a> <span class="divider">/</span></li>
+  <li><a href="/archive">Archive</a> <span class="divider">/</span></li>
+  <li class="active"><?php echo $this->year ?></li>
+</ul>
+
+<p>You can see the competition entries for each school by clicking the <strong>Browse
+Entries</strong> buttons below.</p>
+
+<?php foreach ($this->entries as $entry):?>
+<?php if ($entryCount == 0): ?>
+    <div class="row">
+<?php endif; ?>
+
+<div class="span4 school-panel">
+    <h4><?php echo $this->escape($entry['name']) ?></h4>
+    <img src="/images/<?php echo $this->escape($entry['image_folder']) ?>/<?php echo $this->escape($entry['image']) ?>" />
+    <p><a class="btn" href="<?= $this->url(array('controller' => 'archive', 'action' => 'entries', 'year' => $this->year, 'school' => $entry['url_path'])) ?>">Browse entries &raquo;</a></p>
+</div>
+
+<?php $entryCount++; ?>
+<?php if ($entryCount == 3): ?>
+    <?php $entryCount = 0; ?>
+    </div>
+<?php endif; ?>
+
+<?php endforeach;?>
+
+</div>
+
+</div>
