@@ -16,13 +16,10 @@
 
 <p>Browse through entries from competitions in previous years by clicking a year below:</p>
 <ul>
-    <li><a href="/archive/entries/year/2019">2019</a></li>
-    <li><a href="/archive/entries/year/2018">2018</a></li>
-    <li><a href="/archive/entries/year/2017">2017</a></li>
-    <li><a href="/archive/entries/year/2016">2016</a></li>
-    <li><a href="/archive/entries/year/2015">2015</a></li>
-    <li><a href="/archive/entries/year/2014">2014</a></li>
-    <li><a href="/archive/entries/year/2013">2013</a></li>
+<?php foreach ($this->years as $year):?>
+    <li><a href="/archive/schools/region/<?php echo $this->escape($this->region) ?>/year/<?php echo $this->escape($year) ?>">
+         <?php echo $this->escape($year) ?></a></li>
+<?php endforeach;?>
 </ul>
 
 </div>

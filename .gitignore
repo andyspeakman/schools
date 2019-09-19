@@ -18,12 +18,7 @@ liverpool/liverpool-schools.properties
 
 test/test.db
 
-cheshire/cheshire-schools.properties
-
 database/test/test.db
-cheshire/application/configs/config.xml
 liverpool/application/configs/config.xml
 database/test/test.db
 image-test/results.txt
-database/test/test.db
-database/test/test.db

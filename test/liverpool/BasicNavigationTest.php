@@ -63,7 +63,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
     /** @test */
     public function weGoToTheArchivePage()
     {
-        $this->dispatch('/archive');
+        $this->dispatch('/archive/index/region/liverpool');
         $this->assertResponseCode(200);
         $this->assertController('archive');
         $this->assertAction('index');

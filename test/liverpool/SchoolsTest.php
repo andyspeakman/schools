@@ -38,7 +38,7 @@ class SchoolsTest extends Zend_Test_PHPUnit_ControllerTestCase
 	/** @test */
 	public function weSeeAll2016ArchiveSchools()
 	{
-        $this->dispatch('/archive/entries/year/2016');
+        $this->dispatch('/archive/schools/region/liverpool/year/2016');
         $this->assertResponseCode(200);
         $this->assertQueryCount('.school-panel', 12);
     }

@@ -4,6 +4,7 @@
       <file>SchoolTest.php</file>
       <file>SchoolsTest.php</file>
       <file>BasicNavigationTest.php</file>
+      <file>ArchiveTest.php</file>
     </testsuite>
   </testsuites>
 </phpunit>

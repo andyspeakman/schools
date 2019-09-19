@@ -18,31 +18,22 @@ class ArchiveTest extends Zend_Test_PHPUnit_ControllerTestCase
 	}
 
     /** @test */
-    public function weGoToTheArchivePage()
-    {
-        $this->dispatch('/archive');
-        $this->assertResponseCode(200);
-        $this->assertController('archive');
-        $this->assertAction('index');
-    }
-
-    /** @test */
     public function weGoToTheLiverpoolArchivePage()
     {
-        $this->dispatch('/archive/entries/year/2016');
+        $this->dispatch('/archive/schools/region/liverpool/year/2016');
         $this->assertResponseCode(200);
         $this->assertController('archive');
-        $this->assertAction('entries');
+        $this->assertAction('schools');
         $this->assertQueryCount('.school-panel', 12);
     }
 
     /** @test */
     public function weGoToTheCheshireArchivePage()
     {
-        $this->dispatch('/archive/entries/region/cheshire/year/2016');
+        $this->dispatch('/archive/schools/region/cheshire/year/2016');
         $this->assertResponseCode(200);
         $this->assertController('archive');
-        $this->assertAction('entries');
+        $this->assertAction('schools');
         $this->assertQueryCount('.school-panel', 1);
     }
 
