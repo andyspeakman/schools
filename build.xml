@@ -29,16 +29,6 @@
         </scp>
     </target>
 
-    <target name="upload.cheshire" description="SCPs the Cheshire site to the live server.">
-        <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/cheshire"
-            verbose="yes"
-            trust="true">
-            <fileset dir="${local.dir}/cheshire">
-                <patternset refid="code.files" />
-            </fileset>
-        </scp>
-    </target>
-
     <target name="upload.library" description="SCPs the library code to the live server.">
         <scp todir="${remote.user}:${remote.pass}@${remote.server}:${remote.dir}/library"
             verbose="yes"
