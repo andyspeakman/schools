@@ -1,9 +1,10 @@
 <phpunit bootstrap="open-bootstrap.php">
   <testsuites>
-    <testsuite name="Cheshire Open Status Tests">
+    <testsuite name="Liverpool Open Status Tests">
       <file>SchoolTest.php</file>
       <file>SchoolsTest.php</file>
       <file>BasicNavigationTest.php</file>
+      <file>ArchiveTest.php</file>
     </testsuite>
   </testsuites>
 </phpunit>

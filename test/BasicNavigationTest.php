@@ -63,7 +63,7 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
     /** @test */
     public function weGoToTheArchivePage()
     {
-        $this->dispatch('/archive');
+        $this->dispatch('/archive/index/region/liverpool');
         $this->assertResponseCode(200);
         $this->assertController('archive');
         $this->assertAction('index');
@@ -72,10 +72,10 @@ class BasicNavigationTest extends Zend_Test_PHPUnit_ControllerTestCase
     /** @test */
     public function weGoToTheExhibitionPage()
     {
-        $this->dispatch('/exhibition');
+        $this->dispatch('/exhibition/year2017');
         $this->assertResponseCode(200);
         $this->assertController('exhibition');
-        $this->assertAction('index');
+        $this->assertAction('year2017');
     }
 
 	/** @test */

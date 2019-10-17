@@ -16,7 +16,7 @@ class SchoolsTest extends Zend_Test_PHPUnit_ControllerTestCase
 	{
         $this->dispatch('/schools');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('.school-panel', 3);
+        $this->assertQueryCount('.school-panel', 48);
     }
 
 	/** @test */
@@ -24,7 +24,7 @@ class SchoolsTest extends Zend_Test_PHPUnit_ControllerTestCase
 	{
         $this->dispatch('/schools/primary');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('.school-panel', 1);
+        $this->assertQueryCount('.school-panel', 32);
     }
 
 	/** @test */
@@ -32,15 +32,15 @@ class SchoolsTest extends Zend_Test_PHPUnit_ControllerTestCase
 	{
         $this->dispatch('/schools/secondary');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('.school-panel', 2);
+        $this->assertQueryCount('.school-panel', 16);
     }
 
 	/** @test */
 	public function weSeeAll2016ArchiveSchools()
 	{
-        $this->dispatch('/archive/entries/year/2016');
+        $this->dispatch('/archive/schools/region/liverpool/year/2016');
         $this->assertResponseCode(200);
-        $this->assertQueryCount('.school-panel', 1);
+        $this->assertQueryCount('.school-panel', 12);
     }
 
 }
