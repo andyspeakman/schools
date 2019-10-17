@@ -842,15 +842,15 @@ SELECT school_id, 2017, 'Great Sponsor', 'champion-logo.jpg', 'http://greatspons
 INSERT INTO entry (school_year, artist, title, properties, image, rank)
  SELECT school_year_id, 'Gold Artist', 'First Place', 'none', 'none', 3
    FROM school_year
-  WHERE year = 2017;
+  WHERE year IN (2016, 2017);
 
 INSERT INTO entry (school_year, artist, title, properties, image, rank)
  SELECT school_year_id, 'Silver Artist', 'Second Place', 'none', 'none', 2
    FROM school_year
-  WHERE year = 2017;
+  WHERE year IN (2016, 2017);
 
 INSERT INTO entry (school_year, artist, title, properties, image, rank)
  SELECT school_year_id, 'Bronze Artist', 'Third Place', 'none', 'none', 1
    FROM school_year
-  WHERE year = 2017;
+  WHERE year IN (2016, 2017);
 
