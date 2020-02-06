@@ -24,6 +24,7 @@ USE `dotart`;
 
 DROP TABLE IF EXISTS `champion`;
 DROP TABLE IF EXISTS `vote`;
+DROP TABLE IF EXISTS `vote_summary`;
 DROP TABLE IF EXISTS `entry`;
 DROP TABLE IF EXISTS `school_year`;
 DROP TABLE IF EXISTS `school`;
