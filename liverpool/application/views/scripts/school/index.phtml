@@ -26,10 +26,7 @@
 <div class="row">
 <div class="span9">
     <h4>About This School</h4>
-
-    <?php echo $this->escape($this->school['statement']) ?>
-    <br />
-    <br />
+    <p><?php echo $this->escape($this->school['statement']) ?></p>
     <?php if (!is_null($this->school['website'])): ?>
         <p><a href="<?php echo $this->escape($this->school['website']) ?>"
             target="_blank"><?php echo $this->escape($this->school['website']) ?></a>
