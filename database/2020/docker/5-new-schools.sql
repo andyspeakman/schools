@@ -1,10 +1,4 @@
-USE `dotart`;
-
-INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (1, 1, "Abbots Lea School", "abbotslea-school", "Abbot's Lea School is an outstanding special school that provides the highest quality of education for students aged 3-19 living with Autism and a range of associated communication, interaction, social, imagination, sensory and learning differences.
-
-Our art lessons are inspired by our theme or a chosen artist. Our year 5 entries have been inspired by Viking jewellery, students have designed and made their own brooches from clay. Our year 9 entries have been inspired by the seasons and the artist Keith Haring.", "http://www.abbotsleaschool.co.uk/", "abbots-lea-logo.jpg", "abbots-lea-school-primary");
-INSERT INTO school_year (school, year)
- VALUES(LAST_INSERT_ID(), 2020);
+-- USE `dotart`;
 
 INSERT INTO school (type, region, name, url_path, statement, website, image, image_folder) VALUES (1, 1, "Astmoor Primary School", "astmoor-primary", "At Astmoor Primary School we pride ourselves on being a very caring and nurturing community. We promote kindness and compassion through everything we do. We believe that this makes us a strong community where children can be secure in their learning and go on to become good, strong citizens.
 

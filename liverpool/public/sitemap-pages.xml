@@ -1,176 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://liverpool.schools.dot-art.com/</loc>
-        <lastmod>2019-03-11</lastmod>
+		<loc>http://schools.dot-art.com/</loc>
+        <lastmod>2020-03-15</lastmod>
 		<priority>1.00</priority>
 		<changefreq>daily</changefreq>
 	</url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/schools</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/schools</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/schools/primary</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/schools/primary</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/schools/secondary</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/schools/secondary</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/index/region/liverpool</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2018</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/index/region/cheshire</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2019</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2017</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2018</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2016</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2017</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2015</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2016</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2014</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2015</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/archive/entries/year/2013</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2014</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/vote/howtovote</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/archive/schools/region/liverpool/year/2013</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/archive/schools/region/cheshire/year/2019</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/archive/schools/region/cheshire/year/2018</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/archive/schools/region/cheshire/year/2017</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/vote/howtovote</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2018</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2019</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2017</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2018</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2016</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2017</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2015</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2016</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2014</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2015</loc>
+        <lastmod>2020-03-15</lastmod>
+        <priority>1.00</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://schools.dot-art.com/exhibition/year2014</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>0.80</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/exhibition/year2013</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/exhibition/year2013</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>0.60</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/what/programme</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/what/programme</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/what/teachers</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/what/teachers</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/what/artsmark</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/what/artsmark</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/what/background</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/what/background</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/support/supporters</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/support/supporters</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/support/getinvolved</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/support/getinvolved</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/panel</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/panel</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/news</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/news</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/news/press</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/news/press</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/workshops</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/workshops</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>http://liverpool.schools.dot-art.com/contact</loc>
-        <lastmod>2019-03-11</lastmod>
+        <loc>http://schools.dot-art.com/contact</loc>
+        <lastmod>2020-03-15</lastmod>
         <priority>1.00</priority>
         <changefreq>daily</changefreq>
     </url>

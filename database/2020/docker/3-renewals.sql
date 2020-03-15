@@ -53,3 +53,9 @@ INSERT INTO school_year (school, year) VALUES (130, 2020);
 INSERT INTO school_year (school, year) VALUES (131, 2020);
 INSERT INTO school_year (school, year) VALUES (145, 2020);
 INSERT INTO school_year (school, year) VALUES (179, 2020);
+
+INSERT INTO school_year (school, year) VALUES (92, 2020);
+INSERT INTO school_year (school, year) VALUES (49, 2020);
+INSERT INTO school_year (school, year) VALUES (96, 2020);
+INSERT INTO school_year (school, year) VALUES (53, 2020);
+INSERT INTO school_year (school, year) VALUES (18, 2020);
