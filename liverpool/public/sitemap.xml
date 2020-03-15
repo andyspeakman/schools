@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
-      <loc>http://liverpool.schools.dot-art.com/sitemap-pages.xml</loc>
-      <lastmod>2019-03-14</lastmod>
+      <loc>http://schools.dot-art.com/sitemap-pages.xml</loc>
+      <lastmod>2020-03-15</lastmod>
    </sitemap>
    <sitemap>
-      <loc>http://liverpool.schools.dot-art.com/sitemap-schools.xml</loc>
-      <lastmod>2019-03-14</lastmod>
+      <loc>http://schools.dot-art.com/sitemap-schools.xml</loc>
+      <lastmod>2020-03-15</lastmod>
    </sitemap>
 </sitemapindex>
