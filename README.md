@@ -14,7 +14,7 @@ The development environment uses a Docker instance to run MySql. Use the followi
 docker run --name dotart-db \
    --env MYSQL_ROOT_PASSWORD=my-secret-pw \
    --publish 3306:3306 \
-   --mount type=bind,source=/Users/andrewspeakman/Sites/schools/database/2019/docker,target=/docker-entrypoint-initdb.d,readonly \
+   --mount type=bind,source=/Users/andrewspeakman/Sites/schools/database/2020/docker,target=/docker-entrypoint-initdb.d,readonly \
    --detach mysql:5.5
 ```
 This command is scripted at `~/Dev/docker/dotartdb.sh`.
