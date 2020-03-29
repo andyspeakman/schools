@@ -1,0 +1,71 @@
+<div class="container lowered">
+
+<h1>Voting Summary</h1>
+
+<h2>Votes Cast</h2>
+
+<table class="table table-bordered">
+<?php foreach ($this->voteCount as $voteCt):?>
+
+<?php
+switch ($voteCt['status']) {
+case 1:
+    $statusDesc = 'Unconfirmed';
+    break;
+case 2:
+    $statusDesc = 'Confirmed';
+    break;
+case 3:
+    $statusDesc = 'Overwritten';
+    break;
+}
+?>
+	<tr>
+		<td><?php echo $statusDesc ?></td>
+		<td><?php echo $this->escape($voteCt['total']) ?></td>
+	</tr>
+<?php endforeach;?>
+</table>
+
+<h2>Confirmed Votes</h2>
+
+<table class="table table-bordered">
+	<thead>
+		<th>School</th>
+		<th>Artist</th>
+		<th>Title</th>
+		<th>Votes</th>
+	</thead>
+	<tbody>
+
+<?php foreach ($this->summary as $summaryRow):?>
+	
+	<?php if ($summaryRow['votes'] == 0): ?>
+		<tr class="error">
+	<?php else: ?>
+		<tr>
+	<?php endif; ?>
+
+		<td><?php echo $this->escape($summaryRow['school']) ?></td>
+		<td><?php echo $this->escape($summaryRow['title']) ?></td>
+		<td><?php echo $this->escape($summaryRow['artist']) ?></td>
+		<td><?php echo $this->escape($summaryRow['votes']) ?></td>
+	</tr>
+<?php endforeach;?>
+	</tbody>
+</table>
+
+<h2>Unconfirmed Voters</h2>
+
+<table class="table table-bordered">
+
+<?php foreach ($this->unconfirmedVoters as $voter):?>
+	<tr>
+		<td><?php echo $this->escape($voter['email']) ?></td>
+		<td><?php echo $this->escape($voter['date_time']) ?></td>
+	</tr>
+<?php endforeach;?>
+
+</table>
+
+</div>
