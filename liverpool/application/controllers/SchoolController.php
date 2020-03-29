@@ -1,4 +1,4 @@
-<?php
+Zend<?php
 
 class SchoolController extends Zend_Controller_Action
 {
@@ -103,7 +103,7 @@ class SchoolController extends Zend_Controller_Action
             $manager->add($cleanEmail, $entryId, $hash);
             
             $emailManager = new Lightman_Managers_Email();
-            $emailManager->sendConfirmationEmail($cleanEmail, $hash, $artist, $entryTitle);
+            $emailManager->sendZendConfirmationEmail($cleanEmail, $hash, $artist, $entryTitle);
             
             $this->view->returnSchoolUrl = $schoolUrl;
             $this->_helper->viewRenderer->setRender('thankyou');

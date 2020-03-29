@@ -6,6 +6,10 @@ class Lightman_Managers_Email {
 	 
 	public function sendConfirmationEmail($email, $hash, $artist, $title)
 	{
+		$front = Zend_Controller_Front::getInstance();
+        $bootstrap = $front->getParam('bootstrap');
+        $log = $bootstrap->getResource('log');
+
     	$subject = 'Confirm Your Vote';
     	$emailBody = '<p>Thank you for voting  for <b>' . $title . '</b> by <b>' . $artist . '</b> in the dot-art Schools competition.';
     	$emailBody .= 'You&#39;re nearly there - to confirm your vote, please click the link below.</p>';
@@ -21,11 +25,16 @@ class Lightman_Managers_Email {
         $headers .= 'From: dot-art Schools <schools@dot-art.com>';
     
         // Mail it
+        $log->info('Sending email to: ' . $email);
         mail($email, $subject, $emailBody, $headers);
 	}
 	
 	public function sendZendConfirmationEmail($email, $hash, $artist, $title)
 	{
+		$front = Zend_Controller_Front::getInstance();
+        $bootstrap = $front->getParam('bootstrap');
+        $log = $bootstrap->getResource('log');
+
 		$mail = new Zend_Mail();
 		$mail->setFrom('schools@dot-art.com', 'dot-art Schools');
 		$mail->addTo($email);
@@ -39,6 +48,7 @@ class Lightman_Managers_Email {
 		$emailBody .= '<p>Many thanks, from dot-art Schools.</p>';
 		$mail->setBodyHtml($emailBody);
 		$mail->send($this->_getTransport());
+        $log->info('Sent Zend email to: ' . $email);
 	}
 	
 	private function _getTransport()
@@ -48,10 +58,12 @@ class Lightman_Managers_Email {
 			$mailuser = $conf->smtp->user;
 			$mailpass = $conf->smtp->pass;
 			$mailserver = $conf->smtp->server;
+			$mailserverport = $conf->smtp->port;
 		    
-			$mailconfig = array('auth' => 'plain',
+			$mailconfig = array('auth' => 'login',
                             'username' => $mailuser,
-                            'password' => $mailpass);
+                            'password' => $mailpass,
+                        	'port' => $mailserverport);
 
 			$this->_transport = new Zend_Mail_Transport_Smtp($mailserver, $mailconfig);
 		}
