@@ -1,4 +1,4 @@
-Zend<?php
+<?php
 
 class SchoolController extends Zend_Controller_Action
 {
